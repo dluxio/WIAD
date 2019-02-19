@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Comp3 from './Comp3';
+import Iconbar from './Iconbar';
 
 // UI framework component imports
 import Button from 'muicss/lib/react/button';
@@ -9,7 +9,7 @@ import Button from 'muicss/lib/react/button';
 export default class ARScannerScreen extends Component {
 
   // Properties used by this component:
-  // appActions, deviceInfo, inventory
+  // appActions, deviceInfo, inventory, empathy, curiosity, thinking, humility, collaboration, ethics
 
   render() {
     // eslint-disable-next-line no-unused-vars
@@ -31,6 +31,13 @@ export default class ARScannerScreen extends Component {
     const style_elBackground_outer = {
         backgroundColor: '#f6f6f6',
      };
+    const style_elList = {
+        height: 'auto',  // This element is in scroll flow
+     };
+    // Source items and any special components used for list/grid element 'list'.
+    let items_list = [];
+    let listComps_list = {};
+    
     const style_elEmbed = {
         pointerEvents: 'auto',
      };
@@ -69,10 +76,31 @@ export default class ARScannerScreen extends Component {
           </div>
           
         </div>
+        <div className="layoutFlow" style={layoutFlowStyle}>
+          <div className='hasNestedComps elList'>
+            <div style={style_elList}>
+              {items_list.map((row, index) => {
+                let itemClasses = `gridItem cols3_${index % 3}`;
+                let itemComp = (row._componentId) ? listComps_list[row._componentId] : <Iconbar appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
+                return (
+                  <div className={itemClasses} key={row.key}>
+                    {itemComp}
+                  </div>
+                )
+              })}
+              <div ref={(el)=> this._elList_endMarker = el} />
+            </div>
+          
+          </div>
+          
+        </div>
         <div className="screenFgContainer">
           <div className="foreground">
             <div className='embeddedContent elEmbed' style={style_elEmbed}>
               <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+            </div>
+            <div className='hasNestedComps elIconbar'>
+              <Iconbar humility={this.props.humility} thinking={this.props.thinking} curiosity={this.props.curiosity} ethics={this.props.ethics} collaboration={this.props.collaboration} empathy={this.props.empathy} visualStateIndex={this.props.inventory} ref={(el)=> this._elIconbar = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
             <Button className='elCollectedButton' style={style_elCollectedButton}  color="accent" >
               {this.props.locStrings.start_button_1016931}
@@ -83,9 +111,6 @@ export default class ARScannerScreen extends Component {
             <Button className='elLeaderButton' style={style_elLeaderButton}  color="accent" >
               {this.props.locStrings.start_button_756557}
             </Button>
-            <div className='hasNestedComps elComp'>
-              <Comp3 visualStateIndex={this.props.inventory} ref={(el)=> this._elComp = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
-            </div>
           </div>
         </div>
       </div>

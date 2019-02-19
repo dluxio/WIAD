@@ -260,62 +260,17 @@
 }
 
 /* This component has a fixed-size layout */
-  .Comp3 {
+  .Empathy {
     min-height: 32px;
     overflow: hidden;
-    width: 100%; /* This component was designed using a width of 236px */
+    width: 100%; /* This component was designed using a width of 32px */
   }
-  .Comp3 > .background > .containerMinHeight {
+  .Empathy > .background > .containerMinHeight {
     min-height: 32px;
   }
 
 
-  .Comp3 > .foreground > .state0_elHumilityicon {
-    position: absolute;
-    left: 204px;
-    top: 0px;
-    width: 32px;
-    height: 32px;
-  }
-
-
-  .Comp3 > .foreground > .state0_elThinkingicon {
-    position: absolute;
-    left: 163px;
-    top: 0px;
-    width: 32px;
-    height: 32px;
-  }
-
-
-  .Comp3 > .foreground > .state0_elCuriosityicon {
-    position: absolute;
-    left: 122px;
-    top: 0px;
-    width: 32px;
-    height: 32px;
-  }
-
-
-  .Comp3 > .foreground > .state0_elCollaborationicon {
-    position: absolute;
-    left: 41px;
-    top: 0px;
-    width: 32px;
-    height: 32px;
-  }
-
-
-  .Comp3 > .foreground > .state0_elEthicsicon {
-    position: absolute;
-    left: 82px;
-    top: 0px;
-    width: 32px;
-    height: 32px;
-  }
-
-
-  .Comp3 > .foreground > .state0_elEmpathyicon {
+  .Empathy > .foreground > .state0_elEmpathyicon {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -324,53 +279,277 @@
   }
 
 /* This component has a fixed-size layout */
-  .Comp3 {
+  .Empathy {
     min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 32px */
+  }
+  .Empathy > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Empathy > .foreground > .state1_elEmpathyicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Collaboration {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 34px */
+  }
+  .Collaboration > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Collaboration > .foreground > .state0_elCollaborationicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Collaboration {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 34px */
+  }
+  .Collaboration > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Collaboration > .foreground > .state1_elCollaborationicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Ethics {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 32px */
+  }
+  .Ethics > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Ethics > .foreground > .state0_elEthicsicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Ethics {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 32px */
+  }
+  .Ethics > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Ethics > .foreground > .state1_elEthicsicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Curiosity {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 32px */
+  }
+  .Curiosity > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Curiosity > .foreground > .state0_elCuriosityicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Curiosity {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 32px */
+  }
+  .Curiosity > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Curiosity > .foreground > .state1_elCuriosityicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Humility {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 34px */
+  }
+  .Humility > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Humility > .foreground > .state0_elHumilityicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Humility {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 34px */
+  }
+  .Humility > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Humility > .foreground > .state1_elHumilityicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Thinking {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 34px */
+  }
+  .Thinking > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Thinking > .foreground > .state0_elThinkingicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Thinking {
+    min-height: 32px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 34px */
+  }
+  .Thinking > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+
+  .Thinking > .foreground > .state1_elThinkingicon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Iconbar {
+    min-height: 34px;
     overflow: hidden;
     width: 100%; /* This component was designed using a width of 236px */
   }
-  .Comp3 > .background > .containerMinHeight {
-    min-height: 32px;
+  .Iconbar > .background > .containerMinHeight {
+    min-height: 34px;
   }
 
+.Iconbar .state0_elEmpathy {
+  overflow: hidden;
+}
 
-  .Comp3 > .foreground > .state1_elHumilityicon {
+.Iconbar .state0_elEmpathy.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .Iconbar > .foreground > .state0_elEmpathy {
     position: absolute;
-    left: 204px;
+    left: 0px;
     top: 0px;
     width: 32px;
     height: 32px;
   }
 
+.Iconbar .state0_elCollaboration {
+  overflow: hidden;
+}
 
-  .Comp3 > .foreground > .state1_elThinkingicon {
-    position: absolute;
-    left: 163px;
-    top: 0px;
-    width: 32px;
-    height: 32px;
-  }
-
-
-  .Comp3 > .foreground > .state1_elCuriosityicon {
-    position: absolute;
-    left: 122px;
-    top: 0px;
-    width: 32px;
-    height: 32px;
-  }
+.Iconbar .state0_elCollaboration.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
 
 
-  .Comp3 > .foreground > .state1_elCollaborationicon {
+
+  .Iconbar > .foreground > .state0_elCollaboration {
     position: absolute;
     left: 41px;
     top: 0px;
-    width: 32px;
+    width: 34px;
     height: 32px;
   }
 
+.Iconbar .state0_elEthics {
+  overflow: hidden;
+}
 
-  .Comp3 > .foreground > .state1_elEthicsicon {
+.Iconbar .state0_elEthics.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .Iconbar > .foreground > .state0_elEthics {
     position: absolute;
     left: 82px;
     top: 0px;
@@ -378,13 +557,74 @@
     height: 32px;
   }
 
+.Iconbar .state0_elCuriosity {
+  overflow: hidden;
+}
 
-  .Comp3 > .foreground > .state1_elEmpathyicon {
+.Iconbar .state0_elCuriosity.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .Iconbar > .foreground > .state0_elCuriosity {
     position: absolute;
-    left: 0px;
+    left: 122px;
     top: 0px;
     width: 32px;
     height: 32px;
+  }
+
+.Iconbar .state0_elThinking {
+  overflow: hidden;
+}
+
+.Iconbar .state0_elThinking.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .Iconbar > .foreground > .state0_elThinking {
+    position: absolute;
+    left: 163px;
+    top: 0px;
+    width: 34px;
+    height: 32px;
+  }
+
+.Iconbar .state0_elHumility {
+  overflow: hidden;
+}
+
+.Iconbar .state0_elHumility.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .Iconbar > .foreground > .state0_elHumility {
+    position: absolute;
+    left: 204px;
+    top: 0px;
+    width: 34px;
+    height: 32px;
+  }
+
+/* This component has a fixed-size layout */
+  .Iconbar {
+    min-height: 34px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 236px */
+  }
+  .Iconbar > .background > .containerMinHeight {
+    min-height: 34px;
   }
 
 
@@ -423,6 +663,186 @@
     width: 100.0%;
     height: 100%;
   }
+}
+
+  .ARScannerScreen .elList:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .ARScannerScreen .elList .gridItem {
+    float: left;
+    position: relative;
+  }
+
+@media (min-width: 1024px) {
+  .ARScannerScreen .elList .gridItem {
+    width: calc(100% / 3 - 9.0px*(2/3));
+    overflow: hidden;
+  }
+
+  .ARScannerScreen .elList .cols3_0 {
+    margin-right: 9.0px;
+    margin-bottom: 9.0px;
+    clear: left;
+  }
+  .ARScannerScreen .elList .cols3_1 {
+    margin-right: 9.0px;
+    margin-bottom: 9.0px;
+  }
+  .ARScannerScreen .elList .cols3_2 {
+    margin-bottom: 9.0px;
+  }
+  .ARScannerScreen .elList .cols3_2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .ARScannerScreen .elList .gridItem {
+    width: calc(100% / 3 - 9.0px*(2/3));
+    overflow: hidden;
+  }
+
+  .ARScannerScreen .elList .cols3_0 {
+    margin-right: 9.0px;
+    margin-bottom: 9.0px;
+    clear: left;
+  }
+  .ARScannerScreen .elList .cols3_1 {
+    margin-right: 9.0px;
+    margin-bottom: 9.0px;
+  }
+  .ARScannerScreen .elList .cols3_2 {
+    margin-bottom: 9.0px;
+  }
+  .ARScannerScreen .elList .cols3_2:after { }
+  .ARScannerScreen .elList .cols3_2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .ARScannerScreen .elList .gridItem {
+    width: calc(100% / 3 - 9.1px*(2/3));
+    overflow: hidden;
+  }
+
+  .ARScannerScreen .elList .cols3_0 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_1 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_2 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_0 {
+    margin-right: 9.1px;
+    margin-bottom: 9.1px;
+    clear: left;
+  }
+  .ARScannerScreen .elList .cols3_1 {
+    margin-right: 9.1px;
+    margin-bottom: 9.1px;
+  }
+  .ARScannerScreen .elList .cols3_2 {
+    margin-bottom: 9.1px;
+  }
+  .ARScannerScreen .elList .cols3_2:after { }
+  .ARScannerScreen .elList .cols3_2:after { }
+  .ARScannerScreen .elList .cols3_2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+@media (max-width: 567px) {
+  .ARScannerScreen .elList .gridItem {
+    width: calc(100% / 3 - 9.1px*(2/3));
+    overflow: hidden;
+  }
+
+  .ARScannerScreen .elList .cols3_0 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_1 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_2 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_0 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_1 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_2 { margin-right: 0; margin-bottom: 0; }
+  .ARScannerScreen .elList .cols3_0 {
+    margin-right: 9.1px;
+    margin-bottom: 9.1px;
+    clear: left;
+  }
+  .ARScannerScreen .elList .cols3_1 {
+    margin-right: 9.1px;
+    margin-bottom: 9.1px;
+  }
+  .ARScannerScreen .elList .cols3_2 {
+    margin-bottom: 9.1px;
+  }
+  .ARScannerScreen .elList .cols3_2:after { }
+  .ARScannerScreen .elList .cols3_2:after { }
+  .ARScannerScreen .elList .cols3_2:after { }
+  .ARScannerScreen .elList .cols3_2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARScannerScreen > .layoutFlow > .elList {
+    position: relative;
+    margin-top: 0px;
+    width: 250px;
+    margin-left: 128px;
+  }
+  .ARScannerScreen > .layoutFlow > .elList > * { 
+  width: 250px;
+  }
+  
+@media (min-width: 568px) {
+  .ARScannerScreen > .layoutFlow > .elList {
+    position: relative;
+    margin-top: 0px;
+    width: 250px;
+    margin-left: 128px;
+  }
+  .ARScannerScreen > .layoutFlow > .elList > * { 
+  width: 250px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .ARScannerScreen > .layoutFlow > .elList {
+    position: relative;
+    margin-top: 0px;
+    width: 248px;
+    margin-left: 128px;
+  }
+  .ARScannerScreen > .layoutFlow > .elList > * { 
+  width: 248px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .ARScannerScreen > .layoutFlow > .elList {
+    position: relative;
+    margin-top: 0px;
+    width: 248px;
+    margin-left: 128px;
+  }
+  .ARScannerScreen > .layoutFlow > .elList > * { 
+  width: 248px;
+  }
+  
 }
 
 
@@ -461,6 +881,67 @@
     width: 100.0%;
     height: 744px;
   }
+}
+
+.ARScannerScreen .elIconbar {
+  overflow: hidden;
+}
+
+.ARScannerScreen .elIconbar.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARScannerScreen > .screenFgContainer > .foreground > .elIconbar {
+    position: absolute;
+    left: calc(50.0% + 0px - 118px);
+    top: 12px;
+    width: 236px;
+    height: 34px;
+  }
+  .ARScannerScreen > .screenFgContainer > .foreground > .elIconbar > .background > .containerMinHeight {
+    min-height: 34px;
+  }
+
+@media (min-width: 568px) {
+  .ARScannerScreen > .screenFgContainer > .foreground > .elIconbar {
+    left: calc(50.0% + 0px - 118px);
+    top: 12px;
+    width: 236px;
+    height: 34px;
+  }
+  .ARScannerScreen > .screenFgContainer > .foreground > .elIconbar > .background > .containerMinHeight {
+    min-height: 34px;
+  }
+
+}
+@media (min-width: 768px) {
+  .ARScannerScreen > .screenFgContainer > .foreground > .elIconbar {
+    left: calc(50.0% + 0px - 117px);
+    top: 12px;
+    width: 234px;
+    height: 34px;
+  }
+  .ARScannerScreen > .screenFgContainer > .foreground > .elIconbar > .background > .containerMinHeight {
+    min-height: 34px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .ARScannerScreen > .screenFgContainer > .foreground > .elIconbar {
+    left: calc(50.0% + 0px - 117px);
+    top: 12px;
+    width: 234px;
+    height: 34px;
+  }
+  .ARScannerScreen > .screenFgContainer > .foreground > .elIconbar > .background > .containerMinHeight {
+    min-height: 34px;
+  }
+
 }
 
 .ARScannerScreen .elCollectedButton {
@@ -594,67 +1075,6 @@
     width: 16.5%;
     height: 70px;
   }
-}
-
-.ARScannerScreen .elComp {
-  overflow: hidden;
-}
-
-.ARScannerScreen .elComp.hasNestedComps > div {
-  overflow: hidden;
-  position: relative;
-  width: 100% !important;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARScannerScreen > .screenFgContainer > .foreground > .elComp {
-    position: absolute;
-    left: calc(50.0% + 0px - 118px);
-    top: 28px;
-    width: 236px;
-    height: 32px;
-  }
-  .ARScannerScreen > .screenFgContainer > .foreground > .elComp > .background > .containerMinHeight {
-    min-height: 32px;
-  }
-
-@media (min-width: 568px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elComp {
-    left: calc(50.0% + 0px - 118px);
-    top: 28px;
-    width: 236px;
-    height: 32px;
-  }
-  .ARScannerScreen > .screenFgContainer > .foreground > .elComp > .background > .containerMinHeight {
-    min-height: 32px;
-  }
-
-}
-@media (min-width: 768px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elComp {
-    left: calc(50.0% + 0px - 117px);
-    top: 28px;
-    width: 234px;
-    height: 32px;
-  }
-  .ARScannerScreen > .screenFgContainer > .foreground > .elComp > .background > .containerMinHeight {
-    min-height: 32px;
-  }
-
-}
-@media (min-width: 1024px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elComp {
-    left: calc(50.0% + 0px - 117px);
-    top: 28px;
-    width: 234px;
-    height: 32px;
-  }
-  .ARScannerScreen > .screenFgContainer > .foreground > .elComp > .background > .containerMinHeight {
-    min-height: 32px;
-  }
-
 }
 
 
