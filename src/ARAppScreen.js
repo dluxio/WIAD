@@ -47,13 +47,13 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const style_state0_elEmbed573400 = {
-        pointerEvents: 'auto',
-     };
     // Embedded HTML content for element 'embed'
     const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
     
     
+    const style_state0_elEmbed573400_outer = {
+        pointerEvents: 'auto',
+     };
     const style_state0_elArbutton747870 = {
         display: 'block',
         color: 'white',
@@ -78,10 +78,14 @@ export default class ARAppScreen extends Component {
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
-        <div className="background">
-          <div className='embeddedContent containerMinHeight state0_elEmbed573400' style={style_state0_elEmbed573400}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+        <div className="layoutFlow" style={layoutFlowStyle}>
+          <div className='embeddedContent state0_elEmbed573400' style={style_state0_elEmbed573400_outer}>
+            <div>
+              <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+            </div>
+          
           </div>
+          
         </div>
         <div className="screenFgContainer">
           <div className="foreground">
@@ -136,19 +140,19 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const style_state1_elEmbed573400 = {
-        pointerEvents: 'auto',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
-    
-    
     const style_state1_elBackground569119 = {
         width: '100%',
         height: '100%',
      };
     const style_state1_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
+    
+    
+    const style_state1_elEmbed573400_outer = {
+        pointerEvents: 'auto',
      };
     const style_state1_elArbutton747870 = {
         display: 'block',
@@ -179,11 +183,17 @@ export default class ARAppScreen extends Component {
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
         <div className="background">
-          <div className='embeddedContent containerMinHeight state1_elEmbed573400' style={style_state1_elEmbed573400}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-          </div>
           <div className='appBg containerMinHeight state1_elBackground569119' style={style_state1_elBackground569119_outer}>
             <div style={style_state1_elBackground569119} />
+          
+          </div>
+          
+        </div>
+        <div className="layoutFlow" style={layoutFlowStyle}>
+          <div className='embeddedContent state1_elEmbed573400' style={style_state1_elEmbed573400_outer}>
+            <div>
+              <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+            </div>
           
           </div>
           
@@ -243,19 +253,19 @@ export default class ARAppScreen extends Component {
     }
     
     const dataSheet_users = this.props.dataSheets['users'];
-    const style_state2_elEmbed573400 = {
-        pointerEvents: 'auto',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
-    
-    
     const style_state2_elBackground569119 = {
         width: '100%',
         height: '100%',
      };
     const style_state2_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
+    
+    
+    const style_state2_elEmbed573400_outer = {
+        pointerEvents: 'auto',
      };
     const style_state2_elArbutton747870 = {
         display: 'block',
@@ -290,11 +300,17 @@ export default class ARAppScreen extends Component {
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
         <div className="background">
-          <div className='embeddedContent containerMinHeight state2_elEmbed573400' style={style_state2_elEmbed573400}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-          </div>
           <div className='appBg containerMinHeight state2_elBackground569119' style={style_state2_elBackground569119_outer}>
             <div style={style_state2_elBackground569119} />
+          
+          </div>
+          
+        </div>
+        <div className="layoutFlow" style={layoutFlowStyle}>
+          <div className='embeddedContent state2_elEmbed573400' style={style_state2_elEmbed573400_outer}>
+            <div>
+              <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+            </div>
           
           </div>
           
