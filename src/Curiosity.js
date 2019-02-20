@@ -17,6 +17,13 @@ export default class Curiosity extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
+    const style_state0_elBackground523487 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state0_elBackground523487_outer = {
+        backgroundColor: '#f6f6f6',
+     };
     const style_state0_elCuriosityicon = {
         backgroundImage: 'url('+img_state0_elCuriosityicon+')',
         backgroundSize: '100% 100%',
@@ -24,8 +31,15 @@ export default class Curiosity extends Component {
     
     return (
       <div className="Curiosity" style={baseStyle}>
+        <div className="background">
+          <div className='appBg containerMinHeight state0_elBackground523487' style={style_state0_elBackground523487_outer}>
+            <div style={style_state0_elBackground523487} />
+          
+          </div>
+          
+        </div>
         <div className="foreground">
-          <div className='state0_elCuriosityicon' style={style_state0_elCuriosityicon} />
+          <div className='containerMinHeight state0_elCuriosityicon' style={style_state0_elCuriosityicon} />
         </div>
       </div>
     )
@@ -39,6 +53,13 @@ export default class Curiosity extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
+    const style_state1_elBackground523487 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state1_elBackground523487_outer = {
+        backgroundColor: '#f6f6f6',
+     };
     const style_state1_elCuriosityicon = {
         backgroundImage: 'url('+img_state1_elCuriosityicon+')',
         backgroundSize: '100% 100%',
@@ -46,8 +67,15 @@ export default class Curiosity extends Component {
     
     return (
       <div className="Curiosity" style={baseStyle}>
+        <div className="background">
+          <div className='appBg containerMinHeight state1_elBackground523487' style={style_state1_elBackground523487_outer}>
+            <div style={style_state1_elBackground523487} />
+          
+          </div>
+          
+        </div>
         <div className="foreground">
-          <div className='state1_elCuriosityicon' style={style_state1_elCuriosityicon} />
+          <div className='containerMinHeight state1_elCuriosityicon' style={style_state1_elCuriosityicon} />
         </div>
       </div>
     )

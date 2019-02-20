@@ -5,7 +5,7 @@ import './App.css';
 import Button from 'muicss/lib/react/button';
 
 
-export default class ARScannerScreen extends Component {
+export default class InventoryScreen extends Component {
 
   // Properties used by this component:
   // appActions, deviceInfo
@@ -51,13 +51,6 @@ export default class ARScannerScreen extends Component {
     const style_elBackground_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const style_elEmbed = {
-        pointerEvents: 'auto',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
-    
-    
     const style_elArbutton = {
         display: 'block',
         color: 'white',
@@ -79,30 +72,32 @@ export default class ARScannerScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
+    const style_elRectangle = {
+        background: 'rgba(87, 142, 255, 1.000)',
+        borderRadius: '18.1px',
+     };
     
     return (
-      <div className="AppScreen ARScannerScreen" style={baseStyle}>
+      <div className="AppScreen InventoryScreen" style={baseStyle}>
         <div className="background">
           <div className='appBg containerMinHeight elBackground' style={style_elBackground_outer}>
             <div style={style_elBackground} />
           
           </div>
           
-          <div className='embeddedContent containerMinHeight elEmbed' style={style_elEmbed}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-          </div>
         </div>
         <div className="screenFgContainer">
           <div className="foreground">
             <Button className='actionFont elArbutton' style={style_elArbutton}  color="accent" onClick={this.onClick_elArbutton} >
-              {this.props.locStrings.arscanner_button_747870}
+              {this.props.locStrings.inventory_arbutton_750666}
             </Button>
             <Button className='actionFont elInventorybutton' style={style_elInventorybutton}  color="accent" onClick={this.onClick_elInventorybutton} >
-              {this.props.locStrings.arscanner_buttoncopy_205650}
+              {this.props.locStrings.inventory_inventorybutton_1007145}
             </Button>
             <Button className='actionFont elLeaderbutton' style={style_elLeaderbutton}  color="accent" onClick={this.onClick_elLeaderbutton} >
-              {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
+              {this.props.locStrings.inventory_leaderbutton_620369}
             </Button>
+            <div className='elRectangle' style={style_elRectangle} />
           </div>
         </div>
       </div>

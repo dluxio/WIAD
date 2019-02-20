@@ -17,6 +17,13 @@ export default class Ethics extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
+    const style_state0_elBackground144352 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state0_elBackground144352_outer = {
+        backgroundColor: '#f6f6f6',
+     };
     const style_state0_elEthicsicon = {
         backgroundImage: 'url('+img_state0_elEthicsicon+')',
         backgroundSize: '100% 100%',
@@ -24,8 +31,15 @@ export default class Ethics extends Component {
     
     return (
       <div className="Ethics" style={baseStyle}>
+        <div className="background">
+          <div className='appBg containerMinHeight state0_elBackground144352' style={style_state0_elBackground144352_outer}>
+            <div style={style_state0_elBackground144352} />
+          
+          </div>
+          
+        </div>
         <div className="foreground">
-          <div className='state0_elEthicsicon' style={style_state0_elEthicsicon} />
+          <div className='containerMinHeight state0_elEthicsicon' style={style_state0_elEthicsicon} />
         </div>
       </div>
     )
@@ -39,6 +53,13 @@ export default class Ethics extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
+    const style_state1_elBackground144352 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state1_elBackground144352_outer = {
+        backgroundColor: '#f6f6f6',
+     };
     const style_state1_elEthicsicon = {
         backgroundImage: 'url('+img_state1_elEthicsicon+')',
         backgroundSize: '100% 100%',
@@ -46,8 +67,15 @@ export default class Ethics extends Component {
     
     return (
       <div className="Ethics" style={baseStyle}>
+        <div className="background">
+          <div className='appBg containerMinHeight state1_elBackground144352' style={style_state1_elBackground144352_outer}>
+            <div style={style_state1_elBackground144352} />
+          
+          </div>
+          
+        </div>
         <div className="foreground">
-          <div className='state1_elEthicsicon' style={style_state1_elEthicsicon} />
+          <div className='containerMinHeight state1_elEthicsicon' style={style_state1_elEthicsicon} />
         </div>
       </div>
     )

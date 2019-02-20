@@ -17,6 +17,13 @@ export default class Collaboration extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
+    const style_state0_elBackground615063 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state0_elBackground615063_outer = {
+        backgroundColor: '#f6f6f6',
+     };
     const style_state0_elCollaborationicon = {
         backgroundImage: 'url('+img_state0_elCollaborationicon+')',
         backgroundSize: '100% 100%',
@@ -24,8 +31,15 @@ export default class Collaboration extends Component {
     
     return (
       <div className="Collaboration" style={baseStyle}>
+        <div className="background">
+          <div className='appBg containerMinHeight state0_elBackground615063' style={style_state0_elBackground615063_outer}>
+            <div style={style_state0_elBackground615063} />
+          
+          </div>
+          
+        </div>
         <div className="foreground">
-          <div className='state0_elCollaborationicon' style={style_state0_elCollaborationicon} />
+          <div className='containerMinHeight state0_elCollaborationicon' style={style_state0_elCollaborationicon} />
         </div>
       </div>
     )
@@ -39,6 +53,13 @@ export default class Collaboration extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
+    const style_state1_elBackground615063 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state1_elBackground615063_outer = {
+        backgroundColor: '#f6f6f6',
+     };
     const style_state1_elCollaborationicon = {
         backgroundImage: 'url('+img_state1_elCollaborationicon+')',
         backgroundSize: '100% 100%',
@@ -46,8 +67,15 @@ export default class Collaboration extends Component {
     
     return (
       <div className="Collaboration" style={baseStyle}>
+        <div className="background">
+          <div className='appBg containerMinHeight state1_elBackground615063' style={style_state1_elBackground615063_outer}>
+            <div style={style_state1_elBackground615063} />
+          
+          </div>
+          
+        </div>
         <div className="foreground">
-          <div className='state1_elCollaborationicon' style={style_state1_elCollaborationicon} />
+          <div className='containerMinHeight state1_elCollaborationicon' style={style_state1_elCollaborationicon} />
         </div>
       </div>
     )

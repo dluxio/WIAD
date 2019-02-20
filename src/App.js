@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import LocalizedStrings from 'react-localization';
 import './App.css';
+import LeaderboardScreen from './LeaderboardScreen.js';
+import InventoryScreen from './InventoryScreen.js';
 import ARScannerScreen from './ARScannerScreen.js';
-import CreateAccountScreen from './CreateAccountScreen.js';
-import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
+import OnboardingScreen from './OnboardingScreen.js';
+import LoginScreen from './LoginScreen.js';
 import DataSheet_users from './DataSheet_users.js';
+import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
 
 
 export default class App extends Component {
@@ -12,16 +15,23 @@ export default class App extends Component {
     super(props);
 
     this.dataSheets = {};
-    this.dataSheets['localizationSheet'] = new DataSheet_localizationSheet('localizationSheet', this.dataSheetDidUpdate);
     this.dataSheets['users'] = new DataSheet_users('users', this.dataSheetDidUpdate);
+    this.dataSheets['localizationSheet'] = new DataSheet_localizationSheet('localizationSheet', this.dataSheetDidUpdate);
 
     this.dataSlots = {};
     this.dataSlots['ds_activeLang'] = "en";
+    this.dataSlots['ds_empathy'] = "0";
+    this.dataSlots['ds_collaboration'] = "0";
+    this.dataSlots['ds_ethics'] = "0";
+    this.dataSlots['ds_curiosity'] = "0";
+    this.dataSlots['ds_thinking'] = "0";
+    this.dataSlots['ds_humility'] = "0";
+    this.dataSlots['ds_onboarding'] = "0";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);
 
     this.state = {
-      currentScreen: 'createaccount',
+      currentScreen: 'login',
       currentScreenProps: {},
       screenTransitionForward: true,
     }
@@ -171,15 +181,27 @@ export default class App extends Component {
           screenFormatId: this.state.screenFormatId
         },
         'ds_activeLang': this.dataSlots['ds_activeLang'],
-        'ds_profilePic': this.dataSlots['ds_profilePic'],
+        'ds_empathy': this.dataSlots['ds_empathy'],
+        'ds_collaboration': this.dataSlots['ds_collaboration'],
+        'ds_ethics': this.dataSlots['ds_ethics'],
+        'ds_curiosity': this.dataSlots['ds_curiosity'],
+        'ds_thinking': this.dataSlots['ds_thinking'],
+        'ds_humility': this.dataSlots['ds_humility'],
+        'ds_onboarding': this.dataSlots['ds_onboarding'],
       };
       switch (screenId) {
         default:
           return null;
+        case 'leaderboard':
+          return (<LeaderboardScreen {...screenProps} />)
+        case 'inventory':
+          return (<InventoryScreen {...screenProps} />)
         case 'arscanner':
           return (<ARScannerScreen {...screenProps} />)
-        case 'createaccount':
-          return (<CreateAccountScreen {...screenProps} />)
+        case 'onboarding':
+          return (<OnboardingScreen {...screenProps} />)
+        case 'login':
+          return (<LoginScreen {...screenProps} />)
       }
     }
 

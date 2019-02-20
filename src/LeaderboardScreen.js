@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import UserItem from './UserItem';
 
 // UI framework component imports
 import Button from 'muicss/lib/react/button';
 
 
-export default class ARScannerScreen extends Component {
+export default class LeaderboardScreen extends Component {
 
   // Properties used by this component:
   // appActions, deviceInfo
@@ -44,6 +45,7 @@ export default class ARScannerScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
+    const dataSheet_users = this.props.dataSheets['users'];
     const style_elBackground = {
         width: '100%',
         height: '100%',
@@ -51,12 +53,13 @@ export default class ARScannerScreen extends Component {
     const style_elBackground_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const style_elEmbed = {
-        pointerEvents: 'auto',
+    const style_elList = {
+        height: 'auto',  // This element is in scroll flow
      };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
-    
+    // Source items and any special components used for list/grid element 'list'.
+    let items_list = [];
+    let listComps_list = {};
+    items_list = items_list.concat(this.props.appActions.getDataSheet('users').items);
     
     const style_elArbutton = {
         display: 'block',
@@ -81,27 +84,37 @@ export default class ARScannerScreen extends Component {
      };
     
     return (
-      <div className="AppScreen ARScannerScreen" style={baseStyle}>
+      <div className="AppScreen LeaderboardScreen" style={baseStyle}>
         <div className="background">
           <div className='appBg containerMinHeight elBackground' style={style_elBackground_outer}>
             <div style={style_elBackground} />
           
           </div>
           
-          <div className='embeddedContent containerMinHeight elEmbed' style={style_elEmbed}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+        </div>
+        <div className="layoutFlow" style={layoutFlowStyle}>
+          <div className='hasNestedComps elList'>
+            <ul style={style_elList}>
+              {items_list.map((row, index) => {
+                let itemComp = (row._componentId) ? listComps_list[row._componentId] : <UserItem dataSheetId={'users'} dataSheetRow={row} empathy={row.empathy} username={row.username} collaboration={row.collaboration} ethics={row.ethics} curiosity={row.curiosity} thinking={row.thinking} humility={row.humility} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
+                return (<li key={row.key}>{itemComp}</li>)
+              })}
+              <div ref={(el)=> this._elList_endMarker = el} />
+            </ul>
+          
           </div>
+          
         </div>
         <div className="screenFgContainer">
           <div className="foreground">
             <Button className='actionFont elArbutton' style={style_elArbutton}  color="accent" onClick={this.onClick_elArbutton} >
-              {this.props.locStrings.arscanner_button_747870}
+              {this.props.locStrings.leaderboard_arbutton_699726}
             </Button>
             <Button className='actionFont elInventorybutton' style={style_elInventorybutton}  color="accent" onClick={this.onClick_elInventorybutton} >
-              {this.props.locStrings.arscanner_buttoncopy_205650}
+              {this.props.locStrings.leaderboard_inventorybutton_232127}
             </Button>
             <Button className='actionFont elLeaderbutton' style={style_elLeaderbutton}  color="accent" onClick={this.onClick_elLeaderbutton} >
-              {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
+              {this.props.locStrings.leaderboard_leaderbutton_782556}
             </Button>
           </div>
         </div>
