@@ -789,7 +789,7 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .LeaderboardScreen > .background > .elBackground {
+  .ARAppScreen > .background > .state0_elEmbed573400 {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -798,7 +798,7 @@
     height: 100%;
   }
 @media (min-width: 568px) {
-  .LeaderboardScreen > .background > .elBackground {
+  .ARAppScreen > .background > .state0_elEmbed573400 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -807,7 +807,7 @@
   }
 }
 @media (min-width: 768px) {
-  .LeaderboardScreen > .background > .elBackground {
+  .ARAppScreen > .background > .state0_elEmbed573400 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -816,7 +816,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .LeaderboardScreen > .background > .elBackground {
+  .ARAppScreen > .background > .state0_elEmbed573400 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -825,596 +825,619 @@
   }
 }
 
-  .LeaderboardScreen .elList li {
+.ARAppScreen .state0_elArbutton747870 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elArbutton747870 {
+    line-height: 52px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+
+.ARAppScreen .state0_elInventorybutton205650 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
+    line-height: 52px;
+    position: fixed;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 102px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 102px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 101px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 101px;
+    height: 52px;
+  }
+}
+
+.ARAppScreen .state0_elLeaderbutton675644 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elLeaderbutton675644 {
+    line-height: 52px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state1_elEmbed573400 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state1_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state1_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state1_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state1_elBackground569119 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state1_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state1_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state1_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+.ARAppScreen .state1_elArbutton747870 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elArbutton747870 {
+    line-height: 52px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+
+.ARAppScreen .state1_elInventorybutton205650 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
+    line-height: 52px;
+    position: fixed;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 102px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 102px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 101px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 101px;
+    height: 52px;
+  }
+}
+
+.ARAppScreen .state1_elLeaderbutton675644 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elLeaderbutton675644 {
+    line-height: 52px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elRectangle {
+    position: absolute;
+    left: 58px;
+    top: 111px;
+    width: 75px;
+    height: 75px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elRectangle {
+    left: 58px;
+    top: 111px;
+    width: 75px;
+    height: 75px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elRectangle {
+    left: 58px;
+    top: 110px;
+    width: 75px;
+    height: 75px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elRectangle {
+    left: 58px;
+    top: 110px;
+    width: 75px;
+    height: 75px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state2_elEmbed573400 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state2_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state2_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state2_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state2_elBackground569119 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state2_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state2_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state2_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+.ARAppScreen .state2_elArbutton747870 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elArbutton747870 {
+    line-height: 52px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elArbutton747870 {
+    line-height: 52px;
+    left: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+
+.ARAppScreen .state2_elInventorybutton205650 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
+    line-height: 52px;
+    position: fixed;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 102px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 102px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 101px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 51px);
+    bottom: 0px;
+    width: 101px;
+    height: 52px;
+  }
+}
+
+.ARAppScreen .state2_elLeaderbutton675644 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elLeaderbutton675644 {
+    line-height: 52px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 91px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elLeaderbutton675644 {
+    line-height: 52px;
+    right: 0px;
+    bottom: 0px;
+    width: 90px;
+    height: 52px;
+  }
+}
+
+  .ARAppScreen .state2_elList li {
     margin-bottom: 5px;
   }
 
 
 
 /* Narrowest size for this element's responsive layout */
-  .LeaderboardScreen > .layoutFlow > .elList {
-    position: relative;
-    margin-top: 28px;
-    margin-left: 4px;
-    margin-right: 4px;
-    width: calc(100.0% - 9px);
-  }
-  .LeaderboardScreen > .layoutFlow > .elList > * { 
-    width: 100%;
-  }
-  
-@media (min-width: 568px) {
-  .LeaderboardScreen > .layoutFlow > .elList {
-    position: relative;
-    margin-top: 28px;
-    margin-left: 4px;
-    margin-right: 4px;
-    width: calc(100.0% - 9px);
-  }
-  .LeaderboardScreen > .layoutFlow > .elList > * { 
-    width: 100%;
-  }
-  
-}
-@media (min-width: 768px) {
-  .LeaderboardScreen > .layoutFlow > .elList {
-    position: relative;
-    margin-top: 28px;
-    margin-left: 4px;
-    margin-right: 4px;
-    width: calc(100.0% - 9px);
-  }
-  .LeaderboardScreen > .layoutFlow > .elList > * { 
-    width: 100%;
-  }
-  
-}
-@media (min-width: 1024px) {
-  .LeaderboardScreen > .layoutFlow > .elList {
-    position: relative;
-    margin-top: 28px;
-    margin-left: 4px;
-    margin-right: 4px;
-    width: calc(100.0% - 9px);
-  }
-  .LeaderboardScreen > .layoutFlow > .elList > * { 
-    width: 100%;
-  }
-  
-}
-
-.LeaderboardScreen .elArbutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-
-.LeaderboardScreen .elInventorybutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    position: fixed;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-
-.LeaderboardScreen .elLeaderbutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .LeaderboardScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .InventoryScreen > .background > .elBackground {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elList {
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
+    left: 9px;
+    right: 9px;
+    top: 22px;
+    width: calc(100.0% - 9px - 9px);
+    height: 226px;
   }
 @media (min-width: 568px) {
-  .InventoryScreen > .background > .elBackground {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elList {
+    left: 9px;
+    right: 9px;
+    top: 22px;
+    width: calc(100.0% - 9px - 9px);
+    height: 226px;
   }
 }
 @media (min-width: 768px) {
-  .InventoryScreen > .background > .elBackground {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elList {
+    left: 9px;
+    right: 9px;
+    top: 22px;
+    width: calc(100.0% - 9px - 9px);
+    height: 226px;
   }
 }
 @media (min-width: 1024px) {
-  .InventoryScreen > .background > .elBackground {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-
-.InventoryScreen .elArbutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .InventoryScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-
-.InventoryScreen .elInventorybutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .InventoryScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    position: fixed;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-
-.InventoryScreen .elLeaderbutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .InventoryScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .InventoryScreen > .screenFgContainer > .foreground > .elRectangle {
-    position: absolute;
-    left: 58px;
-    top: 111px;
-    width: 75px;
-    height: 75px;
-  }
-@media (min-width: 568px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elRectangle {
-    left: 58px;
-    top: 111px;
-    width: 75px;
-    height: 75px;
-  }
-}
-@media (min-width: 768px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elRectangle {
-    left: 58px;
-    top: 110px;
-    width: 75px;
-    height: 75px;
-  }
-}
-@media (min-width: 1024px) {
-  .InventoryScreen > .screenFgContainer > .foreground > .elRectangle {
-    left: 58px;
-    top: 110px;
-    width: 75px;
-    height: 75px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARScannerScreen > .background > .elBackground {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-@media (min-width: 568px) {
-  .ARScannerScreen > .background > .elBackground {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .ARScannerScreen > .background > .elBackground {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .ARScannerScreen > .background > .elBackground {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARScannerScreen > .background > .elEmbed {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-@media (min-width: 568px) {
-  .ARScannerScreen > .background > .elEmbed {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .ARScannerScreen > .background > .elEmbed {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .ARScannerScreen > .background > .elEmbed {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-
-.ARScannerScreen .elArbutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARScannerScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elArbutton {
-    line-height: 52px;
-    left: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-
-.ARScannerScreen .elInventorybutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARScannerScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    position: fixed;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elInventorybutton {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-
-.ARScannerScreen .elLeaderbutton {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARScannerScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 91px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARScannerScreen > .screenFgContainer > .foreground > .elLeaderbutton {
-    line-height: 52px;
-    right: 0px;
-    bottom: 0px;
-    width: 90px;
-    height: 52px;
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elList {
+    left: 9px;
+    right: 9px;
+    top: 22px;
+    width: calc(100.0% - 9px - 9px);
+    height: 226px;
   }
 }
 

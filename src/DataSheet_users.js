@@ -18,8 +18,8 @@ export default class DataSheet_users extends DataSheetBase {
     item['ethics'] = "0";
     item['empathy'] = "0";
     item['username'] = "user01";
-    item['thinking'] = "0";
     item['curiosity'] = "1";
+    item['thinking'] = "0";
     item['collaboration'] = "1";
     item['humility'] = "1";
     item.key = key++;

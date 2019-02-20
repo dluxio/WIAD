@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import LocalizedStrings from 'react-localization';
 import './App.css';
-import LeaderboardScreen from './LeaderboardScreen.js';
-import InventoryScreen from './InventoryScreen.js';
-import ARScannerScreen from './ARScannerScreen.js';
+import ARAppScreen from './ARAppScreen.js';
 import OnboardingScreen from './OnboardingScreen.js';
 import LoginScreen from './LoginScreen.js';
 import DataSheet_users from './DataSheet_users.js';
@@ -27,6 +25,7 @@ export default class App extends Component {
     this.dataSlots['ds_thinking'] = "0";
     this.dataSlots['ds_humility'] = "0";
     this.dataSlots['ds_onboarding'] = "0";
+    this.dataSlots['ds_appState'] = "";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);
 
@@ -188,16 +187,13 @@ export default class App extends Component {
         'ds_thinking': this.dataSlots['ds_thinking'],
         'ds_humility': this.dataSlots['ds_humility'],
         'ds_onboarding': this.dataSlots['ds_onboarding'],
+        'ds_appState': this.dataSlots['ds_appState'],
       };
       switch (screenId) {
         default:
           return null;
-        case 'leaderboard':
-          return (<LeaderboardScreen {...screenProps} />)
-        case 'inventory':
-          return (<InventoryScreen {...screenProps} />)
-        case 'arscanner':
-          return (<ARScannerScreen {...screenProps} />)
+        case 'arapp':
+          return (<ARAppScreen {...screenProps} />)
         case 'onboarding':
           return (<OnboardingScreen {...screenProps} />)
         case 'login':

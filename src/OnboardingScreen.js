@@ -325,8 +325,8 @@ export default class OnboardingScreen extends Component {
   // --- Functions for component state index 3 (4 of 4) --- 
   
   onClick_state3_elButton = (ev) => {
-    // Go to screen 'AR Scanner'
-    this.props.appActions.goToScreen('arscanner', { transitionId: 'fadeIn' });
+    // Go to screen 'AR App'
+    this.props.appActions.goToScreen('arapp', { transitionId: 'fadeIn' });
   
   }
   
