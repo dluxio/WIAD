@@ -48,8 +48,7 @@ export default class UserItem extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     let transformStateValue_elThinking = (input) => {
       // This function modifies the value for property 'componentStateId'.
@@ -73,8 +72,7 @@ export default class UserItem extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     let transformStateValue_elCuriosity = (input) => {
       // This function modifies the value for property 'componentStateId'.
@@ -98,8 +96,7 @@ export default class UserItem extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     let transformStateValue_elEthics = (input) => {
       // This function modifies the value for property 'componentStateId'.
@@ -123,8 +120,7 @@ export default class UserItem extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     let transformStateValue_elCollaboration = (input) => {
       // This function modifies the value for property 'componentStateId'.
@@ -148,8 +144,7 @@ export default class UserItem extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     let transformStateValue_elEmpathy = (input) => {
       // This function modifies the value for property 'componentStateId'.
@@ -173,8 +168,7 @@ export default class UserItem extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     const style_elText = {
         color: 'rgba(0, 0, 0, 0.8500)',

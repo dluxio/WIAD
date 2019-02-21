@@ -48,11 +48,11 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const style_state0_elEmbed261233 = {
+    const style_state0_elEmbed = {
         pointerEvents: 'auto',
      };
     // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://blushing-poet.glitch.me“></iframe>";
+    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://https://blushing-poet.glitch.me/\"></iframe>";
     
     
     const style_state0_elArbutton747870 = {
@@ -80,7 +80,7 @@ export default class ARAppScreen extends Component {
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
         <div className="background">
-          <div className='embeddedContent containerMinHeight state0_elEmbed261233' style={style_state0_elEmbed261233}>
+          <div className='embeddedContent containerMinHeight state0_elEmbed' style={style_state0_elEmbed}>
             <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
           </div>
         </div>
@@ -138,13 +138,6 @@ export default class ARAppScreen extends Component {
     }
     
     const dataSheet_inventory = this.props.dataSheets['inventory'];
-    const style_state1_elEmbed261233 = {
-        pointerEvents: 'auto',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://blushing-poet.glitch.me“></iframe>";
-    
-    
     const style_state1_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -190,9 +183,6 @@ export default class ARAppScreen extends Component {
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
         <div className="background">
-          <div className='embeddedContent containerMinHeight state1_elEmbed261233' style={style_state1_elEmbed261233}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-          </div>
           <div className='appBg containerMinHeight state1_elBackground569119' style={style_state1_elBackground569119_outer}>
             <div style={style_state1_elBackground569119} />
           
@@ -275,13 +265,6 @@ export default class ARAppScreen extends Component {
     
     const dataSheet_users = this.props.dataSheets['users'];
     const dataSheet_inventory = this.props.dataSheets['inventory'];
-    const style_state2_elEmbed261233 = {
-        pointerEvents: 'auto',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://blushing-poet.glitch.me“></iframe>";
-    
-    
     const style_state2_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -327,9 +310,6 @@ export default class ARAppScreen extends Component {
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
         <div className="background">
-          <div className='embeddedContent containerMinHeight state2_elEmbed261233' style={style_state2_elEmbed261233}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-          </div>
           <div className='appBg containerMinHeight state2_elBackground569119' style={style_state2_elBackground569119_outer}>
             <div style={style_state2_elBackground569119} />
           

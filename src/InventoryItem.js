@@ -36,8 +36,7 @@ export default class InventoryItem extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     
     return (

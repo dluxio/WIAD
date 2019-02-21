@@ -18,16 +18,16 @@ export default class DataSheet_inventory extends DataSheetBase {
     
     item = {};
     this.items.push(item);
-    item['thumb'] = datasheet_inventory_row0_thumb;
     item['state'] = "1";
     item['name'] = "EMPATHY";
+    item['thumb'] = datasheet_inventory_row0_thumb;
     item.key = key++;
     
     item = {};
     this.items.push(item);
-    item['thumb'] = datasheet_inventory_row1_thumb;
     item['state'] = "1";
     item['name'] = "ETHICS";
+    item['thumb'] = datasheet_inventory_row1_thumb;
     item.key = key++;
     
     item = {};
@@ -38,9 +38,9 @@ export default class DataSheet_inventory extends DataSheetBase {
     
     item = {};
     this.items.push(item);
-    item['thumb'] = datasheet_inventory_row3_thumb;
     item['state'] = "1";
     item['name'] = "CURIOSITY & GRIT";
+    item['thumb'] = datasheet_inventory_row3_thumb;
     item.key = key++;
     
     item = {};

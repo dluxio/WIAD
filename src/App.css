@@ -877,7 +877,7 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .background > .state0_elEmbed261233 {
+  .ARAppScreen > .background > .state0_elEmbed {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -886,7 +886,7 @@
     height: 100%;
   }
 @media (min-width: 568px) {
-  .ARAppScreen > .background > .state0_elEmbed261233 {
+  .ARAppScreen > .background > .state0_elEmbed {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -895,7 +895,7 @@
   }
 }
 @media (min-width: 768px) {
-  .ARAppScreen > .background > .state0_elEmbed261233 {
+  .ARAppScreen > .background > .state0_elEmbed {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -904,7 +904,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .ARAppScreen > .background > .state0_elEmbed261233 {
+  .ARAppScreen > .background > .state0_elEmbed {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1039,44 +1039,6 @@
     bottom: 0px;
     width: 90px;
     height: 52px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .background > .state1_elEmbed261233 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-@media (min-width: 568px) {
-  .ARAppScreen > .background > .state1_elEmbed261233 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .background > .state1_elEmbed261233 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .background > .state1_elEmbed261233 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
   }
 }
 
@@ -1447,44 +1409,6 @@
     top: 24px;
     width: 100.0%;
     height: 26px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .background > .state2_elEmbed261233 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-@media (min-width: 568px) {
-  .ARAppScreen > .background > .state2_elEmbed261233 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .background > .state2_elEmbed261233 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .background > .state2_elEmbed261233 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
   }
 }
 
