@@ -877,7 +877,7 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .background > .state0_elEmbed573400 {
+  .ARAppScreen > .background > .state0_elEmbed261233 {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -886,7 +886,7 @@
     height: 100%;
   }
 @media (min-width: 568px) {
-  .ARAppScreen > .background > .state0_elEmbed573400 {
+  .ARAppScreen > .background > .state0_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -895,7 +895,7 @@
   }
 }
 @media (min-width: 768px) {
-  .ARAppScreen > .background > .state0_elEmbed573400 {
+  .ARAppScreen > .background > .state0_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -904,7 +904,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .ARAppScreen > .background > .state0_elEmbed573400 {
+  .ARAppScreen > .background > .state0_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1044,7 +1044,7 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .background > .state1_elEmbed573400 {
+  .ARAppScreen > .background > .state1_elEmbed261233 {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -1053,7 +1053,7 @@
     height: 100%;
   }
 @media (min-width: 568px) {
-  .ARAppScreen > .background > .state1_elEmbed573400 {
+  .ARAppScreen > .background > .state1_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1062,7 +1062,7 @@
   }
 }
 @media (min-width: 768px) {
-  .ARAppScreen > .background > .state1_elEmbed573400 {
+  .ARAppScreen > .background > .state1_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1071,7 +1071,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .ARAppScreen > .background > .state1_elEmbed573400 {
+  .ARAppScreen > .background > .state1_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1452,7 +1452,7 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .background > .state2_elEmbed573400 {
+  .ARAppScreen > .background > .state2_elEmbed261233 {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -1461,7 +1461,7 @@
     height: 100%;
   }
 @media (min-width: 568px) {
-  .ARAppScreen > .background > .state2_elEmbed573400 {
+  .ARAppScreen > .background > .state2_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1470,7 +1470,7 @@
   }
 }
 @media (min-width: 768px) {
-  .ARAppScreen > .background > .state2_elEmbed573400 {
+  .ARAppScreen > .background > .state2_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1479,7 +1479,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .ARAppScreen > .background > .state2_elEmbed573400 {
+  .ARAppScreen > .background > .state2_elEmbed261233 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -2513,14 +2513,14 @@
   }
 }
 
-.OnboardingScreen .state3_elButton {
+.OnboardingScreen .state3_elStartbutton {
   border: 0.0px solid transparent;
 }
 
 
 
 /* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elButton {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
     line-height: 35px;
     position: fixed;
     left: calc(50.0% + 0px - 122px);
@@ -2529,7 +2529,7 @@
     height: 35px;
   }
 @media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elButton {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
     line-height: 35px;
     left: calc(50.0% + 0px - 122px);
     bottom: 68px;
@@ -2538,7 +2538,7 @@
   }
 }
 @media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elButton {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
     line-height: 35px;
     left: calc(50.0% + 0px - 121px);
     bottom: 68px;
@@ -2547,7 +2547,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elButton {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
     line-height: 35px;
     left: calc(50.0% + 0px - 121px);
     bottom: 68px;

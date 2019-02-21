@@ -324,7 +324,7 @@ export default class OnboardingScreen extends Component {
   
   // --- Functions for component state index 3 (4 of 4) --- 
   
-  onClick_state3_elButton = (ev) => {
+  onClick_state3_elStartbutton = (ev) => {
     // Go to screen 'AR App'
     this.props.appActions.goToScreen('arapp');
   
@@ -356,7 +356,7 @@ export default class OnboardingScreen extends Component {
         color: 'rgba(0, 0, 0, 0.8500)',
         textAlign: 'center',
      };
-    const style_state3_elButton = {
+    const style_state3_elStartbutton = {
         display: 'block',
         color: 'white',
         textAlign: 'center',
@@ -378,7 +378,7 @@ export default class OnboardingScreen extends Component {
             <div className='font-arialBoldMT  state3_elText3623545' style={style_state3_elText3623545}>
               <div>{this.props.locStrings.onboarding_text3_623545}</div>
             </div>
-            <Button className='actionFont state3_elButton' style={style_state3_elButton}  color="accent" onClick={this.onClick_state3_elButton} >
+            <Button className='actionFont state3_elStartbutton' style={style_state3_elStartbutton}  color="accent" onClick={this.onClick_state3_elStartbutton} >
               {this.props.locStrings.onboarding_button_301283}
             </Button>
           </div>
