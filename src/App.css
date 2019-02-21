@@ -887,6 +887,44 @@
 
 
 /* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state0_elBackground569119 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state0_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state0_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state0_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
   .ARAppScreen > .background > .state0_elEmbed {
     position: absolute;
     left: 0px;
@@ -935,7 +973,7 @@
     position: fixed;
     left: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 @media (min-width: 568px) {
@@ -943,7 +981,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 }
@@ -952,7 +990,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -961,50 +999,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-
-.ARAppScreen .state0_elInventorybutton205650 {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
-    line-height: 52px;
-    position: fixed;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1021,7 +1016,7 @@
     position: fixed;
     right: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 @media (min-width: 568px) {
@@ -1029,7 +1024,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 }
@@ -1038,7 +1033,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1047,7 +1042,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1091,6 +1086,49 @@
     top: 24px;
     width: 100.0%;
     height: 26px;
+  }
+}
+
+.ARAppScreen .state0_elInventorybutton205650 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
+    line-height: 52px;
+    position: fixed;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 125px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 125px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 124px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 124px;
+    height: 52px;
   }
 }
 
@@ -1366,7 +1404,7 @@
     position: fixed;
     left: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 @media (min-width: 568px) {
@@ -1374,7 +1412,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 }
@@ -1383,7 +1421,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1392,50 +1430,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-
-.ARAppScreen .state1_elInventorybutton205650 {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
-    line-height: 52px;
-    position: fixed;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1452,7 +1447,7 @@
     position: fixed;
     right: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 @media (min-width: 568px) {
@@ -1460,7 +1455,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 }
@@ -1469,7 +1464,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1478,7 +1473,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1522,6 +1517,49 @@
     top: 24px;
     width: 100.0%;
     height: 26px;
+  }
+}
+
+.ARAppScreen .state1_elInventorybutton205650 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
+    line-height: 52px;
+    position: fixed;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 125px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 125px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 124px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 124px;
+    height: 52px;
   }
 }
 
@@ -1694,7 +1732,7 @@
     position: fixed;
     left: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 @media (min-width: 568px) {
@@ -1702,7 +1740,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 }
@@ -1711,7 +1749,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1720,50 +1758,7 @@
     line-height: 52px;
     left: 0px;
     bottom: 0px;
-    width: 90px;
-    height: 52px;
-  }
-}
-
-.ARAppScreen .state2_elInventorybutton205650 {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
-    line-height: 52px;
-    position: fixed;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-@media (min-width: 568px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 102px;
-    height: 52px;
-  }
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
-    height: 52px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
-    line-height: 52px;
-    left: calc(50.0% + 0px - 51px);
-    bottom: 0px;
-    width: 101px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1780,7 +1775,7 @@
     position: fixed;
     right: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 @media (min-width: 568px) {
@@ -1788,7 +1783,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 91px;
+    width: 125px;
     height: 52px;
   }
 }
@@ -1797,7 +1792,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1806,7 +1801,7 @@
     line-height: 52px;
     right: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 124px;
     height: 52px;
   }
 }
@@ -1850,6 +1845,49 @@
     top: 24px;
     width: 100.0%;
     height: 26px;
+  }
+}
+
+.ARAppScreen .state2_elInventorybutton205650 {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
+    line-height: 52px;
+    position: fixed;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 125px;
+    height: 52px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 125px;
+    height: 52px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 124px;
+    height: 52px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventorybutton205650 {
+    line-height: 52px;
+    left: calc(50.0% + 0px - 62px);
+    bottom: 0px;
+    width: 124px;
+    height: 52px;
   }
 }
 

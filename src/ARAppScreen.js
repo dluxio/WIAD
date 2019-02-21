@@ -22,15 +22,15 @@ export default class ARAppScreen extends Component {
   }
   
   
-  onClick_state0_elInventorybutton205650 = (ev) => {
-    let newVal = "1";
+  onClick_state0_elLeaderbutton675644 = (ev) => {
+    let newVal = "2";
     this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
   
   
-  onClick_state0_elLeaderbutton675644 = (ev) => {
-    let newVal = "2";
+  onClick_state0_elInventorybutton205650 = (ev) => {
+    let newVal = "1";
     this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
@@ -50,6 +50,13 @@ export default class ARAppScreen extends Component {
     }
     
     const dataSheet_users = this.props.dataSheets['users'];
+    const style_state0_elBackground569119 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state0_elBackground569119_outer = {
+        backgroundColor: '#f6f6f6',
+     };
     const style_state0_elEmbed = {
         pointerEvents: 'auto',
      };
@@ -58,13 +65,6 @@ export default class ARAppScreen extends Component {
     
     
     const style_state0_elArbutton747870 = {
-        display: 'block',
-        color: 'white',
-        textAlign: 'center',
-        cursor: 'pointer',
-        pointerEvents: 'auto',
-     };
-    const style_state0_elInventorybutton205650 = {
         display: 'block',
         color: 'white',
         textAlign: 'center',
@@ -83,11 +83,23 @@ export default class ARAppScreen extends Component {
         color: 'rgba(0, 0, 0, 0.8500)',
         textAlign: 'center',
      };
+    const style_state0_elInventorybutton205650 = {
+        display: 'block',
+        color: 'white',
+        textAlign: 'center',
+        cursor: 'pointer',
+        pointerEvents: 'auto',
+     };
     const data_state0_elInventoryStatus450939 = dataSheet_users.items[3];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
         <div className="background">
+          <div className='appBg containerMinHeight state0_elBackground569119' style={style_state0_elBackground569119_outer}>
+            <div style={style_state0_elBackground569119} />
+          
+          </div>
+          
           <div className='embeddedContent containerMinHeight state0_elEmbed' style={style_state0_elEmbed}>
             <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
           </div>
@@ -97,15 +109,15 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state0_elArbutton747870' style={style_state0_elArbutton747870}  color="accent" onClick={this.onClick_state0_elArbutton747870} >
               {this.props.locStrings.arscanner_button_747870}
             </Button>
-            <Button className='actionFont state0_elInventorybutton205650' style={style_state0_elInventorybutton205650}  color="accent" onClick={this.onClick_state0_elInventorybutton205650} >
-              {this.props.locStrings.arscanner_buttoncopy_205650}
-            </Button>
             <Button className='actionFont state0_elLeaderbutton675644' style={style_state0_elLeaderbutton675644}  color="accent" onClick={this.onClick_state0_elLeaderbutton675644} >
               {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
             </Button>
             <div className='font-arialBoldMT  state0_elText3474049' style={style_state0_elText3474049}>
               <div>{this.props.locStrings.arapp_text3_474049}</div>
             </div>
+            <Button className='actionFont state0_elInventorybutton205650' style={style_state0_elInventorybutton205650}  color="accent" onClick={this.onClick_state0_elInventorybutton205650} >
+              {this.props.locStrings.arscanner_buttoncopy_205650}
+            </Button>
             <div className='hasNestedComps state0_elInventoryStatus450939'>
               <InventoryStatus {...data_state0_elInventoryStatus450939} ref={(el)=> this._state0_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
@@ -124,15 +136,15 @@ export default class ARAppScreen extends Component {
   }
   
   
-  onClick_state1_elInventorybutton205650 = (ev) => {
-    let newVal = "1";
+  onClick_state1_elLeaderbutton675644 = (ev) => {
+    let newVal = "2";
     this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
   
   
-  onClick_state1_elLeaderbutton675644 = (ev) => {
-    let newVal = "2";
+  onClick_state1_elInventorybutton205650 = (ev) => {
+    let newVal = "1";
     this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
@@ -175,13 +187,6 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const style_state1_elInventorybutton205650 = {
-        display: 'block',
-        color: 'white',
-        textAlign: 'center',
-        cursor: 'pointer',
-        pointerEvents: 'auto',
-     };
     const style_state1_elLeaderbutton675644 = {
         display: 'block',
         color: 'white',
@@ -193,6 +198,13 @@ export default class ARAppScreen extends Component {
         fontSize: 12.9,
         color: 'rgba(0, 0, 0, 0.8500)',
         textAlign: 'center',
+     };
+    const style_state1_elInventorybutton205650 = {
+        display: 'block',
+        color: 'white',
+        textAlign: 'center',
+        cursor: 'pointer',
+        pointerEvents: 'auto',
      };
     const data_state1_elInventoryStatus450939 = dataSheet_users.items[3];
     
@@ -228,15 +240,15 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state1_elArbutton747870' style={style_state1_elArbutton747870}  color="accent" onClick={this.onClick_state1_elArbutton747870} >
               {this.props.locStrings.arscanner_button_747870}
             </Button>
-            <Button className='actionFont state1_elInventorybutton205650' style={style_state1_elInventorybutton205650}  color="accent" onClick={this.onClick_state1_elInventorybutton205650} >
-              {this.props.locStrings.arscanner_buttoncopy_205650}
-            </Button>
             <Button className='actionFont state1_elLeaderbutton675644' style={style_state1_elLeaderbutton675644}  color="accent" onClick={this.onClick_state1_elLeaderbutton675644} >
               {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
             </Button>
             <div className='font-arialBoldMT  state1_elText3474049' style={style_state1_elText3474049}>
               <div>{this.props.locStrings.arapp_text3_474049}</div>
             </div>
+            <Button className='actionFont state1_elInventorybutton205650' style={style_state1_elInventorybutton205650}  color="accent" onClick={this.onClick_state1_elInventorybutton205650} >
+              {this.props.locStrings.arscanner_buttoncopy_205650}
+            </Button>
             <div className='hasNestedComps state1_elInventoryStatus450939'>
               <InventoryStatus {...data_state1_elInventoryStatus450939} ref={(el)=> this._state1_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
@@ -255,15 +267,15 @@ export default class ARAppScreen extends Component {
   }
   
   
-  onClick_state2_elInventorybutton205650 = (ev) => {
-    let newVal = "1";
+  onClick_state2_elLeaderbutton675644 = (ev) => {
+    let newVal = "2";
     this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
   
   
-  onClick_state2_elLeaderbutton675644 = (ev) => {
-    let newVal = "2";
+  onClick_state2_elInventorybutton205650 = (ev) => {
+    let newVal = "1";
     this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
@@ -306,13 +318,6 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const style_state2_elInventorybutton205650 = {
-        display: 'block',
-        color: 'white',
-        textAlign: 'center',
-        cursor: 'pointer',
-        pointerEvents: 'auto',
-     };
     const style_state2_elLeaderbutton675644 = {
         display: 'block',
         color: 'white',
@@ -324,6 +329,13 @@ export default class ARAppScreen extends Component {
         fontSize: 12.9,
         color: 'rgba(0, 0, 0, 0.8500)',
         textAlign: 'center',
+     };
+    const style_state2_elInventorybutton205650 = {
+        display: 'block',
+        color: 'white',
+        textAlign: 'center',
+        cursor: 'pointer',
+        pointerEvents: 'auto',
      };
     const data_state2_elInventoryStatus450939 = dataSheet_users.items[3];
     
@@ -354,15 +366,15 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state2_elArbutton747870' style={style_state2_elArbutton747870}  color="accent" onClick={this.onClick_state2_elArbutton747870} >
               {this.props.locStrings.arscanner_button_747870}
             </Button>
-            <Button className='actionFont state2_elInventorybutton205650' style={style_state2_elInventorybutton205650}  color="accent" onClick={this.onClick_state2_elInventorybutton205650} >
-              {this.props.locStrings.arscanner_buttoncopy_205650}
-            </Button>
             <Button className='actionFont state2_elLeaderbutton675644' style={style_state2_elLeaderbutton675644}  color="accent" onClick={this.onClick_state2_elLeaderbutton675644} >
               {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
             </Button>
             <div className='font-arialBoldMT  state2_elText3474049' style={style_state2_elText3474049}>
               <div>{this.props.locStrings.arapp_text3_474049}</div>
             </div>
+            <Button className='actionFont state2_elInventorybutton205650' style={style_state2_elInventorybutton205650}  color="accent" onClick={this.onClick_state2_elInventorybutton205650} >
+              {this.props.locStrings.arscanner_buttoncopy_205650}
+            </Button>
             <div className='hasNestedComps state2_elInventoryStatus450939'>
               <InventoryStatus {...data_state2_elInventoryStatus450939} ref={(el)=> this._state2_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
