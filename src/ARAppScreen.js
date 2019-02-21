@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import InventoryItem from './InventoryItem';
 import UserItem from './UserItem';
 
 // UI framework component imports
@@ -14,8 +15,6 @@ export default class ARAppScreen extends Component {
   // --- Functions for component state index 0 (1 of 3) --- 
   
   onClick_state0_elArbutton747870 = (ev) => {
-    let newVal = "0";
-    this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
   
@@ -47,13 +46,13 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
-    
-    
-    const style_state0_elEmbed573400_outer = {
+    const style_state0_elEmbed573400 = {
         pointerEvents: 'auto',
      };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" style=“display: block;height: 100%;left: 0px;position: absolute;top: 0px;width: 100%;transform-origin: 430.497px 335.994px 0px;-webkit-transform-origin: 430.497px 335.994px 0px;-moz-transform-origin: 430.497px 335.994px 0px;\" src=\"https://blushing-poet.glitch.me\"></iframe>";
+    
+    
     const style_state0_elArbutton747870 = {
         display: 'block',
         color: 'white',
@@ -78,14 +77,10 @@ export default class ARAppScreen extends Component {
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
-        <div className="layoutFlow" style={layoutFlowStyle}>
-          <div className='embeddedContent state0_elEmbed573400' style={style_state0_elEmbed573400_outer}>
-            <div>
-              <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-            </div>
-          
+        <div className="background">
+          <div className='embeddedContent state0_elEmbed573400' style={style_state0_elEmbed573400}>
+            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
           </div>
-          
         </div>
         <div className="screenFgContainer">
           <div className="foreground">
@@ -107,8 +102,6 @@ export default class ARAppScreen extends Component {
   // --- Functions for component state index 1 (2 of 3) --- 
   
   onClick_state1_elArbutton747870 = (ev) => {
-    let newVal = "0";
-    this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
   
@@ -140,19 +133,20 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
+    const dataSheet_inventory = this.props.dataSheets['inventory'];
+    const style_state1_elEmbed573400 = {
+        pointerEvents: 'auto',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" style=“display: block;height: 100%;left: 0px;position: absolute;top: 0px;width: 100%;transform-origin: 430.497px 335.994px 0px;-webkit-transform-origin: 430.497px 335.994px 0px;-moz-transform-origin: 430.497px 335.994px 0px;\" src=\"https://blushing-poet.glitch.me\"></iframe>";
+    
+    
     const style_state1_elBackground569119 = {
         width: '100%',
         height: '100%',
      };
     const style_state1_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
-    
-    
-    const style_state1_elEmbed573400_outer = {
-        pointerEvents: 'auto',
      };
     const style_state1_elArbutton747870 = {
         display: 'block',
@@ -175,25 +169,28 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const style_state1_elRectangle = {
-        background: 'rgba(87, 142, 255, 1.000)',
-        borderRadius: '18.1px',
+    const style_state1_elText3474049 = {
+        fontSize: 12.9,
+        color: 'rgba(0, 0, 0, 0.8500)',
+        textAlign: 'center',
      };
+    const style_state1_elList2 = {
+        overflow: 'hidden',  // This element is not in scroll flow
+     };
+    // Source items and any special components used for list/grid element 'list 2'.
+    let items_list2 = [];
+    let listComps_list2 = {};
+    items_list2 = items_list2.concat(this.props.appActions.getDataSheet('inventory').items);
+    
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
         <div className="background">
+          <div className='embeddedContent state1_elEmbed573400' style={style_state1_elEmbed573400}>
+            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+          </div>
           <div className='appBg containerMinHeight state1_elBackground569119' style={style_state1_elBackground569119_outer}>
             <div style={style_state1_elBackground569119} />
-          
-          </div>
-          
-        </div>
-        <div className="layoutFlow" style={layoutFlowStyle}>
-          <div className='embeddedContent state1_elEmbed573400' style={style_state1_elEmbed573400_outer}>
-            <div>
-              <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-            </div>
           
           </div>
           
@@ -209,7 +206,21 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state1_elLeaderbutton675644' style={style_state1_elLeaderbutton675644}  color="accent" onClick={this.onClick_state1_elLeaderbutton675644} >
               {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
             </Button>
-            <div className='state1_elRectangle' style={style_state1_elRectangle} />
+            <div className='font-arialBoldMT  state1_elText3474049' style={style_state1_elText3474049}>
+              <div>{this.props.locStrings.arapp_text3_474049}</div>
+            </div>
+            <div className='hasNestedComps state1_elList2' style={style_state1_elList2}>
+              {items_list2.map((row, index) => {
+                let itemClasses = `gridItem cols2_${index % 2}`;
+                let itemComp = (row._componentId) ? listComps_list2[row._componentId] : <InventoryItem dataSheetId={'inventory'} dataSheetRow={row} state={row.state} name={row.name} thumb={row.thumb} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
+                return (
+                  <div className={itemClasses} key={row.key}>
+                    {itemComp}
+                  </div>
+                )
+              })}
+              <div ref={(el)=> this._state1_elList2_endMarker = el} />
+            </div>
           </div>
         </div>
       </div>
@@ -219,8 +230,6 @@ export default class ARAppScreen extends Component {
   // --- Functions for component state index 2 (3 of 3) --- 
   
   onClick_state2_elArbutton747870 = (ev) => {
-    let newVal = "0";
-    this.props.appActions.updateDataSlot('ds_appState', newVal);
   
   }
   
@@ -253,19 +262,20 @@ export default class ARAppScreen extends Component {
     }
     
     const dataSheet_users = this.props.dataSheets['users'];
+    const dataSheet_inventory = this.props.dataSheets['inventory'];
+    const style_state2_elEmbed573400 = {
+        pointerEvents: 'auto',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" style=“display: block;height: 100%;left: 0px;position: absolute;top: 0px;width: 100%;transform-origin: 430.497px 335.994px 0px;-webkit-transform-origin: 430.497px 335.994px 0px;-moz-transform-origin: 430.497px 335.994px 0px;\" src=\"https://blushing-poet.glitch.me\"></iframe>";
+    
+    
     const style_state2_elBackground569119 = {
         width: '100%',
         height: '100%',
      };
     const style_state2_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://ipfs.dlux.io/ipfs/QmRsAPvgES5GstfR83aApLPYmXDFEohm8YrTYNGFvcHHTk?undefined\"></iframe>";
-    
-    
-    const style_state2_elEmbed573400_outer = {
-        pointerEvents: 'auto',
      };
     const style_state2_elArbutton747870 = {
         display: 'block',
@@ -296,21 +306,20 @@ export default class ARAppScreen extends Component {
     let listComps_list = {};
     items_list = items_list.concat(this.props.appActions.getDataSheet('users').items);
     
+    const style_state2_elText3474049 = {
+        fontSize: 12.9,
+        color: 'rgba(0, 0, 0, 0.8500)',
+        textAlign: 'center',
+     };
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
         <div className="background">
+          <div className='embeddedContent state2_elEmbed573400' style={style_state2_elEmbed573400}>
+            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+          </div>
           <div className='appBg containerMinHeight state2_elBackground569119' style={style_state2_elBackground569119_outer}>
             <div style={style_state2_elBackground569119} />
-          
-          </div>
-          
-        </div>
-        <div className="layoutFlow" style={layoutFlowStyle}>
-          <div className='embeddedContent state2_elEmbed573400' style={style_state2_elEmbed573400_outer}>
-            <div>
-              <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-            </div>
           
           </div>
           
@@ -333,6 +342,9 @@ export default class ARAppScreen extends Component {
               })}
               <div ref={(el)=> this._state2_elList_endMarker = el} />
             </ul>
+            <div className='font-arialBoldMT  state2_elText3474049' style={style_state2_elText3474049}>
+              <div>{this.props.locStrings.arapp_text3_474049}</div>
+            </div>
           </div>
         </div>
       </div>

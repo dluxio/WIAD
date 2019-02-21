@@ -638,6 +638,66 @@
   }
 
 /* This component has a fixed-size layout */
+  .InventoryItemState {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .InventoryItemState > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .InventoryItemState > .foreground > .state0_elText {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    width: 100.0%;
+    height: 45px;
+  }
+
+
+  .InventoryItemState > .foreground > .state0_elRectangle {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+/* This component has a fixed-size layout */
+  .InventoryItemState {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .InventoryItemState > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .InventoryItemState > .foreground > .state1_elImage {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+
+  .InventoryItemState > .foreground > .state1_elText {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    width: 100.0%;
+    height: 45px;
+  }
+
+/* This component has a fixed-size layout */
   .UserItem {
     min-height: 32px;
     overflow: hidden;
@@ -787,61 +847,81 @@
     height: 26px;
   }
 
+/* This component has a fixed-size layout */
+  .InventoryItem {
+    min-height: 121px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 155px */
+  }
+  .InventoryItem > .background > .containerMinHeight {
+    min-height: 121px;
+  }
+
+
+  .InventoryItem > .background > .elBackground {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+
+.InventoryItem .elInventoryItemState {
+  overflow: hidden;
+}
+
+.InventoryItem .elInventoryItemState.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventoryItem > .foreground > .elInventoryItemState {
+    position: absolute;
+    top: 0px;
+    width: 154px;
+    height: 119px;
+  }
+
 
 /* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .layoutFlow > .state0_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
+  .ARAppScreen > .background > .state0_elEmbed573400 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 495px;
   }
-  .ARAppScreen > .layoutFlow > .state0_elEmbed573400 > * { 
-    width: 100%;
-  height: 548px;
-  }
-  
 @media (min-width: 568px) {
-  .ARAppScreen > .layoutFlow > .state0_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
+  .ARAppScreen > .background > .state0_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 495px;
   }
-  .ARAppScreen > .layoutFlow > .state0_elEmbed573400 > * { 
-    width: 100%;
-  height: 548px;
-  }
-  
 }
 @media (min-width: 768px) {
-  .ARAppScreen > .layoutFlow > .state0_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
+  .ARAppScreen > .background > .state0_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 492px;
   }
-  .ARAppScreen > .layoutFlow > .state0_elEmbed573400 > * { 
-    width: 100%;
-  height: 545px;
-  }
-  
 }
 @media (min-width: 1024px) {
-  .ARAppScreen > .layoutFlow > .state0_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
+  .ARAppScreen > .background > .state0_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 492px;
   }
-  .ARAppScreen > .layoutFlow > .state0_elEmbed573400 > * { 
-    width: 100%;
-  height: 545px;
-  }
-  
 }
 
 .ARAppScreen .state0_elArbutton747870 {
@@ -975,6 +1055,44 @@
 
 
 /* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state1_elEmbed573400 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 495px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state1_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 495px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state1_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 492px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state1_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 492px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
   .ARAppScreen > .background > .state1_elBackground569119 {
     position: absolute;
     left: 0px;
@@ -1009,63 +1127,6 @@
     width: 100.0%;
     height: 100%;
   }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .layoutFlow > .state1_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
-  }
-  .ARAppScreen > .layoutFlow > .state1_elEmbed573400 > * { 
-    width: 100%;
-  height: 548px;
-  }
-  
-@media (min-width: 568px) {
-  .ARAppScreen > .layoutFlow > .state1_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
-  }
-  .ARAppScreen > .layoutFlow > .state1_elEmbed573400 > * { 
-    width: 100%;
-  height: 548px;
-  }
-  
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .layoutFlow > .state1_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
-  }
-  .ARAppScreen > .layoutFlow > .state1_elEmbed573400 > * { 
-    width: 100%;
-  height: 545px;
-  }
-  
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .layoutFlow > .state1_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
-  }
-  .ARAppScreen > .layoutFlow > .state1_elEmbed573400 > * { 
-    width: 100%;
-  height: 545px;
-  }
-  
 }
 
 .ARAppScreen .state1_elArbutton747870 {
@@ -1199,35 +1260,227 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elRectangle {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elText3474049 {
+    overflow: hidden;
     position: absolute;
-    left: 58px;
-    top: 111px;
-    width: 75px;
-    height: 75px;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
   }
 @media (min-width: 568px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elRectangle {
-    left: 58px;
-    top: 111px;
-    width: 75px;
-    height: 75px;
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
   }
 }
 @media (min-width: 768px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elRectangle {
-    left: 58px;
-    top: 110px;
-    width: 75px;
-    height: 75px;
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
   }
 }
 @media (min-width: 1024px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elRectangle {
-    left: 58px;
-    top: 110px;
-    width: 75px;
-    height: 75px;
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
+  }
+}
+
+  .ARAppScreen .state1_elList2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .ARAppScreen .state1_elList2 .gridItem {
+    float: left;
+    position: relative;
+  }
+
+@media (min-width: 1024px) {
+  .ARAppScreen .state1_elList2 .gridItem {
+    width: calc(100% / 2 - 9.0px*(1/2));
+    overflow: hidden;
+  }
+
+  .ARAppScreen .state1_elList2 .cols2_0 {
+    margin-right: 9.0px;
+    margin-bottom: 18.0px;
+    clear: left;
+  }
+  .ARAppScreen .state1_elList2 .cols2_1 {
+    margin-bottom: 18.0px;
+  }
+  .ARAppScreen .state1_elList2 .cols2_1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .ARAppScreen .state1_elList2 .gridItem {
+    width: calc(100% / 2 - 9.0px*(1/2));
+    overflow: hidden;
+  }
+
+  .ARAppScreen .state1_elList2 .cols2_0 {
+    margin-right: 9.0px;
+    margin-bottom: 18.0px;
+    clear: left;
+  }
+  .ARAppScreen .state1_elList2 .cols2_1 {
+    margin-bottom: 18.0px;
+  }
+  .ARAppScreen .state1_elList2 .cols2_1:after { }
+  .ARAppScreen .state1_elList2 .cols2_1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .ARAppScreen .state1_elList2 .gridItem {
+    width: calc(100% / 2 - 9.1px*(1/2));
+    overflow: hidden;
+  }
+
+  .ARAppScreen .state1_elList2 .cols2_0 { margin-right: 0; margin-bottom: 0; }
+  .ARAppScreen .state1_elList2 .cols2_1 { margin-right: 0; margin-bottom: 0; }
+  .ARAppScreen .state1_elList2 .cols2_0 {
+    margin-right: 9.1px;
+    margin-bottom: 18.1px;
+    clear: left;
+  }
+  .ARAppScreen .state1_elList2 .cols2_1 {
+    margin-bottom: 18.1px;
+  }
+  .ARAppScreen .state1_elList2 .cols2_1:after { }
+  .ARAppScreen .state1_elList2 .cols2_1:after { }
+  .ARAppScreen .state1_elList2 .cols2_1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+@media (max-width: 567px) {
+  .ARAppScreen .state1_elList2 .gridItem {
+    width: calc(100% / 2 - 9.1px*(1/2));
+    overflow: hidden;
+  }
+
+  .ARAppScreen .state1_elList2 .cols2_0 { margin-right: 0; margin-bottom: 0; }
+  .ARAppScreen .state1_elList2 .cols2_1 { margin-right: 0; margin-bottom: 0; }
+  .ARAppScreen .state1_elList2 .cols2_0 { margin-right: 0; margin-bottom: 0; }
+  .ARAppScreen .state1_elList2 .cols2_1 { margin-right: 0; margin-bottom: 0; }
+  .ARAppScreen .state1_elList2 .cols2_0 {
+    margin-right: 9.1px;
+    margin-bottom: 18.1px;
+    clear: left;
+  }
+  .ARAppScreen .state1_elList2 .cols2_1 {
+    margin-bottom: 18.1px;
+  }
+  .ARAppScreen .state1_elList2 .cols2_1:after { }
+  .ARAppScreen .state1_elList2 .cols2_1:after { }
+  .ARAppScreen .state1_elList2 .cols2_1:after { }
+  .ARAppScreen .state1_elList2 .cols2_1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elList2 {
+    position: absolute;
+    left: calc(50.0% + 0px - 146px);
+    top: 92px;
+    width: 291px;
+    height: 370px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elList2 {
+    left: calc(50.0% + 0px - 146px);
+    top: 92px;
+    width: 291px;
+    height: 370px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elList2 {
+    left: calc(50.0% + 0px - 145px);
+    top: 91px;
+    width: 290px;
+    height: 368px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elList2 {
+    left: calc(50.0% + 0px - 145px);
+    top: 91px;
+    width: 290px;
+    height: 368px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state2_elEmbed573400 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 495px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state2_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 495px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state2_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 492px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state2_elEmbed573400 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 492px;
   }
 }
 
@@ -1267,63 +1520,6 @@
     width: 100.0%;
     height: 100%;
   }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .layoutFlow > .state2_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
-  }
-  .ARAppScreen > .layoutFlow > .state2_elEmbed573400 > * { 
-    width: 100%;
-  height: 548px;
-  }
-  
-@media (min-width: 568px) {
-  .ARAppScreen > .layoutFlow > .state2_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
-  }
-  .ARAppScreen > .layoutFlow > .state2_elEmbed573400 > * { 
-    width: 100%;
-  height: 548px;
-  }
-  
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .layoutFlow > .state2_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
-  }
-  .ARAppScreen > .layoutFlow > .state2_elEmbed573400 > * { 
-    width: 100%;
-  height: 545px;
-  }
-  
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .layoutFlow > .state2_elEmbed573400 {
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
-  }
-  .ARAppScreen > .layoutFlow > .state2_elEmbed573400 > * { 
-    width: 100%;
-  height: 545px;
-  }
-  
 }
 
 .ARAppScreen .state2_elArbutton747870 {
@@ -1466,7 +1662,7 @@
     position: absolute;
     left: 9px;
     right: 9px;
-    top: 22px;
+    top: 76px;
     width: calc(100.0% - 9px - 9px);
     height: 226px;
   }
@@ -1474,7 +1670,7 @@
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elList {
     left: 9px;
     right: 9px;
-    top: 22px;
+    top: 76px;
     width: calc(100.0% - 9px - 9px);
     height: 226px;
   }
@@ -1483,7 +1679,7 @@
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elList {
     left: 9px;
     right: 9px;
-    top: 22px;
+    top: 75px;
     width: calc(100.0% - 9px - 9px);
     height: 226px;
   }
@@ -1492,9 +1688,51 @@
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elList {
     left: 9px;
     right: 9px;
-    top: 22px;
+    top: 75px;
     width: calc(100.0% - 9px - 9px);
     height: 226px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elText3474049 {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
   }
 }
 

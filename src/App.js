@@ -6,6 +6,7 @@ import OnboardingScreen from './OnboardingScreen.js';
 import LoginScreen from './LoginScreen.js';
 import DataSheet_users from './DataSheet_users.js';
 import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
+import DataSheet_inventory from './DataSheet_inventory.js';
 
 
 export default class App extends Component {
@@ -15,6 +16,7 @@ export default class App extends Component {
     this.dataSheets = {};
     this.dataSheets['users'] = new DataSheet_users('users', this.dataSheetDidUpdate);
     this.dataSheets['localizationSheet'] = new DataSheet_localizationSheet('localizationSheet', this.dataSheetDidUpdate);
+    this.dataSheets['inventory'] = new DataSheet_inventory('inventory', this.dataSheetDidUpdate);
 
     this.dataSlots = {};
     this.dataSlots['ds_activeLang'] = "en";
@@ -25,7 +27,7 @@ export default class App extends Component {
     this.dataSlots['ds_thinking'] = "0";
     this.dataSlots['ds_humility'] = "0";
     this.dataSlots['ds_onboarding'] = "0";
-    this.dataSlots['ds_appState'] = "";
+    this.dataSlots['ds_appState'] = "0";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);
 

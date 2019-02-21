@@ -207,6 +207,31 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     this.items.push(item);
     item['key'] = "onboarding_button_301283";
     item['en'] = "Start Scanning Badges";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "arapp_text3_474049";
+    item['en'] = "EMERGENT VIRTUES";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "arapp_text3_99537";
+    item['en'] = "EMERGENT VIRTUES";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventoryitem_text_960490";
+    item['en'] = "COLLABORATION\n& EMERGENCE";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventoryitem_text_962334";
+    item['en'] = "????";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventoryitem_text_354864";
+    item['en'] = "COLLABORATION & EMERGENCE";
   }
 
   getStringsByLanguage = () => {
