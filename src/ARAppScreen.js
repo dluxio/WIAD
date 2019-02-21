@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import InventoryStatus from './InventoryStatus';
 import InventoryItem from './InventoryItem';
 import UserItem from './UserItem';
 
@@ -48,11 +49,12 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
+    const dataSheet_users = this.props.dataSheets['users'];
     const style_state0_elEmbed = {
         pointerEvents: 'auto',
      };
     // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://https://blushing-poet.glitch.me/\"></iframe>";
+    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://blushing-poet.glitch.me/\"></iframe>";
     
     
     const style_state0_elArbutton747870 = {
@@ -76,6 +78,12 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
+    const style_state0_elText3474049 = {
+        fontSize: 12.9,
+        color: 'rgba(0, 0, 0, 0.8500)',
+        textAlign: 'center',
+     };
+    const data_state0_elInventoryStatus450939 = dataSheet_users.items[3];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -95,6 +103,12 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state0_elLeaderbutton675644' style={style_state0_elLeaderbutton675644}  color="accent" onClick={this.onClick_state0_elLeaderbutton675644} >
               {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
             </Button>
+            <div className='font-arialBoldMT  state0_elText3474049' style={style_state0_elText3474049}>
+              <div>{this.props.locStrings.arapp_text3_474049}</div>
+            </div>
+            <div className='hasNestedComps state0_elInventoryStatus450939'>
+              <InventoryStatus {...data_state0_elInventoryStatus450939} ref={(el)=> this._state0_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
+            </div>
           </div>
         </div>
       </div>
@@ -138,6 +152,7 @@ export default class ARAppScreen extends Component {
     }
     
     const dataSheet_inventory = this.props.dataSheets['inventory'];
+    const dataSheet_users = this.props.dataSheets['users'];
     const style_state1_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -179,6 +194,7 @@ export default class ARAppScreen extends Component {
         color: 'rgba(0, 0, 0, 0.8500)',
         textAlign: 'center',
      };
+    const data_state1_elInventoryStatus450939 = dataSheet_users.items[3];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -220,6 +236,9 @@ export default class ARAppScreen extends Component {
             </Button>
             <div className='font-arialBoldMT  state1_elText3474049' style={style_state1_elText3474049}>
               <div>{this.props.locStrings.arapp_text3_474049}</div>
+            </div>
+            <div className='hasNestedComps state1_elInventoryStatus450939'>
+              <InventoryStatus {...data_state1_elInventoryStatus450939} ref={(el)=> this._state1_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
           </div>
         </div>
@@ -263,8 +282,8 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_users = this.props.dataSheets['users'];
     const dataSheet_inventory = this.props.dataSheets['inventory'];
+    const dataSheet_users = this.props.dataSheets['users'];
     const style_state2_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -306,6 +325,7 @@ export default class ARAppScreen extends Component {
         color: 'rgba(0, 0, 0, 0.8500)',
         textAlign: 'center',
      };
+    const data_state2_elInventoryStatus450939 = dataSheet_users.items[3];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -342,6 +362,9 @@ export default class ARAppScreen extends Component {
             </Button>
             <div className='font-arialBoldMT  state2_elText3474049' style={style_state2_elText3474049}>
               <div>{this.props.locStrings.arapp_text3_474049}</div>
+            </div>
+            <div className='hasNestedComps state2_elInventoryStatus450939'>
+              <InventoryStatus {...data_state2_elInventoryStatus450939} ref={(el)=> this._state2_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
           </div>
         </div>

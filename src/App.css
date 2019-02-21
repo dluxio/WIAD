@@ -288,16 +288,6 @@
   }
 
 
-  .Empathy > .background > .state0_elBackground661066 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-
-
   .Empathy > .foreground > .state0_elEmpathyicon {
     position: absolute;
     left: 0px;
@@ -315,16 +305,6 @@
   }
   .Empathy > .background > .containerMinHeight {
     min-height: 23px;
-  }
-
-
-  .Empathy > .background > .state1_elBackground661066 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
   }
 
 
@@ -348,16 +328,6 @@
   }
 
 
-  .Collaboration > .background > .state0_elBackground615063 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-
-
   .Collaboration > .foreground > .state0_elCollaborationicon {
     position: absolute;
     left: 0px;
@@ -375,16 +345,6 @@
   }
   .Collaboration > .background > .containerMinHeight {
     min-height: 23px;
-  }
-
-
-  .Collaboration > .background > .state1_elBackground615063 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
   }
 
 
@@ -408,16 +368,6 @@
   }
 
 
-  .Ethics > .background > .state0_elBackground144352 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-
-
   .Ethics > .foreground > .state0_elEthicsicon {
     position: absolute;
     left: 0px;
@@ -435,16 +385,6 @@
   }
   .Ethics > .background > .containerMinHeight {
     min-height: 23px;
-  }
-
-
-  .Ethics > .background > .state1_elBackground144352 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
   }
 
 
@@ -468,16 +408,6 @@
   }
 
 
-  .Curiosity > .background > .state0_elBackground523487 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-
-
   .Curiosity > .foreground > .state0_elCuriosityicon {
     position: absolute;
     left: 0px;
@@ -495,16 +425,6 @@
   }
   .Curiosity > .background > .containerMinHeight {
     min-height: 23px;
-  }
-
-
-  .Curiosity > .background > .state1_elBackground523487 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
   }
 
 
@@ -528,16 +448,6 @@
   }
 
 
-  .Humility > .background > .state0_elBackground1020642 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-
-
   .Humility > .foreground > .state0_elHumilityicon {
     position: absolute;
     left: 0px;
@@ -555,16 +465,6 @@
   }
   .Humility > .background > .containerMinHeight {
     min-height: 23px;
-  }
-
-
-  .Humility > .background > .state1_elBackground1020642 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
   }
 
 
@@ -588,16 +488,6 @@
   }
 
 
-  .Thinking > .background > .state0_elBackground710099 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-
-
   .Thinking > .foreground > .state0_elThinkingicon {
     position: absolute;
     left: 0px;
@@ -615,16 +505,6 @@
   }
   .Thinking > .background > .containerMinHeight {
     min-height: 23px;
-  }
-
-
-  .Thinking > .background > .state1_elBackground710099 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
   }
 
 
@@ -875,6 +755,136 @@
     height: 119px;
   }
 
+/* This component has a fixed-size layout */
+  .InventoryStatus {
+    min-height: 33px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 184px */
+  }
+  .InventoryStatus > .background > .containerMinHeight {
+    min-height: 33px;
+  }
+
+.InventoryStatus .elHumility {
+  overflow: hidden;
+}
+
+.InventoryStatus .elHumility.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventoryStatus > .foreground > .elHumility {
+    position: absolute;
+    left: 154px;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+  }
+
+.InventoryStatus .elThinking {
+  overflow: hidden;
+}
+
+.InventoryStatus .elThinking.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventoryStatus > .foreground > .elThinking {
+    position: absolute;
+    left: 125px;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+  }
+
+.InventoryStatus .elCuriosity {
+  overflow: hidden;
+}
+
+.InventoryStatus .elCuriosity.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventoryStatus > .foreground > .elCuriosity {
+    position: absolute;
+    left: 98px;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+  }
+
+.InventoryStatus .elEthics {
+  overflow: hidden;
+}
+
+.InventoryStatus .elEthics.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventoryStatus > .foreground > .elEthics {
+    position: absolute;
+    left: 69px;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+  }
+
+.InventoryStatus .elCollaboration {
+  overflow: hidden;
+}
+
+.InventoryStatus .elCollaboration.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventoryStatus > .foreground > .elCollaboration {
+    position: absolute;
+    left: 35px;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+  }
+
+.InventoryStatus .elEmpathy {
+  overflow: hidden;
+}
+
+.InventoryStatus .elEmpathy.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventoryStatus > .foreground > .elEmpathy {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+  }
+
 
 /* Narrowest size for this element's responsive layout */
   .ARAppScreen > .background > .state0_elEmbed {
@@ -1040,6 +1050,109 @@
     width: 90px;
     height: 52px;
   }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elText3474049 {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elText3474049 {
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    top: 24px;
+    width: 100.0%;
+    height: 26px;
+  }
+}
+
+.ARAppScreen .state0_elInventoryStatus450939 {
+  overflow: hidden;
+}
+
+.ARAppScreen .state0_elInventoryStatus450939.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus450939 {
+    position: absolute;
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 184px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 33px;
+  }
+
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 184px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 33px;
+  }
+
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 183px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 183px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
 }
 
 
@@ -1412,6 +1525,67 @@
   }
 }
 
+.ARAppScreen .state1_elInventoryStatus450939 {
+  overflow: hidden;
+}
+
+.ARAppScreen .state1_elInventoryStatus450939.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus450939 {
+    position: absolute;
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 184px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 33px;
+  }
+
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 184px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 33px;
+  }
+
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 183px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 183px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+}
+
 
 /* Narrowest size for this element's responsive layout */
   .ARAppScreen > .background > .state2_elBackground569119 {
@@ -1459,10 +1633,10 @@
 /* Narrowest size for this element's responsive layout */
   .ARAppScreen > .layoutFlow > .state2_elList {
     position: relative;
-    margin-top: 54px;
-    margin-left: 9px;
+    margin-top: 108px;
+    margin-left: calc(50.0% - 151px);
     margin-right: 9px;
-    width: calc(100.0% - 18px);
+    width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
     width: 100%;
@@ -1471,10 +1645,10 @@
 @media (min-width: 568px) {
   .ARAppScreen > .layoutFlow > .state2_elList {
     position: relative;
-    margin-top: 54px;
-    margin-left: 9px;
+    margin-top: 108px;
+    margin-left: calc(50.0% - 151px);
     margin-right: 9px;
-    width: calc(100.0% - 18px);
+    width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
     width: 100%;
@@ -1484,10 +1658,10 @@
 @media (min-width: 768px) {
   .ARAppScreen > .layoutFlow > .state2_elList {
     position: relative;
-    margin-top: 53px;
-    margin-left: 9px;
+    margin-top: 108px;
+    margin-left: calc(50.0% - 150px);
     margin-right: 9px;
-    width: calc(100.0% - 18px);
+    width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
     width: 100%;
@@ -1497,10 +1671,10 @@
 @media (min-width: 1024px) {
   .ARAppScreen > .layoutFlow > .state2_elList {
     position: relative;
-    margin-top: 53px;
-    margin-left: 9px;
+    margin-top: 108px;
+    margin-left: calc(50.0% - 150px);
     margin-right: 9px;
-    width: calc(100.0% - 18px);
+    width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
     width: 100%;
@@ -1677,6 +1851,67 @@
     width: 100.0%;
     height: 26px;
   }
+}
+
+.ARAppScreen .state2_elInventoryStatus450939 {
+  overflow: hidden;
+}
+
+.ARAppScreen .state2_elInventoryStatus450939.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus450939 {
+    position: absolute;
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 184px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 33px;
+  }
+
+@media (min-width: 568px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 184px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 33px;
+  }
+
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 183px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus450939 {
+    left: calc(50.0% + 0px - 92px);
+    top: 42px;
+    width: 183px;
+    height: 32px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus450939 > .background > .containerMinHeight {
+    min-height: 32px;
+  }
+
 }
 
 

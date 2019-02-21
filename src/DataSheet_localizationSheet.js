@@ -232,6 +232,11 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     this.items.push(item);
     item['key'] = "inventoryitem_text_354864";
     item['en'] = "CURIOSITY & GRIT";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "useritem2_text_225163";
+    item['en'] = "username1234";
   }
 
   getStringsByLanguage = () => {

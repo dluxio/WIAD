@@ -17,13 +17,6 @@ export default class Empathy extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
-    const style_state0_elBackground661066 = {
-        width: '100%',
-        height: '100%',
-     };
-    const style_state0_elBackground661066_outer = {
-        backgroundColor: '#f6f6f6',
-     };
     const style_state0_elEmpathyicon = {
         backgroundImage: 'url('+img_state0_elEmpathyicon+')',
         backgroundSize: '100% 100%',
@@ -31,13 +24,6 @@ export default class Empathy extends Component {
     
     return (
       <div className="Empathy" style={baseStyle}>
-        <div className="background">
-          <div className='appBg containerMinHeight state0_elBackground661066' style={style_state0_elBackground661066_outer}>
-            <div style={style_state0_elBackground661066} />
-          
-          </div>
-          
-        </div>
         <div className="foreground">
           <div className='containerMinHeight state0_elEmpathyicon' style={style_state0_elEmpathyicon} />
         </div>
@@ -53,13 +39,6 @@ export default class Empathy extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
-    const style_state1_elBackground661066 = {
-        width: '100%',
-        height: '100%',
-     };
-    const style_state1_elBackground661066_outer = {
-        backgroundColor: '#f6f6f6',
-     };
     const style_state1_elEmpathyicon = {
         backgroundImage: 'url('+img_state1_elEmpathyicon+')',
         backgroundSize: '100% 100%',
@@ -67,13 +46,6 @@ export default class Empathy extends Component {
     
     return (
       <div className="Empathy" style={baseStyle}>
-        <div className="background">
-          <div className='appBg containerMinHeight state1_elBackground661066' style={style_state1_elBackground661066_outer}>
-            <div style={style_state1_elBackground661066} />
-          
-          </div>
-          
-        </div>
         <div className="foreground">
           <div className='containerMinHeight state1_elEmpathyicon' style={style_state1_elEmpathyicon} />
         </div>
