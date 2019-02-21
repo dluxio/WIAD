@@ -33,7 +33,7 @@ export default class DataSheet_inventory extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['name'] = "COLLABORATION & EMERGENCE";
-    item['state'] = "0";
+    item['state'] = "1";
     item.key = key++;
     
     item = {};
