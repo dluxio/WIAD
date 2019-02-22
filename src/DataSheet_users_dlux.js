@@ -17,14 +17,14 @@ export default class DataSheet_users_dlux extends DataSheetBase {
     
     item = {};
     this.items.push(item);
-    item['ethics'] = "1";
+    item['ethics'] = "0";
     item['thinking'] = "1";
-    item['last'] = "1550821634801";
-    item['empathy'] = "1";
+    item['last'] = "16";
+    item['empathy'] = "0";
     item['username'] = "markegiles";
     item['curiosity'] = "0";
-    item['found'] = "3";
-    item['rank'] = "0";
+    item['found'] = "1";
+    item['rank'] = "1";
     item['collaboration'] = "0";
     item['humility'] = "0";
     item.key = key++;
@@ -33,12 +33,12 @@ export default class DataSheet_users_dlux extends DataSheetBase {
     this.items.push(item);
     item['ethics'] = "0";
     item['thinking'] = "1";
-    item['last'] = "1550821627347";
-    item['empathy'] = "1";
+    item['last'] = "151";
+    item['empathy'] = "0";
     item['username'] = "disregardfiat";
     item['curiosity'] = "0";
-    item['found'] = "2";
-    item['rank'] = "1";
+    item['found'] = "1";
+    item['rank'] = "2";
     item['collaboration'] = "0";
     item['humility'] = "0";
     item.key = key++;

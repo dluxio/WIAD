@@ -1,9 +1,9 @@
-.font-georgiaBold {
+.font-helveticaNeueBold {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
 }
 @media (min-resolution: 120dpi) {
-  .font-georgiaBold {
-    font-family: 'Georgia-Bold', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+  .font-helveticaNeueBold {
+    font-family: 'HelveticaNeue-Bold', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
   }
 }
 
@@ -16,12 +16,12 @@
   }
 }
 
-.font-georgiaItalic {
+.font-helveticaNeueItalic {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
 }
 @media (min-resolution: 120dpi) {
-  .font-georgiaItalic {
-    font-family: 'Georgia-Italic', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+  .font-helveticaNeueItalic {
+    font-family: 'HelveticaNeue-Italic', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
   }
 }
 
@@ -1023,12 +1023,22 @@
 
 /* This component has a fixed-size layout */
   .InventoryStatus {
-    min-height: 33px;
+    min-height: 58px;
     overflow: hidden;
-    width: 100%; /* This component was designed using a width of 184px */
+    width: 100%; /* This component was designed using a width of 340px */
   }
   .InventoryStatus > .background > .containerMinHeight {
-    min-height: 33px;
+    min-height: 58px;
+  }
+
+
+  .InventoryStatus > .background > .elBackground {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
   }
 
 .InventoryStatus .elHumility {
@@ -1045,10 +1055,10 @@
 
   .InventoryStatus > .foreground > .elHumility {
     position: absolute;
-    left: 154px;
-    top: 4px;
-    width: 23px;
-    height: 23px;
+    left: calc(50.0% + 59px - 9px);
+    top: 33px;
+    width: 18px;
+    height: 18px;
   }
 
 .InventoryStatus .elThinking {
@@ -1065,10 +1075,10 @@
 
   .InventoryStatus > .foreground > .elThinking {
     position: absolute;
-    left: 125px;
-    top: 4px;
-    width: 23px;
-    height: 23px;
+    left: calc(50.0% + 36px - 9px);
+    top: 33px;
+    width: 18px;
+    height: 18px;
   }
 
 .InventoryStatus .elCuriosity {
@@ -1085,10 +1095,10 @@
 
   .InventoryStatus > .foreground > .elCuriosity {
     position: absolute;
-    left: 98px;
-    top: 4px;
-    width: 23px;
-    height: 23px;
+    left: calc(50.0% + 14px - 9px);
+    top: 33px;
+    width: 18px;
+    height: 18px;
   }
 
 .InventoryStatus .elEthics {
@@ -1105,10 +1115,10 @@
 
   .InventoryStatus > .foreground > .elEthics {
     position: absolute;
-    left: 69px;
-    top: 4px;
-    width: 23px;
-    height: 23px;
+    left: calc(50.0% + -11px - 9px);
+    top: 33px;
+    width: 18px;
+    height: 18px;
   }
 
 .InventoryStatus .elCollaboration {
@@ -1125,10 +1135,10 @@
 
   .InventoryStatus > .foreground > .elCollaboration {
     position: absolute;
-    left: 35px;
-    top: 4px;
-    width: 23px;
-    height: 23px;
+    left: calc(50.0% + -36px - 9px);
+    top: 33px;
+    width: 18px;
+    height: 18px;
   }
 
 .InventoryStatus .elEmpathy {
@@ -1145,10 +1155,70 @@
 
   .InventoryStatus > .foreground > .elEmpathy {
     position: absolute;
-    left: 4px;
-    top: 4px;
-    width: 23px;
-    height: 23px;
+    left: calc(50.0% + -59px - 9px);
+    top: 33px;
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .InventoryStatus > .foreground > .elText3 {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 88px);
+    top: 10px;
+    width: 176px;
+    height: 19px;
+  }
+
+
+  .InventoryStatus > .foreground > .elText2 {
+    overflow: hidden;
+    position: absolute;
+    left: calc(85.0% + 0px - 23px);
+    top: 32px;
+    width: 46px;
+    height: 26px;
+  }
+
+
+  .InventoryStatus > .foreground > .elText {
+    overflow: hidden;
+    position: absolute;
+    left: calc(85.0% + 0px - 32px);
+    top: 9px;
+    width: 65px;
+    height: 26px;
+  }
+
+
+  .InventoryStatus > .foreground > .elTextCopy {
+    overflow: hidden;
+    position: absolute;
+    left: calc(15.0% + 0px - 36px);
+    top: 9px;
+    width: 72px;
+    height: 26px;
+  }
+
+
+  .InventoryStatus > .foreground > .elTextCopy2 {
+    overflow: hidden;
+    position: absolute;
+    left: calc(15.0% + -7px - 7px);
+    top: 32px;
+    width: 13px;
+    height: 26px;
+  }
+
+
+  .InventoryStatus > .foreground > .elTextCopy3 {
+    overflow: hidden;
+    position: absolute;
+    left: calc(15.0% + 7px - 10px);
+    top: 32px;
+    width: 20px;
+    height: 26px;
   }
 
 /* This component has a fixed-size layout */
@@ -1244,12 +1314,11 @@
   .InventorySlots > .layoutFlow > .elThinkingSlot {
     position: relative;
     margin-top: -120px;
+    width: 154px;
     margin-left: calc(75.0% - 77px);
-    margin-right: 0px;
-    width: calc(100.0% - 0px);
   }
   .InventorySlots > .layoutFlow > .elThinkingSlot > * { 
-    width: 100%;
+  width: 154px;
   }
   
 
@@ -1461,48 +1530,6 @@
   }
 }
 
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .screenFgContainer > .foreground > .state0_elText3474049 {
-    overflow: hidden;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state0_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state0_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state0_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-
 .ARAppScreen .state0_elInventorybutton205650 {
   border: 0.0px solid transparent;
 }
@@ -1561,48 +1588,52 @@
 /* Narrowest size for this element's responsive layout */
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 {
     position: absolute;
-    left: calc(50.0% + 0px - 92px);
-    top: 41px;
-    width: 184px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 33px;
+    min-height: 58px;
   }
 
 @media (min-width: 568px) {
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
-    top: 41px;
-    width: 184px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 33px;
+    min-height: 58px;
   }
 
 }
 @media (min-width: 768px) {
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
-    top: 40px;
-    width: 183px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 32px;
+    min-height: 58px;
   }
 
 }
 @media (min-width: 1024px) {
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
-    top: 40px;
-    width: 183px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 32px;
+    min-height: 58px;
   }
 
 }
@@ -1883,48 +1914,6 @@
   }
 }
 
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elText3474049 {
-    overflow: hidden;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state1_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-
 .ARAppScreen .state1_elInventorybutton205650 {
   border: 0.0px solid transparent;
 }
@@ -1983,48 +1972,52 @@
 /* Narrowest size for this element's responsive layout */
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 {
     position: absolute;
-    left: calc(50.0% + 0px - 92px);
-    top: 41px;
-    width: 184px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 33px;
+    min-height: 58px;
   }
 
 @media (min-width: 568px) {
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
-    top: 41px;
-    width: 184px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 33px;
+    min-height: 58px;
   }
 
 }
 @media (min-width: 768px) {
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
-    top: 40px;
-    width: 183px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 32px;
+    min-height: 58px;
   }
 
 }
 @media (min-width: 1024px) {
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
-    top: 40px;
-    width: 183px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 32px;
+    min-height: 58px;
   }
 
 }
@@ -2152,51 +2145,47 @@
 /* Narrowest size for this element's responsive layout */
   .ARAppScreen > .layoutFlow > .state2_elList {
     position: relative;
-    margin-top: 108px;
+    margin-top: 70px;
+    width: 302px;
     margin-left: calc(50.0% - 151px);
-    margin-right: 9px;
-    width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
-    width: 100%;
+  width: 302px;
   }
   
 @media (min-width: 568px) {
   .ARAppScreen > .layoutFlow > .state2_elList {
     position: relative;
-    margin-top: 108px;
+    margin-top: 70px;
+    width: 302px;
     margin-left: calc(50.0% - 151px);
-    margin-right: 9px;
-    width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
-    width: 100%;
+  width: 302px;
   }
   
 }
 @media (min-width: 768px) {
   .ARAppScreen > .layoutFlow > .state2_elList {
     position: relative;
-    margin-top: 108px;
+    margin-top: 69px;
+    width: 300px;
     margin-left: calc(50.0% - 150px);
-    margin-right: 9px;
-    width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
-    width: 100%;
+  width: 300px;
   }
   
 }
 @media (min-width: 1024px) {
   .ARAppScreen > .layoutFlow > .state2_elList {
     position: relative;
-    margin-top: 108px;
+    margin-top: 69px;
+    width: 300px;
     margin-left: calc(50.0% - 150px);
-    margin-right: 9px;
-    width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
-    width: 100%;
+  width: 300px;
   }
   
 }
@@ -2287,48 +2276,6 @@
   }
 }
 
-
-/* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elText3474049 {
-    overflow: hidden;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elText3474049 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 24px;
-    width: 100.0%;
-    height: 26px;
-  }
-}
-
 .ARAppScreen .state2_elInventorybutton205650 {
   border: 0.0px solid transparent;
 }
@@ -2387,487 +2334,543 @@
 /* Narrowest size for this element's responsive layout */
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 {
     position: absolute;
-    left: calc(50.0% + 0px - 92px);
-    top: 41px;
-    width: 184px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 33px;
+    min-height: 58px;
   }
 
 @media (min-width: 568px) {
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
-    top: 41px;
-    width: 184px;
-    height: 32px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 33px;
+    min-height: 58px;
   }
 
 }
 @media (min-width: 768px) {
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 63px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
+    min-height: 58px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 63px;
+  }
+  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
+    min-height: 58px;
+  }
+
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .background > .state0_elBackground682495 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .background > .state0_elBackground682495 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .background > .state0_elBackground682495 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .background > .state0_elBackground682495 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 113px - 30px);
+    top: 502px;
+    width: 60px;
+    height: 25px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
+    overflow: hidden;
+    left: calc(50.0% + 113px - 30px);
+    top: 502px;
+    width: 60px;
+    height: 25px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
+    overflow: hidden;
+    left: calc(50.0% + 112px - 30px);
+    top: 500px;
+    width: 60px;
+    height: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
+    overflow: hidden;
+    left: calc(50.0% + 112px - 30px);
+    top: 500px;
+    width: 60px;
+    height: 25px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + -113px - 30px);
+    top: 502px;
+    width: 60px;
+    height: 26px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip {
+    overflow: hidden;
+    left: calc(50.0% + -113px - 30px);
+    top: 502px;
+    width: 60px;
+    height: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip {
+    overflow: hidden;
+    left: calc(50.0% + -112px - 30px);
+    top: 500px;
+    width: 60px;
+    height: 26px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip {
+    overflow: hidden;
+    left: calc(50.0% + -112px - 30px);
+    top: 500px;
+    width: 60px;
+    height: 26px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elText {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 144px);
+    top: 56px;
+    width: 288px;
+    height: 86px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elText {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 144px);
+    top: 56px;
+    width: 288px;
+    height: 86px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elText {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 143px);
+    top: 56px;
+    width: 286px;
+    height: 86px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elText {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 143px);
+    top: 56px;
+    width: 286px;
+    height: 86px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 144px);
+    top: 156px;
+    width: 288px;
+    height: 43px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 144px);
+    top: 156px;
+    width: 288px;
+    height: 43px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 143px);
+    top: 154px;
+    width: 286px;
+    height: 42px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 143px);
+    top: 154px;
+    width: 286px;
+    height: 42px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elLine {
+    position: absolute;
+    left: calc(50.0% + 0px - 144px);
+    top: 144px;
+    width: 288px;
+    height: 2px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elLine {
+    left: calc(50.0% + 0px - 144px);
+    top: 144px;
+    width: 288px;
+    height: 2px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elLine {
+    left: calc(50.0% + 0px - 143px);
+    top: 142px;
+    width: 286px;
+    height: 2px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elLine {
+    left: calc(50.0% + 0px - 143px);
+    top: 142px;
+    width: 286px;
+    height: 2px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elOnboard1 {
+    position: absolute;
+    left: calc(50.0% + 0px - 122px);
+    top: 241px;
+    width: 244px;
+    height: 226px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elOnboard1 {
+    left: calc(50.0% + 0px - 122px);
+    top: 241px;
+    width: 244px;
+    height: 226px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elOnboard1 {
+    left: calc(50.0% + 0px - 121px);
+    top: 240px;
+    width: 242px;
+    height: 225px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elOnboard1 {
+    left: calc(50.0% + 0px - 121px);
+    top: 240px;
+    width: 242px;
+    height: 225px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .background > .state1_elBackground682495 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .background > .state1_elBackground682495 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .background > .state1_elBackground682495 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .background > .state1_elBackground682495 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 113px - 30px);
+    top: 502px;
+    width: 60px;
+    height: 26px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
+    overflow: hidden;
+    left: calc(50.0% + 113px - 30px);
+    top: 502px;
+    width: 60px;
+    height: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
+    overflow: hidden;
+    left: calc(50.0% + 112px - 30px);
+    top: 500px;
+    width: 60px;
+    height: 26px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
+    overflow: hidden;
+    left: calc(50.0% + 112px - 30px);
+    top: 500px;
+    width: 60px;
+    height: 26px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + -113px - 30px);
+    top: 502px;
+    width: 60px;
+    height: 26px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip {
+    overflow: hidden;
+    left: calc(50.0% + -113px - 30px);
+    top: 502px;
+    width: 60px;
+    height: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip {
+    overflow: hidden;
+    left: calc(50.0% + -112px - 30px);
+    top: 500px;
+    width: 60px;
+    height: 26px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip {
+    overflow: hidden;
+    left: calc(50.0% + -112px - 30px);
+    top: 500px;
+    width: 60px;
+    height: 26px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elTextCopy2 {
+    overflow: hidden;
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    top: 426px;
+    width: calc(100.0% - 18px - 18px);
+    height: 42px;
+  }
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elTextCopy2 {
+    overflow: hidden;
+    left: 18px;
+    right: 18px;
+    top: 426px;
+    width: calc(100.0% - 18px - 18px);
+    height: 42px;
+  }
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elTextCopy2 {
+    overflow: hidden;
+    left: 18px;
+    right: 18px;
+    top: 424px;
+    width: calc(100.0% - 18px - 18px);
+    height: 42px;
+  }
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elTextCopy2 {
+    overflow: hidden;
+    left: 18px;
+    right: 18px;
+    top: 424px;
+    width: calc(100.0% - 18px - 18px);
+    height: 42px;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText2 {
+    overflow: hidden;
+    position: absolute;
+    left: 18px;
+    right: 18px;
     top: 40px;
-    width: 183px;
-    height: 32px;
+    width: calc(100.0% - 18px - 18px);
+    height: 40px;
   }
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 32px;
-  }
-
-}
-@media (min-width: 1024px) {
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 {
-    left: calc(50.0% + 0px - 92px);
+@media (min-width: 568px) {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText2 {
+    overflow: hidden;
+    left: 18px;
+    right: 18px;
     top: 40px;
-    width: 183px;
-    height: 32px;
-  }
-  .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 32px;
-  }
-
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .background > .state0_elBackground682495 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .background > .state0_elBackground682495 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .background > .state0_elBackground682495 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .background > .state0_elBackground682495 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
-    overflow: hidden;
-    position: fixed;
-    right: 23px;
-    bottom: 23px;
-    width: 60px;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
-    overflow: hidden;
-    right: 23px;
-    bottom: 23px;
-    width: 60px;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
-    overflow: hidden;
-    right: 22px;
-    bottom: 22px;
-    width: 60px;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
-    overflow: hidden;
-    right: 22px;
-    bottom: 22px;
-    width: 60px;
-    height: 26px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip9690 {
-    overflow: hidden;
-    position: fixed;
-    left: 23px;
-    bottom: 23px;
-    width: 60px;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip9690 {
-    overflow: hidden;
-    left: 23px;
-    bottom: 23px;
-    width: 60px;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip9690 {
-    overflow: hidden;
-    left: 22px;
-    bottom: 22px;
-    width: 60px;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip9690 {
-    overflow: hidden;
-    left: 22px;
-    bottom: 22px;
-    width: 60px;
-    height: 26px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elText {
-    overflow: hidden;
-    position: absolute;
-    left: 23px;
-    right: 23px;
-    top: 56px;
-    width: calc(100.0% - 23px - 23px);
-    height: 86px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elText {
-    overflow: hidden;
-    left: 23px;
-    right: 23px;
-    top: 56px;
-    width: calc(100.0% - 23px - 23px);
-    height: 86px;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elText {
-    overflow: hidden;
-    left: 22px;
-    right: 22px;
-    top: 56px;
-    width: calc(100.0% - 23px - 22px);
-    height: 86px;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elText {
-    overflow: hidden;
-    left: 22px;
-    right: 22px;
-    top: 56px;
-    width: calc(100.0% - 23px - 22px);
-    height: 86px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
-    overflow: hidden;
-    position: absolute;
-    left: 23px;
-    right: 23px;
-    top: 136px;
-    width: calc(100.0% - 23px - 23px);
-    height: 78px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
-    overflow: hidden;
-    left: 23px;
-    right: 23px;
-    top: 136px;
-    width: calc(100.0% - 23px - 23px);
-    height: 78px;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
-    overflow: hidden;
-    left: 22px;
-    right: 22px;
-    top: 135px;
-    width: calc(100.0% - 23px - 22px);
-    height: 78px;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
-    overflow: hidden;
-    left: 22px;
-    right: 22px;
-    top: 135px;
-    width: calc(100.0% - 23px - 22px);
-    height: 78px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .background > .state1_elBackground682495 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .background > .state1_elBackground682495 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .background > .state1_elBackground682495 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .background > .state1_elBackground682495 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
-    overflow: hidden;
-    position: fixed;
-    right: 23px;
-    bottom: 23px;
-    width: 60px;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
-    overflow: hidden;
-    right: 23px;
-    bottom: 23px;
-    width: 60px;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
-    overflow: hidden;
-    right: 22px;
-    bottom: 22px;
-    width: 60px;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
-    overflow: hidden;
-    right: 22px;
-    bottom: 22px;
-    width: 60px;
-    height: 26px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip9690 {
-    overflow: hidden;
-    position: fixed;
-    left: 23px;
-    bottom: 23px;
-    width: 60px;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip9690 {
-    overflow: hidden;
-    left: 23px;
-    bottom: 23px;
-    width: 60px;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip9690 {
-    overflow: hidden;
-    left: 22px;
-    bottom: 22px;
-    width: 60px;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip9690 {
-    overflow: hidden;
-    left: 22px;
-    bottom: 22px;
-    width: 60px;
-    height: 26px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elTextCopy2 {
-    overflow: hidden;
-    position: fixed;
-    left: 23px;
-    right: 23px;
-    bottom: 91px;
-    width: calc(100.0% - 23px - 23px);
-    height: 40px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elTextCopy2 {
-    overflow: hidden;
-    left: 23px;
-    right: 23px;
-    bottom: 91px;
-    width: calc(100.0% - 23px - 23px);
-    height: 40px;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elTextCopy2 {
-    overflow: hidden;
-    left: 22px;
-    right: 22px;
-    bottom: 90px;
-    width: calc(100.0% - 23px - 22px);
-    height: 40px;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elTextCopy2 {
-    overflow: hidden;
-    left: 22px;
-    right: 22px;
-    bottom: 90px;
-    width: calc(100.0% - 23px - 22px);
-    height: 40px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText2 {
-    overflow: hidden;
-    position: absolute;
-    left: 23px;
-    right: 23px;
-    top: 90px;
-    width: calc(100.0% - 23px - 23px);
-    height: 40px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText2 {
-    overflow: hidden;
-    left: 23px;
-    right: 23px;
-    top: 90px;
-    width: calc(100.0% - 23px - 23px);
+    width: calc(100.0% - 18px - 18px);
     height: 40px;
   }
 }
 @media (min-width: 768px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText2 {
     overflow: hidden;
-    left: 22px;
-    right: 22px;
-    top: 90px;
-    width: calc(100.0% - 23px - 22px);
+    left: 18px;
+    right: 18px;
+    top: 40px;
+    width: calc(100.0% - 18px - 18px);
     height: 40px;
   }
 }
 @media (min-width: 1024px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText2 {
     overflow: hidden;
-    left: 22px;
-    right: 22px;
-    top: 90px;
-    width: calc(100.0% - 23px - 22px);
+    left: 18px;
+    right: 18px;
+    top: 40px;
+    width: calc(100.0% - 18px - 18px);
     height: 40px;
   }
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText3623545 {
-    overflow: hidden;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elOnboard2 {
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 46px;
-    width: 100.0%;
-    height: 26px;
+    left: calc(50.0% + 0px - 156px);
+    top: 108px;
+    width: 312px;
+    height: 284px;
   }
 @media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText3623545 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 46px;
-    width: 100.0%;
-    height: 26px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elOnboard2 {
+    left: calc(50.0% + 0px - 156px);
+    top: 108px;
+    width: 312px;
+    height: 284px;
   }
 }
 @media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText3623545 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 45px;
-    width: 100.0%;
-    height: 26px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elOnboard2 {
+    left: calc(50.0% + 0px - 155px);
+    top: 108px;
+    width: 310px;
+    height: 282px;
   }
 }
 @media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elText3623545 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 45px;
-    width: 100.0%;
-    height: 26px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state1_elOnboard2 {
+    left: calc(50.0% + 0px - 155px);
+    top: 108px;
+    width: 310px;
+    height: 282px;
   }
 }
 
@@ -2913,17 +2916,17 @@
 /* Narrowest size for this element's responsive layout */
   .OnboardingScreen > .screenFgContainer > .foreground > .state2_elNext {
     overflow: hidden;
-    position: fixed;
-    right: 23px;
-    bottom: 23px;
+    position: absolute;
+    left: calc(50.0% + 113px - 30px);
+    top: 502px;
     width: 60px;
     height: 26px;
   }
 @media (min-width: 568px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state2_elNext {
     overflow: hidden;
-    right: 23px;
-    bottom: 23px;
+    left: calc(50.0% + 113px - 30px);
+    top: 502px;
     width: 60px;
     height: 26px;
   }
@@ -2931,8 +2934,8 @@
 @media (min-width: 768px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state2_elNext {
     overflow: hidden;
-    right: 22px;
-    bottom: 22px;
+    left: calc(50.0% + 112px - 30px);
+    top: 500px;
     width: 60px;
     height: 26px;
   }
@@ -2940,8 +2943,8 @@
 @media (min-width: 1024px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state2_elNext {
     overflow: hidden;
-    right: 22px;
-    bottom: 22px;
+    left: calc(50.0% + 112px - 30px);
+    top: 500px;
     width: 60px;
     height: 26px;
   }
@@ -2949,37 +2952,37 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elSkip9690 {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elSkip {
     overflow: hidden;
-    position: fixed;
-    left: 23px;
-    bottom: 23px;
+    position: absolute;
+    left: calc(50.0% + -113px - 30px);
+    top: 502px;
     width: 60px;
     height: 26px;
   }
 @media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elSkip9690 {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elSkip {
     overflow: hidden;
-    left: 23px;
-    bottom: 23px;
+    left: calc(50.0% + -113px - 30px);
+    top: 502px;
     width: 60px;
     height: 26px;
   }
 }
 @media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elSkip9690 {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elSkip {
     overflow: hidden;
-    left: 22px;
-    bottom: 22px;
+    left: calc(50.0% + -112px - 30px);
+    top: 500px;
     width: 60px;
     height: 26px;
   }
 }
 @media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elSkip9690 {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elSkip {
     overflow: hidden;
-    left: 22px;
-    bottom: 22px;
+    left: calc(50.0% + -112px - 30px);
+    top: 500px;
     width: 60px;
     height: 26px;
   }
@@ -2989,21 +2992,21 @@
 /* Narrowest size for this element's responsive layout */
   .OnboardingScreen > .screenFgContainer > .foreground > .state2_elTextCopy2 {
     overflow: hidden;
-    position: fixed;
+    position: absolute;
     left: 18px;
     right: 18px;
-    bottom: 73px;
+    top: 399px;
     width: calc(100.0% - 18px - 18px);
-    height: 70px;
+    height: 77px;
   }
 @media (min-width: 568px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state2_elTextCopy2 {
     overflow: hidden;
     left: 18px;
     right: 18px;
-    bottom: 73px;
+    top: 399px;
     width: calc(100.0% - 18px - 18px);
-    height: 70px;
+    height: 77px;
   }
 }
 @media (min-width: 768px) {
@@ -3011,9 +3014,9 @@
     overflow: hidden;
     left: 18px;
     right: 18px;
-    bottom: 72px;
+    top: 396px;
     width: calc(100.0% - 18px - 18px);
-    height: 70px;
+    height: 76px;
   }
 }
 @media (min-width: 1024px) {
@@ -3021,9 +3024,9 @@
     overflow: hidden;
     left: 18px;
     right: 18px;
-    bottom: 72px;
+    top: 396px;
     width: calc(100.0% - 18px - 18px);
-    height: 70px;
+    height: 76px;
   }
 }
 
@@ -3034,7 +3037,7 @@
     position: absolute;
     left: 18px;
     right: 18px;
-    top: 90px;
+    top: 40px;
     width: calc(100.0% - 18px - 18px);
     height: 40px;
   }
@@ -3043,7 +3046,7 @@
     overflow: hidden;
     left: 18px;
     right: 18px;
-    top: 90px;
+    top: 40px;
     width: calc(100.0% - 18px - 18px);
     height: 40px;
   }
@@ -3053,7 +3056,7 @@
     overflow: hidden;
     left: 18px;
     right: 18px;
-    top: 90px;
+    top: 40px;
     width: calc(100.0% - 18px - 18px);
     height: 40px;
   }
@@ -3063,7 +3066,7 @@
     overflow: hidden;
     left: 18px;
     right: 18px;
-    top: 90px;
+    top: 40px;
     width: calc(100.0% - 18px - 18px);
     height: 40px;
   }
@@ -3071,43 +3074,35 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elText3623545 {
-    overflow: hidden;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elOnboard3 {
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 46px;
-    width: 100.0%;
-    height: 26px;
+    left: calc(50.0% + 0px - 66px);
+    top: 116px;
+    width: 132px;
+    height: 242px;
   }
 @media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elText3623545 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 46px;
-    width: 100.0%;
-    height: 26px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elOnboard3 {
+    left: calc(50.0% + 0px - 66px);
+    top: 116px;
+    width: 132px;
+    height: 242px;
   }
 }
 @media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elText3623545 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 45px;
-    width: 100.0%;
-    height: 26px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elOnboard3 {
+    left: calc(50.0% + 0px - 65px);
+    top: 116px;
+    width: 130px;
+    height: 240px;
   }
 }
 @media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elText3623545 {
-    overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 45px;
-    width: 100.0%;
-    height: 26px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state2_elOnboard3 {
+    left: calc(50.0% + 0px - 65px);
+    top: 116px;
+    width: 130px;
+    height: 240px;
   }
 }
 
@@ -3147,57 +3142,171 @@
     width: 100.0%;
     height: 100%;
   }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 {
+    overflow: hidden;
+    position: relative;
+    margin-top: 145px;
+    width: 250px;
+    margin-left: calc(50.0% - 125px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 > * { 
+  width: 250px;
+  height: 24px;
+  }
+  
+@media (min-width: 568px) {
+  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 {
+    overflow: hidden;
+    position: relative;
+    margin-top: 145px;
+    width: 250px;
+    margin-left: calc(50.0% - 125px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 > * { 
+  width: 250px;
+  height: 24px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 {
+    overflow: hidden;
+    position: relative;
+    margin-top: 144px;
+    width: 249px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 > * { 
+  width: 249px;
+  height: 23px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 {
+    overflow: hidden;
+    position: relative;
+    margin-top: 144px;
+    width: 249px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 > * { 
+  width: 249px;
+  height: 23px;
+  }
+  
 }
 
 
 /* Narrowest size for this element's responsive layout */
   .OnboardingScreen > .layoutFlow > .state3_elPicker {
     position: relative;
-    margin-top: 140px;
+    margin-top: 12px;
     width: 249px;
     margin-left: calc(50.0% - 124px);
   }
   .OnboardingScreen > .layoutFlow > .state3_elPicker > * { 
   width: 249px;
-  height: 30px;
+  height: 35px;
   }
   
 @media (min-width: 568px) {
   .OnboardingScreen > .layoutFlow > .state3_elPicker {
     position: relative;
-    margin-top: 140px;
+    margin-top: 12px;
     width: 249px;
     margin-left: calc(50.0% - 124px);
   }
   .OnboardingScreen > .layoutFlow > .state3_elPicker > * { 
   width: 249px;
-  height: 30px;
+  height: 35px;
   }
   
 }
 @media (min-width: 768px) {
   .OnboardingScreen > .layoutFlow > .state3_elPicker {
     position: relative;
-    margin-top: 139px;
+    margin-top: 12px;
     width: 248px;
     margin-left: calc(50.0% - 124px);
   }
   .OnboardingScreen > .layoutFlow > .state3_elPicker > * { 
   width: 248px;
-  height: 30px;
+  height: 34px;
   }
   
 }
 @media (min-width: 1024px) {
   .OnboardingScreen > .layoutFlow > .state3_elPicker {
     position: relative;
-    margin-top: 139px;
+    margin-top: 12px;
     width: 248px;
     margin-left: calc(50.0% - 124px);
   }
   .OnboardingScreen > .layoutFlow > .state3_elPicker > * { 
   width: 248px;
-  height: 30px;
+  height: 34px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .layoutFlow > .state3_elText4 {
+    overflow: hidden;
+    position: relative;
+    margin-top: 29px;
+    width: 249px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elText4 > * { 
+  width: 249px;
+  height: 24px;
+  }
+  
+@media (min-width: 568px) {
+  .OnboardingScreen > .layoutFlow > .state3_elText4 {
+    overflow: hidden;
+    position: relative;
+    margin-top: 29px;
+    width: 249px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elText4 > * { 
+  width: 249px;
+  height: 24px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .layoutFlow > .state3_elText4 {
+    overflow: hidden;
+    position: relative;
+    margin-top: 29px;
+    width: 248px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elText4 > * { 
+  width: 248px;
+  height: 23px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .layoutFlow > .state3_elText4 {
+    overflow: hidden;
+    position: relative;
+    margin-top: 29px;
+    width: 248px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elText4 > * { 
+  width: 248px;
+  height: 23px;
   }
   
 }
@@ -3206,7 +3315,7 @@
 /* Narrowest size for this element's responsive layout */
   .OnboardingScreen > .layoutFlow > .state3_elTextarea {
     position: relative;
-    margin-top: 84px;
+    margin-top: 4px;
     width: 249px;
     margin-left: calc(50.0% - 124px);
   }
@@ -3218,7 +3327,7 @@
 @media (min-width: 568px) {
   .OnboardingScreen > .layoutFlow > .state3_elTextarea {
     position: relative;
-    margin-top: 84px;
+    margin-top: 4px;
     width: 249px;
     margin-left: calc(50.0% - 124px);
   }
@@ -3231,7 +3340,7 @@
 @media (min-width: 768px) {
   .OnboardingScreen > .layoutFlow > .state3_elTextarea {
     position: relative;
-    margin-top: 83px;
+    margin-top: 4px;
     width: 248px;
     margin-left: calc(50.0% - 124px);
   }
@@ -3244,7 +3353,7 @@
 @media (min-width: 1024px) {
   .OnboardingScreen > .layoutFlow > .state3_elTextarea {
     position: relative;
-    margin-top: 83px;
+    margin-top: 4px;
     width: 248px;
     margin-left: calc(50.0% - 124px);
   }
@@ -3257,157 +3366,39 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .layoutFlow > .state3_elText4 {
-    overflow: hidden;
-    position: relative;
-    margin-top: -202px;
-    width: 249px;
-    margin-left: calc(50.0% - 124px);
-  }
-  .OnboardingScreen > .layoutFlow > .state3_elText4 > * { 
-  width: 249px;
-  height: 24px;
-  }
-  
-@media (min-width: 568px) {
-  .OnboardingScreen > .layoutFlow > .state3_elText4 {
-    overflow: hidden;
-    position: relative;
-    margin-top: -202px;
-    width: 249px;
-    margin-left: calc(50.0% - 124px);
-  }
-  .OnboardingScreen > .layoutFlow > .state3_elText4 > * { 
-  width: 249px;
-  height: 24px;
-  }
-  
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .layoutFlow > .state3_elText4 {
-    overflow: hidden;
-    position: relative;
-    margin-top: -201px;
-    width: 248px;
-    margin-left: calc(50.0% - 124px);
-  }
-  .OnboardingScreen > .layoutFlow > .state3_elText4 > * { 
-  width: 248px;
-  height: 23px;
-  }
-  
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .layoutFlow > .state3_elText4 {
-    overflow: hidden;
-    position: relative;
-    margin-top: -201px;
-    width: 248px;
-    margin-left: calc(50.0% - 124px);
-  }
-  .OnboardingScreen > .layoutFlow > .state3_elText4 > * { 
-  width: 248px;
-  height: 23px;
-  }
-  
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 {
-    overflow: hidden;
-    position: relative;
-    margin-top: -134px;
-    width: 249px;
-    margin-left: calc(50.0% - 124px);
-  }
-  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 > * { 
-  width: 249px;
-  height: 24px;
-  }
-  
-@media (min-width: 568px) {
-  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 {
-    overflow: hidden;
-    position: relative;
-    margin-top: -134px;
-    width: 249px;
-    margin-left: calc(50.0% - 124px);
-  }
-  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 > * { 
-  width: 249px;
-  height: 24px;
-  }
-  
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 {
-    overflow: hidden;
-    position: relative;
-    margin-top: -134px;
-    width: 248px;
-    margin-left: calc(50.0% - 124px);
-  }
-  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 > * { 
-  width: 248px;
-  height: 23px;
-  }
-  
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 {
-    overflow: hidden;
-    position: relative;
-    margin-top: -134px;
-    width: 248px;
-    margin-left: calc(50.0% - 124px);
-  }
-  .OnboardingScreen > .layoutFlow > .state3_elTextCopy3 > * { 
-  width: 248px;
-  height: 23px;
-  }
-  
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText3623545 {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
     overflow: hidden;
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 46px;
-    width: 100.0%;
-    height: 26px;
+    left: calc(50.0% + 0px - 144px);
+    top: 57px;
+    width: 288px;
+    height: 44px;
   }
 @media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText3623545 {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
     overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 46px;
-    width: 100.0%;
-    height: 26px;
+    left: calc(50.0% + 0px - 144px);
+    top: 57px;
+    width: 288px;
+    height: 44px;
   }
 }
 @media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText3623545 {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
     overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 45px;
-    width: 100.0%;
-    height: 26px;
+    left: calc(50.0% + 0px - 143px);
+    top: 56px;
+    width: 286px;
+    height: 44px;
   }
 }
 @media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText3623545 {
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
     overflow: hidden;
-    left: 0px;
-    right: 0px;
-    top: 45px;
-    width: 100.0%;
-    height: 26px;
+    left: calc(50.0% + 0px - 143px);
+    top: 56px;
+    width: 286px;
+    height: 44px;
   }
 }
 
@@ -3420,9 +3411,9 @@
 /* Narrowest size for this element's responsive layout */
   .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
     line-height: 35px;
-    position: fixed;
+    position: absolute;
     left: calc(50.0% + 0px - 124px);
-    bottom: 44px;
+    top: 464px;
     width: 249px;
     height: 35px;
   }
@@ -3430,7 +3421,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
     line-height: 35px;
     left: calc(50.0% + 0px - 124px);
-    bottom: 44px;
+    top: 464px;
     width: 249px;
     height: 35px;
   }
@@ -3439,7 +3430,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
     line-height: 35px;
     left: calc(50.0% + 0px - 124px);
-    bottom: 44px;
+    top: 461px;
     width: 248px;
     height: 35px;
   }
@@ -3448,7 +3439,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
     line-height: 35px;
     left: calc(50.0% + 0px - 124px);
-    bottom: 44px;
+    top: 461px;
     width: 248px;
     height: 35px;
   }
@@ -3956,35 +3947,35 @@
   .LoginScreen > .screenFgContainer > .foreground > .state1_elText4 {
     overflow: hidden;
     position: absolute;
-    left: calc(50.0% + -118px - 35px);
-    top: 517px;
-    width: 70px;
+    left: calc(50.0% + -113px - 26px);
+    top: 512px;
+    width: 52px;
     height: 26px;
   }
 @media (min-width: 568px) {
   .LoginScreen > .screenFgContainer > .foreground > .state1_elText4 {
     overflow: hidden;
-    left: calc(50.0% + -118px - 35px);
-    top: 517px;
-    width: 70px;
+    left: calc(50.0% + -113px - 26px);
+    top: 512px;
+    width: 52px;
     height: 26px;
   }
 }
 @media (min-width: 768px) {
   .LoginScreen > .screenFgContainer > .foreground > .state1_elText4 {
     overflow: hidden;
-    left: calc(50.0% + -117px - 35px);
-    top: 514px;
-    width: 70px;
+    left: calc(50.0% + -112px - 26px);
+    top: 508px;
+    width: 52px;
     height: 26px;
   }
 }
 @media (min-width: 1024px) {
   .LoginScreen > .screenFgContainer > .foreground > .state1_elText4 {
     overflow: hidden;
-    left: calc(50.0% + -117px - 35px);
-    top: 514px;
-    width: 70px;
+    left: calc(50.0% + -112px - 26px);
+    top: 508px;
+    width: 52px;
     height: 26px;
   }
 }

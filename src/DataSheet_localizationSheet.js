@@ -141,7 +141,7 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "onboarding_text_1040641";
-    item['en'] = "EMERGENT VIRTUES:";
+    item['en'] = "EMERGENT VIRTUES";
     
     item = {};
     this.items.push(item);
@@ -191,12 +191,12 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "onboarding_text2_246824";
-    item['en'] = "Collect all six qualities";
+    item['en'] = "Get friendly…";
     
     item = {};
     this.items.push(item);
     item['key'] = "onboarding_textcopy2_726489";
-    item['en'] = "to be eligible for prizes & giveaways.";
+    item['en'] = "Meet your neighbors.";
     
     item = {};
     this.items.push(item);
@@ -356,12 +356,12 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "onboarding_text4_14386";
-    item['en'] = "Briefly describe why you chose that quality";
+    item['en'] = "Briefly describe why";
     
     item = {};
     this.items.push(item);
     item['key'] = "onboarding_textcopy3_855997";
-    item['en'] = "Select a quality you hold in high regard";
+    item['en'] = "Select a quality";
     
     item = {};
     this.items.push(item);
@@ -406,12 +406,72 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_text4_85650";
-    item['en'] = "< BACK";
+    item['en'] = "BACK";
     
     item = {};
     this.items.push(item);
     item['key'] = "login_button2_182743";
     item['en'] = "Steem.Ninja";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventorystatus_text3_467979";
+    item['en'] = "EMERGENT VIRTUES";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventorystatus_text_779623";
+    item['en'] = "Rank #";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventorystatus_textcopy_723620";
+    item['en'] = "Collected";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventorystatus_text2_39687";
+    item['en'] = "001";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventorystatus_textcopy2_830887";
+    item['en'] = "6";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "inventorystatus_textcopy3_348248";
+    item['en'] = "/6";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_skip_413376";
+    item['en'] = "BACK";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_skip_585382";
+    item['en'] = "BACK";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_text2_45669";
+    item['en'] = "Collect all six qualities";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_textcopy2_300855";
+    item['en'] = "to be eligible for prizes\nand giveaways.";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_text_103826";
+    item['en'] = "EMERGENT VIRTUES";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_text_349469";
+    item['en'] = "JOIN THE HUNT";
   }
 
   getStringsByLanguage = () => {

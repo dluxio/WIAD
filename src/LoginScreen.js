@@ -235,7 +235,7 @@ export default class LoginScreen extends Component {
      };
     const style_state1_elText4 = {
         color: 'rgba(0, 0, 0, 0.8500)',
-        textAlign: 'left',
+        textAlign: 'center',
         cursor: 'pointer',
         pointerEvents: 'auto',
      };

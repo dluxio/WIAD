@@ -61,7 +61,7 @@ export default class ARAppScreen extends Component {
         pointerEvents: 'auto',
      };
     // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "";
+    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
     
     
     const style_state0_elArbutton747870 = {
@@ -77,11 +77,6 @@ export default class ARAppScreen extends Component {
         textAlign: 'center',
         cursor: 'pointer',
         pointerEvents: 'auto',
-     };
-    const style_state0_elText3474049 = {
-        fontSize: 12.9,
-        color: 'rgba(0, 0, 0, 0.8500)',
-        textAlign: 'center',
      };
     const style_state0_elInventorybutton205650 = {
         display: 'block',
@@ -112,9 +107,6 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state0_elLeaderbutton675644' style={style_state0_elLeaderbutton675644}  color="accent" onClick={this.onClick_state0_elLeaderbutton675644} >
               {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
             </Button>
-            <div className='font-arialBoldMT  state0_elText3474049' style={style_state0_elText3474049}>
-              <div>{this.props.locStrings.arapp_text3_474049}</div>
-            </div>
             <Button className='actionFont state0_elInventorybutton205650' style={style_state0_elInventorybutton205650}  color="accent" onClick={this.onClick_state0_elInventorybutton205650} >
               {this.props.locStrings.arscanner_buttoncopy_205650}
             </Button>
@@ -175,7 +167,7 @@ export default class ARAppScreen extends Component {
         pointerEvents: 'auto',
      };
     // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "";
+    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
     
     
     const style_state1_elBackgroundCopy415200 = {
@@ -199,11 +191,6 @@ export default class ARAppScreen extends Component {
         textAlign: 'center',
         cursor: 'pointer',
         pointerEvents: 'auto',
-     };
-    const style_state1_elText3474049 = {
-        fontSize: 12.9,
-        color: 'rgba(0, 0, 0, 0.8500)',
-        textAlign: 'center',
      };
     const style_state1_elInventorybutton205650 = {
         display: 'block',
@@ -248,9 +235,6 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state1_elLeaderbutton675644' style={style_state1_elLeaderbutton675644}  color="accent" onClick={this.onClick_state1_elLeaderbutton675644} >
               {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
             </Button>
-            <div className='font-arialBoldMT  state1_elText3474049' style={style_state1_elText3474049}>
-              <div>{this.props.locStrings.arapp_text3_474049}</div>
-            </div>
             <Button className='actionFont state1_elInventorybutton205650' style={style_state1_elInventorybutton205650}  color="accent" onClick={this.onClick_state1_elInventorybutton205650} >
               {this.props.locStrings.arscanner_buttoncopy_205650}
             </Button>
@@ -311,7 +295,7 @@ export default class ARAppScreen extends Component {
         pointerEvents: 'auto',
      };
     // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "";
+    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
     
     
     const style_state2_elBackgroundCopy415200 = {
@@ -342,11 +326,6 @@ export default class ARAppScreen extends Component {
         textAlign: 'center',
         cursor: 'pointer',
         pointerEvents: 'auto',
-     };
-    const style_state2_elText3474049 = {
-        fontSize: 12.9,
-        color: 'rgba(0, 0, 0, 0.8500)',
-        textAlign: 'center',
      };
     const style_state2_elInventorybutton205650 = {
         display: 'block',
@@ -395,9 +374,6 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state2_elLeaderbutton675644' style={style_state2_elLeaderbutton675644}  color="accent" onClick={this.onClick_state2_elLeaderbutton675644} >
               {this.props.locStrings.arscanner_inventorybuttoncopy_675644}
             </Button>
-            <div className='font-arialBoldMT  state2_elText3474049' style={style_state2_elText3474049}>
-              <div>{this.props.locStrings.arapp_text3_474049}</div>
-            </div>
             <Button className='actionFont state2_elInventorybutton205650' style={style_state2_elInventorybutton205650}  color="accent" onClick={this.onClick_state2_elInventorybutton205650} >
               {this.props.locStrings.arscanner_buttoncopy_205650}
             </Button>
