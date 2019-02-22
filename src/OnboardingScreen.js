@@ -14,14 +14,14 @@ export default class OnboardingScreen extends Component {
   
   onClick_state0_elNext = (ev) => {
     let newVal = "1";
-    this.props.appActions.updateDataSlot('ds_onboarding', newVal);
+    this.props.appActions.updateDataSlot('ds_onboardingState', newVal);
   
   }
   
   
   onClick_state0_elSkip9690 = (ev) => {
     let newVal = "3";
-    this.props.appActions.updateDataSlot('ds_onboarding', newVal);
+    this.props.appActions.updateDataSlot('ds_onboardingState', newVal);
   
   }
   
@@ -110,14 +110,14 @@ export default class OnboardingScreen extends Component {
   
   onClick_state1_elNext = (ev) => {
     let newVal = "2";
-    this.props.appActions.updateDataSlot('ds_onboarding', newVal);
+    this.props.appActions.updateDataSlot('ds_onboardingState', newVal);
   
   }
   
   
   onClick_state1_elSkip9690 = (ev) => {
     let newVal = "3";
-    this.props.appActions.updateDataSlot('ds_onboarding', newVal);
+    this.props.appActions.updateDataSlot('ds_onboardingState', newVal);
   
   }
   
@@ -218,14 +218,14 @@ export default class OnboardingScreen extends Component {
   
   onClick_state2_elNext = (ev) => {
     let newVal = "3";
-    this.props.appActions.updateDataSlot('ds_onboarding', newVal);
+    this.props.appActions.updateDataSlot('ds_onboardingState', newVal);
   
   }
   
   
   onClick_state2_elSkip9690 = (ev) => {
     let newVal = "3";
-    this.props.appActions.updateDataSlot('ds_onboarding', newVal);
+    this.props.appActions.updateDataSlot('ds_onboardingState', newVal);
   
   }
   
@@ -389,7 +389,7 @@ export default class OnboardingScreen extends Component {
   
   
   render() {
-    switch (parseInt((this.props.ds_onboarding !== undefined) ? this.props.ds_onboarding : 0, 10)) {
+    switch (parseInt((this.props.ds_onboardingState !== undefined) ? this.props.ds_onboardingState : 0, 10)) {
       default:
       case 0:
         return this.renderState0();

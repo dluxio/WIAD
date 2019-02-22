@@ -6,7 +6,7 @@ import OnboardingScreen from './OnboardingScreen.js';
 import LoginScreen from './LoginScreen.js';
 import DataSheet_users from './DataSheet_users.js';
 import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
-import DataSheet_inventory from './DataSheet_inventory.js';
+import DataSheet_users_dlux from './DataSheet_users_dlux.js';
 
 
 export default class App extends Component {
@@ -16,14 +16,26 @@ export default class App extends Component {
     this.dataSheets = {};
     this.dataSheets['users'] = new DataSheet_users('users', this.dataSheetDidUpdate);
     this.dataSheets['localizationSheet'] = new DataSheet_localizationSheet('localizationSheet', this.dataSheetDidUpdate);
-    this.dataSheets['inventory'] = new DataSheet_inventory('inventory', this.dataSheetDidUpdate);
+    this.dataSheets['users_dlux'] = new DataSheet_users_dlux('users_dlux', this.dataSheetDidUpdate);
 
     this.dataSlots = {};
     this.dataSlots['ds_activeLang'] = "en";
-    this.dataSlots['ds_onboarding'] = "0";
+    this.dataSlots['ds_onboardingState'] = "0";
     this.dataSlots['ds_appState'] = "0";
+    this.dataSlots['ds_loginState'] = "0";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);
+
+
+    this.serviceOptions_users_dlux = {
+      dataSlots: this.dataSlots,
+      servicePath: "",
+      query: "",
+    };
+    setInterval(() => {  // Reload data regularly
+      this.loadData_jsonsrc1(this.dataSheets['users_dlux'], this.serviceOptions_users_dlux, false);
+    }, 10000);
+    
 
     this.state = {
       currentScreen: 'login',
@@ -49,6 +61,9 @@ export default class App extends Component {
   componentDidMount() {
     this.windowDidResize();
     window.addEventListener('resize', this.windowDidResize);
+
+    this.loadData_jsonsrc1(this.dataSheets['users_dlux'], this.serviceOptions_users_dlux, true);
+    
   }
 
   componentWillUnmount() {
@@ -163,6 +178,48 @@ export default class App extends Component {
     this.locStrings.setLanguage(this.dataSlots['ds_activeLang']);
   }
 
+  loadData_jsonsrc1 = (dataSheet, options, firstLoad) => {
+    // This method was written by data plugin 'Generic JSON'.
+   this.setState({loading: true});
+    
+    // clear any placeholder data before load
+    if (firstLoad) {
+    	dataSheet.items = [];
+    }
+    
+    const fetchComplete = (err) => {
+      if (err) {
+        // This error handling comes from React Studio
+        // and currently doesn't do anything useful.
+        console.error('** Web service load failed: ', err);
+      } else {
+      }
+      this.setState({loading: false});
+    }
+    
+    const url = dataSheet.urlFromOptions(options);  // this method was written by the web service plugin
+    
+    const fetchOpts = {
+      method: 'GET',
+      headers: {},
+    };
+    
+    fetch(url, fetchOpts)
+      .then((response) => {
+        if (response.status >= 400) {
+          throw new Error("Server error: "+response.status);
+        }
+        return response.json();
+      })
+      .then((json) => {
+        dataSheet.loadFromJson(json);
+        fetchComplete(null, options);
+      })
+      .catch((exc) => {
+        fetchComplete(exc, options);
+      });
+  }
+
   render() {
     let makeElementForScreen = (screenId, baseProps, atTop, forward) => {
       let screenProps = {
@@ -176,8 +233,9 @@ export default class App extends Component {
           screenFormatId: this.state.screenFormatId
         },
         'ds_activeLang': this.dataSlots['ds_activeLang'],
-        'ds_onboarding': this.dataSlots['ds_onboarding'],
+        'ds_onboardingState': this.dataSlots['ds_onboardingState'],
         'ds_appState': this.dataSlots['ds_appState'],
+        'ds_loginState': this.dataSlots['ds_loginState'],
       };
       switch (screenId) {
         default:

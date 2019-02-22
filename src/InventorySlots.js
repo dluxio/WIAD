@@ -11,7 +11,7 @@ import HumilitySlot from './HumilitySlot';
 export default class InventorySlots extends Component {
 
   // Properties used by this component:
-  // empathy, name, thumb, curiosity, collaboration, thinking, ethics, humility
+  // empathy, thumb, curiosity, collaboration, thinking, ethics, humility
 
   render() {
     // eslint-disable-next-line no-unused-vars

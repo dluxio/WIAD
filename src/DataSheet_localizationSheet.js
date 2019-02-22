@@ -287,6 +287,61 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     this.items.push(item);
     item['key'] = "thinkingslot2_text_1026601";
     item['en'] = "Humility";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text2_421110";
+    item['en'] = "Create a Steem account with Steem Ninja. You will need to choose a user name and enter the voucher code that was emailed to  you.\n\nCopy the password they provide. The 4 additional keys are derrived from your password and are not neccessary to save.";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text2_242419";
+    item['en'] = "Create a Steem account with Steem Ninja by redeeming the voucher code emailed to you.\nSave your password, there is no reset option.";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button_388018";
+    item['en'] = "New button";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_textcopy_79541";
+    item['en'] = "Once you’ve created your account, \nclick here to log in.";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button_814022";
+    item['en'] = "Login";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button2_278146";
+    item['en'] = "Get Steem";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text_559853";
+    item['en'] = "Steem Username:";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_textcopy_878391";
+    item['en'] = "Steem Password:";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text2_795274";
+    item['en'] = "Welcome to World IA Day 2019!";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text3_229860";
+    item['en'] = "We are proud to present the world’s first augmented reality location based experience secured by blockchain.";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_textcopy2_851444";
+    item['en'] = "It requires a Steem account:";
   }
 
   getStringsByLanguage = () => {

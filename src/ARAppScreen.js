@@ -49,7 +49,7 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_users = this.props.dataSheets['users'];
+    const dataSheet_users_dlux = this.props.dataSheets['users_dlux'];
     const style_state0_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -57,13 +57,6 @@ export default class ARAppScreen extends Component {
     const style_state0_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const style_state0_elEmbed261354 = {
-        pointerEvents: 'auto',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
-    
-    
     const style_state0_elArbutton747870 = {
         display: 'block',
         color: 'white',
@@ -90,7 +83,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state0_elInventoryStatus722499 = dataSheet_users.items[2];
+    const data_state0_elInventoryStatus722499 = dataSheet_users_dlux.items[0];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -100,9 +93,7 @@ export default class ARAppScreen extends Component {
           
           </div>
           
-          <div className='embeddedContent containerMinHeight state0_elEmbed261354' style={style_state0_elEmbed261354}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-          </div>
+          <iframe className='containerMinHeight state0_elWebcontent409065' src="https://blushing-poet.glitch.me"  />
         </div>
         <div className="screenFgContainer">
           <div className="foreground">
@@ -163,7 +154,7 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_users = this.props.dataSheets['users'];
+    const dataSheet_users_dlux = this.props.dataSheets['users_dlux'];
     const style_state1_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -171,13 +162,6 @@ export default class ARAppScreen extends Component {
     const style_state1_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const style_state1_elEmbed261354 = {
-        pointerEvents: 'auto',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
-    
-    
     const style_state1_elBackgroundCopy415200 = {
         width: '100%',
         height: '100%',
@@ -185,7 +169,7 @@ export default class ARAppScreen extends Component {
     const style_state1_elBackgroundCopy415200_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const data_state1_elInventorySlots = dataSheet_users.items[0];
+    const data_state1_elInventorySlots = dataSheet_users_dlux.items[0];
     const style_state1_elArbutton747870 = {
         display: 'block',
         color: 'white',
@@ -212,7 +196,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state1_elInventoryStatus722499 = dataSheet_users.items[2];
+    const data_state1_elInventoryStatus722499 = dataSheet_users_dlux.items[0];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -222,9 +206,7 @@ export default class ARAppScreen extends Component {
           
           </div>
           
-          <div className='embeddedContent containerMinHeight state1_elEmbed261354' style={style_state1_elEmbed261354}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-          </div>
+          <iframe className='containerMinHeight state1_elWebcontent409065' src="https://blushing-poet.glitch.me"  />
           <div className='appBg containerMinHeight state1_elBackgroundCopy415200' style={style_state1_elBackgroundCopy415200_outer}>
             <div style={style_state1_elBackgroundCopy415200} />
           
@@ -299,7 +281,7 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_users = this.props.dataSheets['users'];
+    const dataSheet_users_dlux = this.props.dataSheets['users_dlux'];
     const style_state2_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -307,13 +289,6 @@ export default class ARAppScreen extends Component {
     const style_state2_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const style_state2_elEmbed261354 = {
-        pointerEvents: 'auto',
-     };
-    // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
-    
-    
     const style_state2_elBackgroundCopy415200 = {
         width: '100%',
         height: '100%',
@@ -327,15 +302,7 @@ export default class ARAppScreen extends Component {
     // Source items and any special components used for list/grid element 'list'.
     let items_list = [];
     let listComps_list = {};
-    items_list = items_list.concat(this.props.appActions.getDataSheet('users').items);
-    
-    const style_state2_elListCopy = {
-        height: 'auto',  // This element is in scroll flow
-     };
-    // Source items and any special components used for list/grid element 'list copy'.
-    let items_listCopy = [];
-    let listComps_listCopy = {};
-    items_listCopy = items_listCopy.concat(this.props.appActions.getDataSheet('users').items);
+    items_list = items_list.concat(this.props.appActions.getDataSheet('users_dlux').items);
     
     const style_state2_elArbutton747870 = {
         display: 'block',
@@ -363,7 +330,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state2_elInventoryStatus722499 = dataSheet_users.items[2];
+    const data_state2_elInventoryStatus722499 = dataSheet_users_dlux.items[0];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -373,9 +340,7 @@ export default class ARAppScreen extends Component {
           
           </div>
           
-          <div className='embeddedContent containerMinHeight state2_elEmbed261354' style={style_state2_elEmbed261354}>
-            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
-          </div>
+          <iframe className='containerMinHeight state2_elWebcontent409065' src="https://blushing-poet.glitch.me"  />
           <div className='appBg containerMinHeight state2_elBackgroundCopy415200' style={style_state2_elBackgroundCopy415200_outer}>
             <div style={style_state2_elBackgroundCopy415200} />
           
@@ -386,21 +351,10 @@ export default class ARAppScreen extends Component {
           <div className='hasNestedComps state2_elList'>
             <ul style={style_state2_elList}>
               {items_list.map((row, index) => {
-                let itemComp = (row._componentId) ? listComps_list[row._componentId] : <UserItem dataSheetId={'users'} dataSheetRow={row} empathy={row.empathy} username={row.username} collaboration={row.collaboration} ethics={row.ethics} curiosity={row.curiosity} thinking={row.thinking} humility={row.humility} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
+                let itemComp = (row._componentId) ? listComps_list[row._componentId] : <UserItem dataSheetId={'users_dlux'} dataSheetRow={row} empathy={row.empathy} username={row.username} collaboration={row.collaboration} ethics={row.ethics} curiosity={row.curiosity} thinking={row.thinking} humility={row.humility} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
                 return (<li key={row.key}>{itemComp}</li>)
               })}
               <div ref={(el)=> this._state2_elList_endMarker = el} />
-            </ul>
-          
-          </div>
-          
-          <div className='hasNestedComps state2_elListCopy'>
-            <ul style={style_state2_elListCopy}>
-              {items_listCopy.map((row, index) => {
-                let itemComp = (row._componentId) ? listComps_listCopy[row._componentId] : <UserItem dataSheetId={'users'} dataSheetRow={row} empathy={row.empathy} username={row.username} collaboration={row.collaboration} ethics={row.ethics} curiosity={row.curiosity} thinking={row.thinking} humility={row.humility} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
-                return (<li key={row.key}>{itemComp}</li>)
-              })}
-              <div ref={(el)=> this._state2_elListCopy_endMarker = el} />
             </ul>
           
           </div>
