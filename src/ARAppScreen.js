@@ -57,6 +57,13 @@ export default class ARAppScreen extends Component {
     const style_state0_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
      };
+    const style_state0_elEmbed949544 = {
+        pointerEvents: 'auto',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "";
+    
+    
     const style_state0_elArbutton747870 = {
         display: 'block',
         color: 'white',
@@ -93,7 +100,9 @@ export default class ARAppScreen extends Component {
           
           </div>
           
-          <iframe className='containerMinHeight state0_elWebcontent409065' src="https://blushing-poet.glitch.me"  />
+          <div className='embeddedContent containerMinHeight state0_elEmbed949544' style={style_state0_elEmbed949544}>
+            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+          </div>
         </div>
         <div className="screenFgContainer">
           <div className="foreground">
@@ -162,6 +171,13 @@ export default class ARAppScreen extends Component {
     const style_state1_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
      };
+    const style_state1_elEmbed949544 = {
+        pointerEvents: 'auto',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "";
+    
+    
     const style_state1_elBackgroundCopy415200 = {
         width: '100%',
         height: '100%',
@@ -206,7 +222,9 @@ export default class ARAppScreen extends Component {
           
           </div>
           
-          <iframe className='containerMinHeight state1_elWebcontent409065' src="https://blushing-poet.glitch.me"  />
+          <div className='embeddedContent containerMinHeight state1_elEmbed949544' style={style_state1_elEmbed949544}>
+            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+          </div>
           <div className='appBg containerMinHeight state1_elBackgroundCopy415200' style={style_state1_elBackgroundCopy415200_outer}>
             <div style={style_state1_elBackgroundCopy415200} />
           
@@ -289,6 +307,13 @@ export default class ARAppScreen extends Component {
     const style_state2_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
      };
+    const style_state2_elEmbed949544 = {
+        pointerEvents: 'auto',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "";
+    
+    
     const style_state2_elBackgroundCopy415200 = {
         width: '100%',
         height: '100%',
@@ -340,7 +365,9 @@ export default class ARAppScreen extends Component {
           
           </div>
           
-          <iframe className='containerMinHeight state2_elWebcontent409065' src="https://blushing-poet.glitch.me"  />
+          <div className='embeddedContent containerMinHeight state2_elEmbed949544' style={style_state2_elEmbed949544}>
+            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+          </div>
           <div className='appBg containerMinHeight state2_elBackgroundCopy415200' style={style_state2_elBackgroundCopy415200_outer}>
             <div style={style_state2_elBackgroundCopy415200} />
           

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 // UI framework component imports
+import Select from 'muicss/lib/react/select';
+import Option from 'muicss/lib/react/option';
 import Button from 'muicss/lib/react/button';
 
 
@@ -9,6 +11,15 @@ export default class OnboardingScreen extends Component {
 
   // Properties used by this component:
   // appActions, deviceInfo
+
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      picker: '',
+      textarea: '',
+    };
+  }
 
   // --- Functions for component state index 0 (1 of 4) --- 
   
@@ -324,6 +335,14 @@ export default class OnboardingScreen extends Component {
   
   // --- Functions for component state index 3 (4 of 4) --- 
   
+  pickerValueChanged_picker = (event) => {
+    this.setState({picker: event.target.value});
+  }
+  
+  textAreaChanged_textarea = (event) => {
+    this.setState({textarea: event.target.value});
+  }
+  
   onClick_state3_elStartbutton = (ev) => {
     // Go to screen 'AR App'
     this.props.appActions.goToScreen('arapp');
@@ -351,6 +370,35 @@ export default class OnboardingScreen extends Component {
     const style_state3_elBackground682495_outer = {
         backgroundColor: '#f6f6f6',
      };
+    let selection_picker = this.state.picker;
+    // Source datasheet and selected data column for picker element 'picker'
+    const dataSource_picker = this.props.appActions.getDataSheet('qualities');
+    const columnName_picker = 'column1';
+    
+    const style_state3_elPicker_outer = {
+        pointerEvents: 'auto',
+     };
+    const style_state3_elTextarea = {
+        display: 'block',
+        backgroundColor: 'white',
+        paddingLeft: '1rem',
+        boxSizing: 'border-box', // ensures padding won't expand element's outer size
+     };
+    const style_state3_elTextarea_outer = {
+        pointerEvents: 'auto',
+     };
+    const style_state3_elText4 = {
+        fontSize: 10.8,
+        fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif',
+        color: '#00a3da',
+        textAlign: 'left',
+     };
+    const style_state3_elTextCopy3 = {
+        fontSize: 10.8,
+        fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif',
+        color: '#00a3da',
+        textAlign: 'left',
+     };
     const style_state3_elText3623545 = {
         fontSize: 12.9,
         color: 'rgba(0, 0, 0, 0.8500)',
@@ -358,8 +406,9 @@ export default class OnboardingScreen extends Component {
      };
     const style_state3_elStartbutton = {
         display: 'block',
-        color: 'white',
+        color: '#fff',
         textAlign: 'center',
+        backgroundColor: '#00a3da',
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
@@ -373,12 +422,43 @@ export default class OnboardingScreen extends Component {
           </div>
           
         </div>
+        <div className="layoutFlow" style={layoutFlowStyle}>
+          <div className='baseFont state3_elPicker' style={style_state3_elPicker_outer}>
+            <Select  onChange={this.pickerValueChanged_picker} value={selection_picker} >
+              {dataSource_picker.items.map(item => {
+                const colValue = item[columnName_picker];
+                return <Option key={item.key} value={colValue} label={colValue} />
+              })}
+            </Select>
+          
+          </div>
+          
+          <div className='baseFont state3_elTextarea' style={style_state3_elTextarea_outer}>
+            <textarea style={style_state3_elTextarea}  placeholder={this.props.locStrings.onboarding_textarea_743646} onChange={this.textAreaChanged_textarea} value={this.state.textarea}  />
+          
+          </div>
+          
+          <div className='state3_elText4'>
+            <div style={style_state3_elText4}>
+              <div>{this.props.locStrings.onboarding_text4_14386}</div>
+            </div>
+          
+          </div>
+          
+          <div className='state3_elTextCopy3'>
+            <div style={style_state3_elTextCopy3}>
+              <div>{this.props.locStrings.onboarding_textcopy3_855997}</div>
+            </div>
+          
+          </div>
+          
+        </div>
         <div className="screenFgContainer">
           <div className="foreground">
             <div className='font-arialBoldMT  state3_elText3623545' style={style_state3_elText3623545}>
               <div>{this.props.locStrings.onboarding_text3_623545}</div>
             </div>
-            <Button className='actionFont state3_elStartbutton' style={style_state3_elStartbutton}  color="accent" onClick={this.onClick_state3_elStartbutton} >
+            <Button className='actionFont state3_elStartbutton' style={style_state3_elStartbutton}  onClick={this.onClick_state3_elStartbutton} >
               {this.props.locStrings.onboarding_button_301283}
             </Button>
           </div>

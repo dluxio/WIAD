@@ -4,9 +4,9 @@ import './App.css';
 import ARAppScreen from './ARAppScreen.js';
 import OnboardingScreen from './OnboardingScreen.js';
 import LoginScreen from './LoginScreen.js';
-import DataSheet_users from './DataSheet_users.js';
 import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
 import DataSheet_users_dlux from './DataSheet_users_dlux.js';
+import DataSheet_qualities from './DataSheet_qualities.js';
 
 
 export default class App extends Component {
@@ -14,9 +14,9 @@ export default class App extends Component {
     super(props);
 
     this.dataSheets = {};
-    this.dataSheets['users'] = new DataSheet_users('users', this.dataSheetDidUpdate);
     this.dataSheets['localizationSheet'] = new DataSheet_localizationSheet('localizationSheet', this.dataSheetDidUpdate);
     this.dataSheets['users_dlux'] = new DataSheet_users_dlux('users_dlux', this.dataSheetDidUpdate);
+    this.dataSheets['qualities'] = new DataSheet_qualities('qualities', this.dataSheetDidUpdate);
 
     this.dataSlots = {};
     this.dataSlots['ds_activeLang'] = "en";

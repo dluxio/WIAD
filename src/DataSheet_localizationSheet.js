@@ -336,12 +336,82 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_text3_229860";
-    item['en'] = "We are proud to present the world’s first augmented reality location based experience secured by blockchain.";
+    item['en'] = "We are proud to present an augmented reality location based experience built on blockchain.";
     
     item = {};
     this.items.push(item);
     item['key'] = "login_textcopy2_851444";
     item['en'] = "It requires a Steem account:";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_text4_1004875";
+    item['en'] = "Briefly describe why you chose that quality";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_textcopy3_147469";
+    item['en'] = "Briefly describe why you chose that quality";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_text4_14386";
+    item['en'] = "Briefly describe why you chose that quality";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "onboarding_textcopy3_855997";
+    item['en'] = "Select a quality you hold in high regard";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text2_624214";
+    item['en'] = "Redeem Your Steem Ninja voucher";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text4_1015666";
+    item['en'] = "New text. Double-click to edit";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text3_417618";
+    item['en'] = "Steem is a social media blockchain and crypto currency.\n\nAn account voucher is included with your World IA Day ticket, and can be redeemed through Steem.Ninja\n\nIf you don’t know your voucher code, enter the email address you used to register and look it up.";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button_1030765";
+    item['en'] = "New button";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button_451164";
+    item['en'] = "Lookup Voucher";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_textcopy3_463005";
+    item['en'] = "Email address used to register:";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button2_422396";
+    item['en'] = "Steem.Ninja";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text4_804817";
+    item['en'] = "< BACK";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text4_85650";
+    item['en'] = "< BACK";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button2_182743";
+    item['en'] = "Steem.Ninja";
   }
 
   getStringsByLanguage = () => {
