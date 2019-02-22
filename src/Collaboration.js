@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import img_state0_elCollaborationicon from './images/Collaboration_state0_elCollaborationicon.png';
-import img_state1_elCollaborationicon from './images/Collaboration_state1_elCollaborationicon.png';
+import img_state0_elEthicsicon from './images/Collaboration_state0_elEthicsicon.png';
+import img_state1_elEthicsicon from './images/Collaboration_state1_elEthicsicon.png';
 
 
 export default class Collaboration extends Component {
@@ -17,15 +17,15 @@ export default class Collaboration extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
-    const style_state0_elCollaborationicon = {
-        backgroundImage: 'url('+img_state0_elCollaborationicon+')',
+    const style_state0_elEthicsicon = {
+        backgroundImage: 'url('+img_state0_elEthicsicon+')',
         backgroundSize: '100% 100%',
      };
     
     return (
       <div className="Collaboration" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state0_elCollaborationicon' style={style_state0_elCollaborationicon} />
+          <div className='containerMinHeight state0_elEthicsicon' style={style_state0_elEthicsicon} />
         </div>
       </div>
     )
@@ -39,15 +39,15 @@ export default class Collaboration extends Component {
     // eslint-disable-next-line no-unused-vars
     let layoutFlowStyle = {};
     
-    const style_state1_elCollaborationicon = {
-        backgroundImage: 'url('+img_state1_elCollaborationicon+')',
+    const style_state1_elEthicsicon = {
+        backgroundImage: 'url('+img_state1_elEthicsicon+')',
         backgroundSize: '100% 100%',
      };
     
     return (
       <div className="Collaboration" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state1_elCollaborationicon' style={style_state1_elCollaborationicon} />
+          <div className='containerMinHeight state1_elEthicsicon' style={style_state1_elEthicsicon} />
         </div>
       </div>
     )

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import InventoryStatus from './InventoryStatus';
-import InventoryItem from './InventoryItem';
+import InventorySlots from './InventorySlots';
 import UserItem from './UserItem';
 
 // UI framework component imports
@@ -90,7 +90,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state0_elInventoryStatus722499 = dataSheet_users.items[0];
+    const data_state0_elInventoryStatus722499 = dataSheet_users.items[2];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -163,7 +163,6 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_inventory = this.props.dataSheets['inventory'];
     const dataSheet_users = this.props.dataSheets['users'];
     const style_state1_elBackground569119 = {
         width: '100%',
@@ -186,14 +185,7 @@ export default class ARAppScreen extends Component {
     const style_state1_elBackgroundCopy415200_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const style_state1_elList2 = {
-        height: 'auto',  // This element is in scroll flow
-     };
-    // Source items and any special components used for list/grid element 'list 2'.
-    let items_list2 = [];
-    let listComps_list2 = {};
-    items_list2 = items_list2.concat(this.props.appActions.getDataSheet('inventory').items);
-    
+    const data_state1_elInventorySlots = dataSheet_users.items[0];
     const style_state1_elArbutton747870 = {
         display: 'block',
         color: 'white',
@@ -220,7 +212,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state1_elInventoryStatus722499 = dataSheet_users.items[0];
+    const data_state1_elInventoryStatus722499 = dataSheet_users.items[2];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -240,18 +232,9 @@ export default class ARAppScreen extends Component {
           
         </div>
         <div className="layoutFlow" style={layoutFlowStyle}>
-          <div className='hasNestedComps state1_elList2'>
-            <div style={style_state1_elList2}>
-              {items_list2.map((row, index) => {
-                let itemClasses = `gridItem cols2_${index % 2}`;
-                let itemComp = (row._componentId) ? listComps_list2[row._componentId] : <InventoryItem dataSheetId={'inventory'} dataSheetRow={row} state={row.state} name={row.name} thumb={row.thumb} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
-                return (
-                  <div className={itemClasses} key={row.key}>
-                    {itemComp}
-                  </div>
-                )
-              })}
-              <div ref={(el)=> this._state1_elList2_endMarker = el} />
+          <div className='hasNestedComps state1_elInventorySlots'>
+            <div>
+              <InventorySlots {...data_state1_elInventorySlots} ref={(el)=> this._state1_elInventorySlots = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
           
           </div>
@@ -316,7 +299,6 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_inventory = this.props.dataSheets['inventory'];
     const dataSheet_users = this.props.dataSheets['users'];
     const style_state2_elBackground569119 = {
         width: '100%',
@@ -381,7 +363,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state2_elInventoryStatus722499 = dataSheet_users.items[0];
+    const data_state2_elInventoryStatus722499 = dataSheet_users.items[2];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>

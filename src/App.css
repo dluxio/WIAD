@@ -318,37 +318,17 @@
   }
 
 /* This component has a fixed-size layout */
-  .Collaboration {
+  .Ethics {
     min-height: 23px;
     overflow: hidden;
     width: 100%; /* This component was designed using a width of 23px */
   }
-  .Collaboration > .background > .containerMinHeight {
+  .Ethics > .background > .containerMinHeight {
     min-height: 23px;
   }
 
 
-  .Collaboration > .foreground > .state0_elCollaborationicon {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-
-/* This component has a fixed-size layout */
-  .Collaboration {
-    min-height: 23px;
-    overflow: hidden;
-    width: 100%; /* This component was designed using a width of 23px */
-  }
-  .Collaboration > .background > .containerMinHeight {
-    min-height: 23px;
-  }
-
-
-  .Collaboration > .foreground > .state1_elCollaborationicon {
+  .Ethics > .foreground > .state0_elCollaborationicon {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -368,7 +348,7 @@
   }
 
 
-  .Ethics > .foreground > .state0_elEthicsicon {
+  .Ethics > .foreground > .state1_elCollaborationicon {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -378,17 +358,37 @@
   }
 
 /* This component has a fixed-size layout */
-  .Ethics {
+  .Collaboration {
     min-height: 23px;
     overflow: hidden;
     width: 100%; /* This component was designed using a width of 23px */
   }
-  .Ethics > .background > .containerMinHeight {
+  .Collaboration > .background > .containerMinHeight {
     min-height: 23px;
   }
 
 
-  .Ethics > .foreground > .state1_elEthicsicon {
+  .Collaboration > .foreground > .state0_elEthicsicon {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+
+/* This component has a fixed-size layout */
+  .Collaboration {
+    min-height: 23px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 23px */
+  }
+  .Collaboration > .background > .containerMinHeight {
+    min-height: 23px;
+  }
+
+
+  .Collaboration > .foreground > .state1_elEthicsicon {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -518,17 +518,17 @@
   }
 
 /* This component has a fixed-size layout */
-  .InventoryItemState {
+  .EmpathySlot {
     min-height: 119px;
     overflow: hidden;
     width: 100%; /* This component was designed using a width of 154px */
   }
-  .InventoryItemState > .background > .containerMinHeight {
+  .EmpathySlot > .background > .containerMinHeight {
     min-height: 119px;
   }
 
 
-  .InventoryItemState > .foreground > .state0_elText {
+  .EmpathySlot > .foreground > .state0_elText {
     overflow: hidden;
     position: absolute;
     left: 0px;
@@ -539,7 +539,7 @@
   }
 
 
-  .InventoryItemState > .foreground > .state0_elRectangle {
+  .EmpathySlot > .foreground > .state0_elRectangle {
     position: absolute;
     left: calc(50.0% + 0px - 34px);
     top: 0px;
@@ -548,17 +548,17 @@
   }
 
 /* This component has a fixed-size layout */
-  .InventoryItemState {
+  .EmpathySlot {
     min-height: 119px;
     overflow: hidden;
     width: 100%; /* This component was designed using a width of 154px */
   }
-  .InventoryItemState > .background > .containerMinHeight {
+  .EmpathySlot > .background > .containerMinHeight {
     min-height: 119px;
   }
 
 
-  .InventoryItemState > .foreground > .state1_elImage {
+  .EmpathySlot > .foreground > .state1_elImage {
     position: absolute;
     left: calc(50.0% + 0px - 34px);
     top: 0px;
@@ -567,7 +567,302 @@
   }
 
 
-  .InventoryItemState > .foreground > .state1_elText {
+  .EmpathySlot > .foreground > .state1_elText {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 73px);
+    top: 74px;
+    width: 146px;
+    height: 45px;
+  }
+
+/* This component has a fixed-size layout */
+  .CollaborationSlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .CollaborationSlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .CollaborationSlot > .foreground > .state0_elText {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    width: 100.0%;
+    height: 45px;
+  }
+
+
+  .CollaborationSlot > .foreground > .state0_elRectangle {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+/* This component has a fixed-size layout */
+  .CollaborationSlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .CollaborationSlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .CollaborationSlot > .foreground > .state1_elImage {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+
+  .CollaborationSlot > .foreground > .state1_elText {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 73px);
+    top: 74px;
+    width: 146px;
+    height: 45px;
+  }
+
+/* This component has a fixed-size layout */
+  .EthicsSlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .EthicsSlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .EthicsSlot > .foreground > .state0_elText {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    width: 100.0%;
+    height: 45px;
+  }
+
+
+  .EthicsSlot > .foreground > .state0_elRectangle {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+/* This component has a fixed-size layout */
+  .EthicsSlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .EthicsSlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .EthicsSlot > .foreground > .state1_elImage {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+
+  .EthicsSlot > .foreground > .state1_elText {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 73px);
+    top: 74px;
+    width: 146px;
+    height: 45px;
+  }
+
+/* This component has a fixed-size layout */
+  .CuriositySlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .CuriositySlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .CuriositySlot > .foreground > .state0_elText {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    width: 100.0%;
+    height: 45px;
+  }
+
+
+  .CuriositySlot > .foreground > .state0_elRectangle {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+/* This component has a fixed-size layout */
+  .CuriositySlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .CuriositySlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .CuriositySlot > .foreground > .state1_elImage {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+
+  .CuriositySlot > .foreground > .state1_elText {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 73px);
+    top: 74px;
+    width: 146px;
+    height: 45px;
+  }
+
+/* This component has a fixed-size layout */
+  .ThinkingSlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .ThinkingSlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .ThinkingSlot > .foreground > .state0_elText {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    width: 100.0%;
+    height: 45px;
+  }
+
+
+  .ThinkingSlot > .foreground > .state0_elRectangle {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+/* This component has a fixed-size layout */
+  .ThinkingSlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .ThinkingSlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .ThinkingSlot > .foreground > .state1_elImage {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+
+  .ThinkingSlot > .foreground > .state1_elText {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 73px);
+    top: 74px;
+    width: 146px;
+    height: 45px;
+  }
+
+/* This component has a fixed-size layout */
+  .HumilitySlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .HumilitySlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .HumilitySlot > .foreground > .state0_elText {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 76px;
+    width: 100.0%;
+    height: 45px;
+  }
+
+
+  .HumilitySlot > .foreground > .state0_elRectangle {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+/* This component has a fixed-size layout */
+  .HumilitySlot {
+    min-height: 119px;
+    overflow: hidden;
+    width: 100%; /* This component was designed using a width of 154px */
+  }
+  .HumilitySlot > .background > .containerMinHeight {
+    min-height: 119px;
+  }
+
+
+  .HumilitySlot > .foreground > .state1_elImage {
+    position: absolute;
+    left: calc(50.0% + 0px - 34px);
+    top: 0px;
+    width: 68px;
+    height: 68px;
+  }
+
+
+  .HumilitySlot > .foreground > .state1_elText {
     overflow: hidden;
     position: absolute;
     left: calc(50.0% + 0px - 73px);
@@ -727,35 +1022,6 @@
   }
 
 /* This component has a fixed-size layout */
-  .InventoryItem {
-    min-height: 121px;
-    overflow: hidden;
-    width: 100%; /* This component was designed using a width of 155px */
-  }
-  .InventoryItem > .background > .containerMinHeight {
-    min-height: 121px;
-  }
-
-.InventoryItem .elInventoryItemState {
-  overflow: hidden;
-}
-
-.InventoryItem .elInventoryItemState.hasNestedComps > div {
-  overflow: hidden;
-  position: relative;
-  width: 100% !important;
-}
-
-
-
-  .InventoryItem > .foreground > .elInventoryItemState {
-    position: absolute;
-    top: 0px;
-    width: 154px;
-    height: 119px;
-  }
-
-/* This component has a fixed-size layout */
   .InventoryStatus {
     min-height: 33px;
     overflow: hidden;
@@ -884,6 +1150,154 @@
     width: 23px;
     height: 23px;
   }
+
+/* This component has a fixed-size layout */
+  .InventorySlots {
+    min-height: 374px;
+    width: 100%; /* This component was designed using a width of 303px */
+  }
+  .InventorySlots > .background > .containerMinHeight {
+    min-height: 374px;
+  }
+
+.InventorySlots .elEmpathySlot {
+  overflow: hidden;
+}
+
+.InventorySlots .elEmpathySlot.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventorySlots > .layoutFlow > .elEmpathySlot {
+    position: relative;
+    margin-top: 0px;
+    width: 154px;
+    margin-left: calc(25.0% - 77px);
+  }
+  .InventorySlots > .layoutFlow > .elEmpathySlot > * { 
+  width: 154px;
+  }
+  
+
+.InventorySlots .elCuriositySlot {
+  overflow: hidden;
+}
+
+.InventorySlots .elCuriositySlot.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventorySlots > .layoutFlow > .elCuriositySlot {
+    position: relative;
+    margin-top: -120px;
+    width: 154px;
+    margin-left: calc(75.0% - 77px);
+  }
+  .InventorySlots > .layoutFlow > .elCuriositySlot > * { 
+  width: 154px;
+  }
+  
+
+.InventorySlots .elCollaborationSlot {
+  overflow: hidden;
+}
+
+.InventorySlots .elCollaborationSlot.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventorySlots > .layoutFlow > .elCollaborationSlot {
+    position: relative;
+    margin-top: 4px;
+    width: 154px;
+    margin-left: calc(25.0% - 77px);
+  }
+  .InventorySlots > .layoutFlow > .elCollaborationSlot > * { 
+  width: 154px;
+  }
+  
+
+.InventorySlots .elThinkingSlot {
+  overflow: hidden;
+}
+
+.InventorySlots .elThinkingSlot.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventorySlots > .layoutFlow > .elThinkingSlot {
+    position: relative;
+    margin-top: -120px;
+    margin-left: calc(75.0% - 77px);
+    margin-right: 0px;
+    width: calc(100.0% - 0px);
+  }
+  .InventorySlots > .layoutFlow > .elThinkingSlot > * { 
+    width: 100%;
+  }
+  
+
+.InventorySlots .elEthicsSlot {
+  overflow: hidden;
+}
+
+.InventorySlots .elEthicsSlot.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventorySlots > .layoutFlow > .elEthicsSlot {
+    position: relative;
+    margin-top: 7px;
+    width: 154px;
+    margin-left: calc(25.0% - 77px);
+  }
+  .InventorySlots > .layoutFlow > .elEthicsSlot > * { 
+  width: 154px;
+  }
+  
+
+.InventorySlots .elHumilitySlot {
+  overflow: hidden;
+}
+
+.InventorySlots .elHumilitySlot.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
+}
+
+
+
+  .InventorySlots > .layoutFlow > .elHumilitySlot {
+    position: relative;
+    margin-top: -118px;
+    width: 154px;
+    margin-left: calc(75.0% - 77px);
+  }
+  .InventorySlots > .layoutFlow > .elHumilitySlot > * { 
+  width: 154px;
+  }
+  
 
 
 /* Narrowest size for this element's responsive layout */
@@ -1307,165 +1721,80 @@
   }
 }
 
-  .ARAppScreen .state1_elList2:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .ARAppScreen .state1_elList2 .gridItem {
-    float: left;
-    position: relative;
-  }
-
-@media (min-width: 1024px) {
-  .ARAppScreen .state1_elList2 .gridItem {
-    width: calc(100% / 2 - 9.0px*(1/2));
-    overflow: hidden;
-  }
-
-  .ARAppScreen .state1_elList2 .cols2_0 {
-    margin-right: 9.0px;
-    margin-bottom: 18.0px;
-    clear: left;
-  }
-  .ARAppScreen .state1_elList2 .cols2_1 {
-    margin-bottom: 18.0px;
-  }
-  .ARAppScreen .state1_elList2 .cols2_1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
+.ARAppScreen .state1_elInventorySlots {
+  overflow: hidden;
 }
 
-@media (max-width: 1023px) {
-  .ARAppScreen .state1_elList2 .gridItem {
-    width: calc(100% / 2 - 9.0px*(1/2));
-    overflow: hidden;
-  }
-
-  .ARAppScreen .state1_elList2 .cols2_0 {
-    margin-right: 9.0px;
-    margin-bottom: 18.0px;
-    clear: left;
-  }
-  .ARAppScreen .state1_elList2 .cols2_1 {
-    margin-bottom: 18.0px;
-  }
-  .ARAppScreen .state1_elList2 .cols2_1:after { }
-  .ARAppScreen .state1_elList2 .cols2_1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-}
-
-@media (max-width: 767px) {
-  .ARAppScreen .state1_elList2 .gridItem {
-    width: calc(100% / 2 - 9.1px*(1/2));
-    overflow: hidden;
-  }
-
-  .ARAppScreen .state1_elList2 .cols2_0 { margin-right: 0; margin-bottom: 0; }
-  .ARAppScreen .state1_elList2 .cols2_1 { margin-right: 0; margin-bottom: 0; }
-  .ARAppScreen .state1_elList2 .cols2_0 {
-    margin-right: 9.1px;
-    margin-bottom: 18.1px;
-    clear: left;
-  }
-  .ARAppScreen .state1_elList2 .cols2_1 {
-    margin-bottom: 18.1px;
-  }
-  .ARAppScreen .state1_elList2 .cols2_1:after { }
-  .ARAppScreen .state1_elList2 .cols2_1:after { }
-  .ARAppScreen .state1_elList2 .cols2_1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-}
-
-@media (max-width: 567px) {
-  .ARAppScreen .state1_elList2 .gridItem {
-    width: calc(100% / 2 - 9.1px*(1/2));
-    overflow: hidden;
-  }
-
-  .ARAppScreen .state1_elList2 .cols2_0 { margin-right: 0; margin-bottom: 0; }
-  .ARAppScreen .state1_elList2 .cols2_1 { margin-right: 0; margin-bottom: 0; }
-  .ARAppScreen .state1_elList2 .cols2_0 { margin-right: 0; margin-bottom: 0; }
-  .ARAppScreen .state1_elList2 .cols2_1 { margin-right: 0; margin-bottom: 0; }
-  .ARAppScreen .state1_elList2 .cols2_0 {
-    margin-right: 9.1px;
-    margin-bottom: 18.1px;
-    clear: left;
-  }
-  .ARAppScreen .state1_elList2 .cols2_1 {
-    margin-bottom: 18.1px;
-  }
-  .ARAppScreen .state1_elList2 .cols2_1:after { }
-  .ARAppScreen .state1_elList2 .cols2_1:after { }
-  .ARAppScreen .state1_elList2 .cols2_1:after { }
-  .ARAppScreen .state1_elList2 .cols2_1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
+.ARAppScreen .state1_elInventorySlots.hasNestedComps > div {
+  overflow: hidden;
+  position: relative;
+  width: 100% !important;
 }
 
 
 
 /* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .layoutFlow > .state1_elList2 {
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots {
     position: relative;
-    margin-top: 100px;
-    width: 304px;
-    margin-left: calc(50.0% - 152px);
+    margin-top: 106px;
+    width: 302px;
+    margin-left: calc(50.0% - 151px);
   }
-  .ARAppScreen > .layoutFlow > .state1_elList2 > * { 
-  width: 304px;
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots > * { 
+  width: 302px;
   }
   
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots > .background > .containerMinHeight {
+    min-height: 368px;
+  }
+
 @media (min-width: 568px) {
-  .ARAppScreen > .layoutFlow > .state1_elList2 {
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots {
     position: relative;
-    margin-top: 100px;
-    width: 304px;
-    margin-left: calc(50.0% - 152px);
+    margin-top: 106px;
+    width: 302px;
+    margin-left: calc(50.0% - 151px);
   }
-  .ARAppScreen > .layoutFlow > .state1_elList2 > * { 
-  width: 304px;
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots > * { 
+  width: 302px;
   }
   
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots > .background > .containerMinHeight {
+    min-height: 368px;
+  }
+
 }
 @media (min-width: 768px) {
-  .ARAppScreen > .layoutFlow > .state1_elList2 {
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots {
     position: relative;
-    margin-top: 99px;
-    width: 302px;
-    margin-left: calc(50.0% - 151px);
+    margin-top: 105px;
+    width: 301px;
+    margin-left: calc(50.0% - 150px);
   }
-  .ARAppScreen > .layoutFlow > .state1_elList2 > * { 
-  width: 302px;
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots > * { 
+  width: 301px;
   }
   
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots > .background > .containerMinHeight {
+    min-height: 369px;
+  }
+
 }
 @media (min-width: 1024px) {
-  .ARAppScreen > .layoutFlow > .state1_elList2 {
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots {
     position: relative;
-    margin-top: 99px;
-    width: 302px;
-    margin-left: calc(50.0% - 151px);
+    margin-top: 105px;
+    width: 301px;
+    margin-left: calc(50.0% - 150px);
   }
-  .ARAppScreen > .layoutFlow > .state1_elList2 > * { 
-  width: 302px;
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots > * { 
+  width: 301px;
   }
   
+  .ARAppScreen > .layoutFlow > .state1_elInventorySlots > .background > .containerMinHeight {
+    min-height: 369px;
+  }
+
 }
 
 .ARAppScreen .state1_elArbutton747870 {

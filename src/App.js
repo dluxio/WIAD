@@ -20,15 +20,8 @@ export default class App extends Component {
 
     this.dataSlots = {};
     this.dataSlots['ds_activeLang'] = "en";
-    this.dataSlots['ds_empathy'] = "0";
-    this.dataSlots['ds_collaboration'] = "0";
-    this.dataSlots['ds_ethics'] = "0";
-    this.dataSlots['ds_curiosity'] = "0";
-    this.dataSlots['ds_thinking'] = "0";
-    this.dataSlots['ds_humility'] = "0";
     this.dataSlots['ds_onboarding'] = "0";
     this.dataSlots['ds_appState'] = "0";
-    this.dataSlots['ds_userName'] = "Guest";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);
 
@@ -183,15 +176,8 @@ export default class App extends Component {
           screenFormatId: this.state.screenFormatId
         },
         'ds_activeLang': this.dataSlots['ds_activeLang'],
-        'ds_empathy': this.dataSlots['ds_empathy'],
-        'ds_collaboration': this.dataSlots['ds_collaboration'],
-        'ds_ethics': this.dataSlots['ds_ethics'],
-        'ds_curiosity': this.dataSlots['ds_curiosity'],
-        'ds_thinking': this.dataSlots['ds_thinking'],
-        'ds_humility': this.dataSlots['ds_humility'],
         'ds_onboarding': this.dataSlots['ds_onboarding'],
         'ds_appState': this.dataSlots['ds_appState'],
-        'ds_userName': this.dataSlots['ds_userName'],
       };
       switch (screenId) {
         default:

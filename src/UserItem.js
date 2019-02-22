@@ -3,8 +3,8 @@ import './App.css';
 import Humility from './Humility';
 import Thinking from './Thinking';
 import Curiosity from './Curiosity';
-import Ethics from './Ethics';
 import Collaboration from './Collaboration';
+import Ethics from './Ethics';
 import Empathy from './Empathy';
 
 
@@ -197,10 +197,10 @@ export default class UserItem extends Component {
             <Curiosity visualStateIndex={transformStateValue_elCuriosity(this.props.curiosity)} ref={(el)=> this._elCuriosity = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
           </div>
           <div className='hasNestedComps elEthics'>
-            <Ethics visualStateIndex={transformStateValue_elEthics(this.props.ethics)} ref={(el)=> this._elEthics = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
+            <Collaboration visualStateIndex={transformStateValue_elEthics(this.props.ethics)} ref={(el)=> this._elEthics = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
           </div>
           <div className='hasNestedComps elCollaboration'>
-            <Collaboration visualStateIndex={transformStateValue_elCollaboration(this.props.collaboration)} ref={(el)=> this._elCollaboration = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
+            <Ethics visualStateIndex={transformStateValue_elCollaboration(this.props.collaboration)} ref={(el)=> this._elCollaboration = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
           </div>
           <div className='hasNestedComps elEmpathy'>
             <Empathy visualStateIndex={transformStateValue_elEmpathy(this.props.empathy)} ref={(el)=> this._elEmpathy = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />

@@ -226,17 +226,67 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "inventoryitem_text_962334";
-    item['en'] = "????";
+    item['en'] = "???";
     
     item = {};
     this.items.push(item);
     item['key'] = "inventoryitem_text_354864";
-    item['en'] = "CURIOSITY & GRIT";
+    item['en'] = "Empathy";
     
     item = {};
     this.items.push(item);
     item['key'] = "useritem2_text_225163";
     item['en'] = "username1234";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "empathyslot2_text_177941";
+    item['en'] = "???";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "empathyslot2_text_888129";
+    item['en'] = "Collaboration\n& Emergence";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "collaborationslot2_text_627933";
+    item['en'] = "???";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "collaborationslot2_text_499924";
+    item['en'] = "Ethics";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "ethicsslot2_text_273580";
+    item['en'] = "???";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "ethicsslot2_text_856517";
+    item['en'] = "Curiosity\n& Grit";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "curiosityslot2_text_294225";
+    item['en'] = "???";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "curiosityslot2_text_432756";
+    item['en'] = "Critical\nThinking";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "thinkingslot2_text_246858";
+    item['en'] = "???";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "thinkingslot2_text_1026601";
+    item['en'] = "Humility";
   }
 
   getStringsByLanguage = () => {
