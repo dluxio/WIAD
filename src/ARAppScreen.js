@@ -49,6 +49,7 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
+    const dataSheet_users = this.props.dataSheets['users'];
     const style_state0_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -89,7 +90,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state0_elInventoryStatus450939 = dataSheet_users.items[3];
+    const data_state0_elInventoryStatus722499 = dataSheet_users.items[0];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -117,8 +118,8 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state0_elInventorybutton205650' style={style_state0_elInventorybutton205650}  color="accent" onClick={this.onClick_state0_elInventorybutton205650} >
               {this.props.locStrings.arscanner_buttoncopy_205650}
             </Button>
-            <div className='hasNestedComps state0_elInventoryStatus450939'>
-              <InventoryStatus {...data_state0_elInventoryStatus450939} ref={(el)=> this._state0_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
+            <div className='hasNestedComps state0_elInventoryStatus722499'>
+              <InventoryStatus {...data_state0_elInventoryStatus722499} ref={(el)=> this._state0_elInventoryStatus722499 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
           </div>
         </div>
@@ -163,6 +164,7 @@ export default class ARAppScreen extends Component {
     }
     
     const dataSheet_inventory = this.props.dataSheets['inventory'];
+    const dataSheet_users = this.props.dataSheets['users'];
     const style_state1_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -218,7 +220,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state1_elInventoryStatus450939 = dataSheet_users.items[3];
+    const data_state1_elInventoryStatus722499 = dataSheet_users.items[0];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -269,8 +271,8 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state1_elInventorybutton205650' style={style_state1_elInventorybutton205650}  color="accent" onClick={this.onClick_state1_elInventorybutton205650} >
               {this.props.locStrings.arscanner_buttoncopy_205650}
             </Button>
-            <div className='hasNestedComps state1_elInventoryStatus450939'>
-              <InventoryStatus {...data_state1_elInventoryStatus450939} ref={(el)=> this._state1_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
+            <div className='hasNestedComps state1_elInventoryStatus722499'>
+              <InventoryStatus {...data_state1_elInventoryStatus722499} ref={(el)=> this._state1_elInventoryStatus722499 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
           </div>
         </div>
@@ -314,8 +316,8 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_users = this.props.dataSheets['users'];
     const dataSheet_inventory = this.props.dataSheets['inventory'];
+    const dataSheet_users = this.props.dataSheets['users'];
     const style_state2_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -379,7 +381,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state2_elInventoryStatus450939 = dataSheet_users.items[3];
+    const data_state2_elInventoryStatus722499 = dataSheet_users.items[0];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -436,8 +438,8 @@ export default class ARAppScreen extends Component {
             <Button className='actionFont state2_elInventorybutton205650' style={style_state2_elInventorybutton205650}  color="accent" onClick={this.onClick_state2_elInventorybutton205650} >
               {this.props.locStrings.arscanner_buttoncopy_205650}
             </Button>
-            <div className='hasNestedComps state2_elInventoryStatus450939'>
-              <InventoryStatus {...data_state2_elInventoryStatus450939} ref={(el)=> this._state2_elInventoryStatus450939 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
+            <div className='hasNestedComps state2_elInventoryStatus722499'>
+              <InventoryStatus {...data_state2_elInventoryStatus722499} ref={(el)=> this._state2_elInventoryStatus722499 = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
             </div>
           </div>
         </div>
