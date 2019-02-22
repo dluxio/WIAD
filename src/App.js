@@ -3,6 +3,7 @@ import LocalizedStrings from 'react-localization';
 import './App.css';
 import ARAppScreen from './ARAppScreen.js';
 import OnboardingScreen from './OnboardingScreen.js';
+import LoginFailScreen from './LoginFailScreen.js';
 import LoginScreen from './LoginScreen.js';
 import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
 import DataSheet_users_dlux from './DataSheet_users_dlux.js';
@@ -246,6 +247,8 @@ export default class App extends Component {
           return (<ARAppScreen {...screenProps} />)
         case 'onboarding':
           return (<OnboardingScreen {...screenProps} />)
+        case 'loginfail':
+          return (<LoginFailScreen {...screenProps} />)
         case 'login':
           return (<LoginScreen {...screenProps} />)
       }

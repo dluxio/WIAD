@@ -25,6 +25,15 @@
   }
 }
 
+.font-helveticaNeue {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+}
+@media (min-resolution: 120dpi) {
+  .font-helveticaNeue {
+    font-family: 'HelveticaNeue', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
+  }
+}
+
 .App { /* Base font style */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif;
   font-size: 15.1px;
@@ -1023,12 +1032,12 @@
 
 /* This component has a fixed-size layout */
   .InventoryStatus {
-    min-height: 58px;
+    min-height: 59px;
     overflow: hidden;
-    width: 100%; /* This component was designed using a width of 340px */
+    width: 100%; /* This component was designed using a width of 330px */
   }
   .InventoryStatus > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 
@@ -1595,7 +1604,7 @@
     height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 @media (min-width: 568px) {
@@ -1607,7 +1616,7 @@
     height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -1620,7 +1629,7 @@
     height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -1633,7 +1642,7 @@
     height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state0_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -1979,7 +1988,7 @@
     height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 @media (min-width: 568px) {
@@ -1991,7 +2000,7 @@
     height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -2004,7 +2013,7 @@
     height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -2017,7 +2026,7 @@
     height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state1_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -2341,7 +2350,7 @@
     height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 @media (min-width: 568px) {
@@ -2353,7 +2362,7 @@
     height: 64px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -2366,7 +2375,7 @@
     height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -2379,7 +2388,7 @@
     height: 63px;
   }
   .ARAppScreen > .screenFgContainer > .foreground > .state2_elInventoryStatus722499 > .background > .containerMinHeight {
-    min-height: 58px;
+    min-height: 59px;
   }
 
 }
@@ -3447,6 +3456,101 @@
 
 
 /* Narrowest size for this element's responsive layout */
+  .LoginFailScreen > .background > .elBackground {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .LoginFailScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .LoginFailScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .LoginFailScreen > .background > .elBackground {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginFailScreen > .layoutFlow > .elText {
+    overflow: hidden;
+    position: relative;
+    margin-top: 70px;
+    width: 238px;
+    margin-left: 64px;
+  }
+  .LoginFailScreen > .layoutFlow > .elText > * { 
+  width: 238px;
+  height: 59px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginFailScreen > .layoutFlow > .elText {
+    overflow: hidden;
+    position: relative;
+    margin-top: 70px;
+    width: 238px;
+    margin-left: 64px;
+  }
+  .LoginFailScreen > .layoutFlow > .elText > * { 
+  width: 238px;
+  height: 59px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginFailScreen > .layoutFlow > .elText {
+    overflow: hidden;
+    position: relative;
+    margin-top: 70px;
+    width: 236px;
+    margin-left: 63px;
+  }
+  .LoginFailScreen > .layoutFlow > .elText > * { 
+  width: 236px;
+  height: 58px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginFailScreen > .layoutFlow > .elText {
+    overflow: hidden;
+    position: relative;
+    margin-top: 70px;
+    width: 236px;
+    margin-left: 63px;
+  }
+  .LoginFailScreen > .layoutFlow > .elText > * { 
+  width: 236px;
+  height: 58px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
   .LoginScreen > .background > .state0_elBackground639403 {
     position: absolute;
     left: 0px;
@@ -3483,52 +3587,9 @@
   }
 }
 
-.LoginScreen .state0_elCreateButton {
-  border: 0.0px solid transparent;
-}
-
-
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elCreateButton {
-    line-height: 35px;
-    position: absolute;
-    left: calc(50.0% + 0px - 72px);
-    top: 222px;
-    width: 145px;
-    height: 35px;
-  }
-@media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elCreateButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 72px);
-    top: 222px;
-    width: 145px;
-    height: 35px;
-  }
-}
-@media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elCreateButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 72px);
-    top: 221px;
-    width: 144px;
-    height: 35px;
-  }
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elCreateButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 72px);
-    top: 221px;
-    width: 144px;
-    height: 35px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elCard {
+  .LoginScreen > .background > .state0_elCard {
     position: absolute;
     left: calc(50.0% + 0px - 136px);
     top: 304px;
@@ -3536,7 +3597,7 @@
     height: 224px;
   }
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elCard {
+  .LoginScreen > .background > .state0_elCard {
     left: calc(50.0% + 0px - 136px);
     top: 304px;
     width: 272px;
@@ -3544,7 +3605,7 @@
   }
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elCard {
+  .LoginScreen > .background > .state0_elCard {
     left: calc(50.0% + 0px - 135px);
     top: 302px;
     width: 270px;
@@ -3552,7 +3613,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elCard {
+  .LoginScreen > .background > .state0_elCard {
     left: calc(50.0% + 0px - 135px);
     top: 302px;
     width: 270px;
@@ -3560,614 +3621,1101 @@
   }
 }
 
-.LoginScreen .state0_elLoginButton {
-  border: 0.0px solid transparent;
-}
-
-
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elLoginButton {
-    line-height: 35px;
-    position: absolute;
-    left: calc(50.0% + 0px - 72px);
-    top: 469px;
-    width: 145px;
-    height: 35px;
+  .LoginScreen > .layoutFlow > .state0_elHeader {
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
   }
+  .LoginScreen > .layoutFlow > .state0_elHeader > * { 
+  width: 288px;
+  height: 66px;
+  }
+  
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elLoginButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 72px);
-    top: 469px;
-    width: 145px;
-    height: 35px;
+  .LoginScreen > .layoutFlow > .state0_elHeader {
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
   }
+  .LoginScreen > .layoutFlow > .state0_elHeader > * { 
+  width: 288px;
+  height: 66px;
+  }
+  
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elLoginButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 72px);
-    top: 466px;
-    width: 144px;
-    height: 35px;
+  .LoginScreen > .layoutFlow > .state0_elHeader {
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
   }
+  .LoginScreen > .layoutFlow > .state0_elHeader > * { 
+  width: 286px;
+  height: 66px;
+  }
+  
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elLoginButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 72px);
-    top: 466px;
-    width: 144px;
-    height: 35px;
+  .LoginScreen > .layoutFlow > .state0_elHeader {
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
   }
+  .LoginScreen > .layoutFlow > .state0_elHeader > * { 
+  width: 286px;
+  height: 66px;
+  }
+  
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elPasswordField {
-    position: absolute;
-    left: calc(50.0% + 0px - 113px);
-    top: 414px;
-    width: 226px;
-    height: 34px;
+  .LoginScreen > .layoutFlow > .state0_elLine482093 {
+    position: relative;
+    margin-top: 9px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
   }
+  .LoginScreen > .layoutFlow > .state0_elLine482093 > * { 
+  width: 288px;
+  height: 2px;
+  }
+  
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elPasswordField {
-    left: calc(50.0% + 0px - 113px);
-    top: 414px;
-    width: 226px;
-    height: 34px;
+  .LoginScreen > .layoutFlow > .state0_elLine482093 {
+    position: relative;
+    margin-top: 9px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
   }
+  .LoginScreen > .layoutFlow > .state0_elLine482093 > * { 
+  width: 288px;
+  height: 2px;
+  }
+  
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elPasswordField {
-    left: calc(50.0% + 0px - 112px);
-    top: 412px;
-    width: 225px;
-    height: 34px;
+  .LoginScreen > .layoutFlow > .state0_elLine482093 {
+    position: relative;
+    margin-top: 9px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
   }
+  .LoginScreen > .layoutFlow > .state0_elLine482093 > * { 
+  width: 286px;
+  height: 2px;
+  }
+  
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elPasswordField {
-    left: calc(50.0% + 0px - 112px);
-    top: 412px;
-    width: 225px;
-    height: 34px;
+  .LoginScreen > .layoutFlow > .state0_elLine482093 {
+    position: relative;
+    margin-top: 9px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
   }
+  .LoginScreen > .layoutFlow > .state0_elLine482093 > * { 
+  width: 286px;
+  height: 2px;
+  }
+  
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
+  .LoginScreen > .layoutFlow > .state0_elBody {
     overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + 0px - 113px);
-    top: 389px;
-    width: 226px;
-    height: 26px;
+    position: relative;
+    margin-top: 7px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
   }
+  .LoginScreen > .layoutFlow > .state0_elBody > * { 
+  width: 288px;
+  height: 64px;
+  }
+  
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
+  .LoginScreen > .layoutFlow > .state0_elBody {
     overflow: hidden;
-    left: calc(50.0% + 0px - 113px);
-    top: 389px;
-    width: 226px;
-    height: 26px;
+    position: relative;
+    margin-top: 7px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
   }
+  .LoginScreen > .layoutFlow > .state0_elBody > * { 
+  width: 288px;
+  height: 64px;
+  }
+  
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
+  .LoginScreen > .layoutFlow > .state0_elBody {
     overflow: hidden;
-    left: calc(50.0% + 0px - 112px);
-    top: 387px;
-    width: 225px;
-    height: 26px;
+    position: relative;
+    margin-top: 7px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
   }
+  .LoginScreen > .layoutFlow > .state0_elBody > * { 
+  width: 286px;
+  height: 64px;
+  }
+  
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elTextCopy {
+  .LoginScreen > .layoutFlow > .state0_elBody {
     overflow: hidden;
-    left: calc(50.0% + 0px - 112px);
-    top: 387px;
-    width: 225px;
-    height: 26px;
+    position: relative;
+    margin-top: 7px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
   }
+  .LoginScreen > .layoutFlow > .state0_elBody > * { 
+  width: 286px;
+  height: 64px;
+  }
+  
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elUserNameField {
-    position: absolute;
-    left: calc(50.0% + 0px - 113px);
-    top: 343px;
-    width: 226px;
-    height: 34px;
-  }
-@media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elUserNameField {
-    left: calc(50.0% + 0px - 113px);
-    top: 343px;
-    width: 226px;
-    height: 34px;
-  }
-}
-@media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elUserNameField {
-    left: calc(50.0% + 0px - 112px);
-    top: 341px;
-    width: 225px;
-    height: 34px;
-  }
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elUserNameField {
-    left: calc(50.0% + 0px - 112px);
-    top: 341px;
-    width: 225px;
-    height: 34px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText {
+  .LoginScreen > .layoutFlow > .state0_elTag {
     overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + 0px - 113px);
-    top: 318px;
-    width: 226px;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 113px);
-    top: 318px;
-    width: 226px;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 112px);
-    top: 316px;
-    width: 225px;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 112px);
-    top: 316px;
-    width: 225px;
-    height: 26px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText2 {
-    overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + 0px - 119px);
-    top: 14px;
-    width: 238px;
-    height: 66px;
-  }
-@media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText2 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 119px);
-    top: 14px;
-    width: 238px;
-    height: 66px;
-  }
-}
-@media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText2 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 118px);
-    top: 14px;
-    width: 236px;
-    height: 66px;
-  }
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText2 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 118px);
-    top: 14px;
-    width: 236px;
-    height: 66px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText3 {
-    overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + 0px - 133px);
-    top: 96px;
-    width: 266px;
-    height: 64px;
-  }
-@media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText3 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 133px);
-    top: 96px;
-    width: 266px;
-    height: 64px;
-  }
-}
-@media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText3 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 132px);
-    top: 96px;
-    width: 264px;
-    height: 64px;
-  }
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elText3 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 132px);
-    top: 96px;
-    width: 264px;
-    height: 64px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elTextCopy2 {
-    overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + 0px - 139px);
-    top: 190px;
+    position: relative;
+    margin-top: 25px;
     width: 277px;
-    height: 28px;
+    margin-left: calc(50.0% - 139px);
   }
+  .LoginScreen > .layoutFlow > .state0_elTag > * { 
+  width: 277px;
+  height: 28px;
+  }
+  
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elTextCopy2 {
+  .LoginScreen > .layoutFlow > .state0_elTag {
     overflow: hidden;
-    left: calc(50.0% + 0px - 139px);
-    top: 190px;
+    position: relative;
+    margin-top: 25px;
     width: 277px;
-    height: 28px;
+    margin-left: calc(50.0% - 139px);
   }
+  .LoginScreen > .layoutFlow > .state0_elTag > * { 
+  width: 277px;
+  height: 28px;
+  }
+  
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elTextCopy2 {
+  .LoginScreen > .layoutFlow > .state0_elTag {
     overflow: hidden;
-    left: calc(50.0% + 0px - 138px);
-    top: 189px;
+    position: relative;
+    margin-top: 25px;
     width: 276px;
-    height: 28px;
+    margin-left: calc(50.0% - 138px);
   }
+  .LoginScreen > .layoutFlow > .state0_elTag > * { 
+  width: 276px;
+  height: 28px;
+  }
+  
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state0_elTextCopy2 {
+  .LoginScreen > .layoutFlow > .state0_elTag {
     overflow: hidden;
-    left: calc(50.0% + 0px - 138px);
-    top: 189px;
+    position: relative;
+    margin-top: 25px;
     width: 276px;
-    height: 28px;
+    margin-left: calc(50.0% - 138px);
   }
+  .LoginScreen > .layoutFlow > .state0_elTag > * { 
+  width: 276px;
+  height: 28px;
+  }
+  
 }
 
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .background > .state1_elBackground639403 {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-@media (min-width: 568px) {
-  .LoginScreen > .background > .state1_elBackground639403 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .LoginScreen > .background > .state1_elBackground639403 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .background > .state1_elBackground639403 {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    width: 100.0%;
-    height: 100%;
-  }
-}
-
-.LoginScreen .state1_elButton2 {
+.LoginScreen .state0_elGetsteembtn button {
   border: 0.0px solid transparent;
 }
 
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elButton2 {
+  .LoginScreen > .layoutFlow > .state0_elGetsteembtn {
     line-height: 35px;
-    position: absolute;
-    left: calc(50.0% + 0px - 91px);
-    top: 454px;
-    width: 181px;
-    height: 35px;
+    position: relative;
+    margin-top: 9px;
+    width: 145px;
+    margin-left: calc(50.0% - 72px);
   }
+  .LoginScreen > .layoutFlow > .state0_elGetsteembtn > * { 
+  width: 145px;
+  height: 35px;
+  }
+  
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elButton2 {
+  .LoginScreen > .layoutFlow > .state0_elGetsteembtn {
     line-height: 35px;
-    left: calc(50.0% + 0px - 91px);
-    top: 454px;
-    width: 181px;
-    height: 35px;
+    position: relative;
+    margin-top: 9px;
+    width: 145px;
+    margin-left: calc(50.0% - 72px);
   }
+  .LoginScreen > .layoutFlow > .state0_elGetsteembtn > * { 
+  width: 145px;
+  height: 35px;
+  }
+  
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elButton2 {
+  .LoginScreen > .layoutFlow > .state0_elGetsteembtn {
     line-height: 35px;
-    left: calc(50.0% + 0px - 90px);
-    top: 450px;
-    width: 180px;
-    height: 35px;
+    position: relative;
+    margin-top: 9px;
+    width: 144px;
+    margin-left: calc(50.0% - 72px);
   }
+  .LoginScreen > .layoutFlow > .state0_elGetsteembtn > * { 
+  width: 144px;
+  height: 35px;
+  }
+  
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elButton2 {
+  .LoginScreen > .layoutFlow > .state0_elGetsteembtn {
     line-height: 35px;
-    left: calc(50.0% + 0px - 90px);
-    top: 450px;
-    width: 180px;
-    height: 35px;
+    position: relative;
+    margin-top: 9px;
+    width: 144px;
+    margin-left: calc(50.0% - 72px);
   }
+  .LoginScreen > .layoutFlow > .state0_elGetsteembtn > * { 
+  width: 144px;
+  height: 35px;
+  }
+  
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText4 {
+  .LoginScreen > .layoutFlow > .state0_elUsernamelabel {
     overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + -113px - 26px);
-    top: 512px;
-    width: 52px;
-    height: 26px;
-  }
-@media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText4 {
-    overflow: hidden;
-    left: calc(50.0% + -113px - 26px);
-    top: 512px;
-    width: 52px;
-    height: 26px;
-  }
-}
-@media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText4 {
-    overflow: hidden;
-    left: calc(50.0% + -112px - 26px);
-    top: 508px;
-    width: 52px;
-    height: 26px;
-  }
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText4 {
-    overflow: hidden;
-    left: calc(50.0% + -112px - 26px);
-    top: 508px;
-    width: 52px;
-    height: 26px;
-  }
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elField {
-    position: absolute;
-    left: calc(50.0% + 0px - 113px);
-    top: 344px;
+    position: relative;
+    margin-top: 59px;
     width: 226px;
-    height: 34px;
+    margin-left: calc(50.0% - 113px);
   }
+  .LoginScreen > .layoutFlow > .state0_elUsernamelabel > * { 
+  width: 226px;
+  height: 26px;
+  }
+  
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elField {
-    left: calc(50.0% + 0px - 113px);
-    top: 344px;
+  .LoginScreen > .layoutFlow > .state0_elUsernamelabel {
+    overflow: hidden;
+    position: relative;
+    margin-top: 59px;
     width: 226px;
-    height: 34px;
+    margin-left: calc(50.0% - 113px);
   }
+  .LoginScreen > .layoutFlow > .state0_elUsernamelabel > * { 
+  width: 226px;
+  height: 26px;
+  }
+  
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elField {
-    left: calc(50.0% + 0px - 112px);
-    top: 342px;
+  .LoginScreen > .layoutFlow > .state0_elUsernamelabel {
+    overflow: hidden;
+    position: relative;
+    margin-top: 59px;
     width: 225px;
-    height: 34px;
+    margin-left: calc(50.0% - 112px);
   }
+  .LoginScreen > .layoutFlow > .state0_elUsernamelabel > * { 
+  width: 225px;
+  height: 26px;
+  }
+  
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elField {
-    left: calc(50.0% + 0px - 112px);
-    top: 342px;
+  .LoginScreen > .layoutFlow > .state0_elUsernamelabel {
+    overflow: hidden;
+    position: relative;
+    margin-top: 59px;
     width: 225px;
-    height: 34px;
+    margin-left: calc(50.0% - 112px);
   }
+  .LoginScreen > .layoutFlow > .state0_elUsernamelabel > * { 
+  width: 225px;
+  height: 26px;
+  }
+  
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText2 {
-    overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + 0px - 125px);
-    top: 14px;
-    width: 250px;
-    height: 66px;
+  .LoginScreen > .layoutFlow > .state0_elUsernameinput {
+    position: relative;
+    margin-top: 0px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
   }
+  .LoginScreen > .layoutFlow > .state0_elUsernameinput > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText2 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 125px);
-    top: 14px;
-    width: 250px;
-    height: 66px;
+  .LoginScreen > .layoutFlow > .state0_elUsernameinput {
+    position: relative;
+    margin-top: 0px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
   }
+  .LoginScreen > .layoutFlow > .state0_elUsernameinput > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText2 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 124px);
-    top: 14px;
-    width: 249px;
-    height: 66px;
+  .LoginScreen > .layoutFlow > .state0_elUsernameinput {
+    position: relative;
+    margin-top: 0px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
   }
+  .LoginScreen > .layoutFlow > .state0_elUsernameinput > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText2 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 124px);
-    top: 14px;
-    width: 248px;
-    height: 66px;
+  .LoginScreen > .layoutFlow > .state0_elUsernameinput {
+    position: relative;
+    margin-top: 0px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
   }
+  .LoginScreen > .layoutFlow > .state0_elUsernameinput > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText3 {
+  .LoginScreen > .layoutFlow > .state0_elPasswordlabel {
     overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + 0px - 156px);
-    top: 96px;
-    width: 312px;
-    height: 212px;
+    position: relative;
+    margin-top: 19px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
   }
+  .LoginScreen > .layoutFlow > .state0_elPasswordlabel > * { 
+  width: 226px;
+  height: 26px;
+  }
+  
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText3 {
+  .LoginScreen > .layoutFlow > .state0_elPasswordlabel {
     overflow: hidden;
-    left: calc(50.0% + 0px - 156px);
-    top: 96px;
-    width: 312px;
-    height: 212px;
+    position: relative;
+    margin-top: 19px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
   }
+  .LoginScreen > .layoutFlow > .state0_elPasswordlabel > * { 
+  width: 226px;
+  height: 26px;
+  }
+  
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText3 {
+  .LoginScreen > .layoutFlow > .state0_elPasswordlabel {
     overflow: hidden;
-    left: calc(50.0% + 0px - 155px);
-    top: 96px;
-    width: 311px;
-    height: 212px;
+    position: relative;
+    margin-top: 18px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
   }
+  .LoginScreen > .layoutFlow > .state0_elPasswordlabel > * { 
+  width: 225px;
+  height: 26px;
+  }
+  
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elText3 {
+  .LoginScreen > .layoutFlow > .state0_elPasswordlabel {
     overflow: hidden;
-    left: calc(50.0% + 0px - 155px);
-    top: 96px;
-    width: 311px;
-    height: 212px;
+    position: relative;
+    margin-top: 18px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
   }
+  .LoginScreen > .layoutFlow > .state0_elPasswordlabel > * { 
+  width: 225px;
+  height: 26px;
+  }
+  
 }
 
-.LoginScreen .state1_elButton {
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state0_elPasswordinput {
+    position: relative;
+    margin-top: 0px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .LoginScreen > .layoutFlow > .state0_elPasswordinput > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state0_elPasswordinput {
+    position: relative;
+    margin-top: 0px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .LoginScreen > .layoutFlow > .state0_elPasswordinput > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state0_elPasswordinput {
+    position: relative;
+    margin-top: 0px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .LoginScreen > .layoutFlow > .state0_elPasswordinput > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state0_elPasswordinput {
+    position: relative;
+    margin-top: 0px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .LoginScreen > .layoutFlow > .state0_elPasswordinput > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
+}
+
+.LoginScreen .state0_elLoginbtn button {
   border: 0.0px solid transparent;
 }
 
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elButton {
+  .LoginScreen > .layoutFlow > .state0_elLoginbtn {
     line-height: 35px;
+    position: relative;
+    margin-top: 25px;
+    width: 145px;
+    margin-left: calc(50.0% - 72px);
+  }
+  .LoginScreen > .layoutFlow > .state0_elLoginbtn > * { 
+  width: 145px;
+  height: 35px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state0_elLoginbtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 25px;
+    width: 145px;
+    margin-left: calc(50.0% - 72px);
+  }
+  .LoginScreen > .layoutFlow > .state0_elLoginbtn > * { 
+  width: 145px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state0_elLoginbtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 24px;
+    width: 144px;
+    margin-left: calc(50.0% - 72px);
+  }
+  .LoginScreen > .layoutFlow > .state0_elLoginbtn > * { 
+  width: 144px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state0_elLoginbtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 24px;
+    width: 144px;
+    margin-left: calc(50.0% - 72px);
+  }
+  .LoginScreen > .layoutFlow > .state0_elLoginbtn > * { 
+  width: 144px;
+  height: 35px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .background > .state1_elBackground639403 {
     position: absolute;
-    left: calc(50.0% + 0px - 91px);
-    top: 400px;
-    width: 181px;
-    height: 35px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
   }
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 91px);
-    top: 400px;
-    width: 181px;
-    height: 35px;
+  .LoginScreen > .background > .state1_elBackground639403 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
   }
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 90px);
-    top: 398px;
-    width: 180px;
-    height: 35px;
+  .LoginScreen > .background > .state1_elBackground639403 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
   }
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elButton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 90px);
-    top: 398px;
-    width: 180px;
-    height: 35px;
+  .LoginScreen > .background > .state1_elBackground639403 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
   }
 }
 
 
 /* Narrowest size for this element's responsive layout */
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elTextCopy3 {
-    overflow: hidden;
+  .LoginScreen > .background > .state1_elCard {
     position: absolute;
-    left: calc(50.0% + 0px - 113px);
-    top: 320px;
-    width: 226px;
-    height: 26px;
+    left: calc(50.0% + 0px - 136px);
+    top: 314px;
+    width: 272px;
+    height: 134px;
   }
 @media (min-width: 568px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elTextCopy3 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 113px);
-    top: 320px;
-    width: 226px;
-    height: 26px;
+  .LoginScreen > .background > .state1_elCard {
+    left: calc(50.0% + 0px - 136px);
+    top: 314px;
+    width: 272px;
+    height: 134px;
   }
 }
 @media (min-width: 768px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elTextCopy3 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 112px);
-    top: 318px;
-    width: 225px;
-    height: 26px;
+  .LoginScreen > .background > .state1_elCard {
+    left: calc(50.0% + 0px - 135px);
+    top: 312px;
+    width: 270px;
+    height: 133px;
   }
 }
 @media (min-width: 1024px) {
-  .LoginScreen > .screenFgContainer > .foreground > .state1_elTextCopy3 {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 112px);
-    top: 318px;
-    width: 225px;
-    height: 26px;
+  .LoginScreen > .background > .state1_elCard {
+    left: calc(50.0% + 0px - 135px);
+    top: 312px;
+    width: 270px;
+    height: 133px;
   }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state1_elHeader {
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elHeader > * { 
+  width: 288px;
+  height: 66px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state1_elHeader {
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elHeader > * { 
+  width: 288px;
+  height: 66px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state1_elHeader {
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elHeader > * { 
+  width: 286px;
+  height: 66px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state1_elHeader {
+    overflow: hidden;
+    position: relative;
+    margin-top: 14px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elHeader > * { 
+  width: 286px;
+  height: 66px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state1_elLine482093 {
+    position: relative;
+    margin-top: 9px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elLine482093 > * { 
+  width: 288px;
+  height: 2px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state1_elLine482093 {
+    position: relative;
+    margin-top: 9px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elLine482093 > * { 
+  width: 288px;
+  height: 2px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state1_elLine482093 {
+    position: relative;
+    margin-top: 9px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elLine482093 > * { 
+  width: 286px;
+  height: 2px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state1_elLine482093 {
+    position: relative;
+    margin-top: 9px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elLine482093 > * { 
+  width: 286px;
+  height: 2px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state1_elBody {
+    overflow: hidden;
+    position: relative;
+    margin-top: 7px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elBody > * { 
+  width: 288px;
+  height: 204px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state1_elBody {
+    overflow: hidden;
+    position: relative;
+    margin-top: 7px;
+    width: 288px;
+    margin-left: calc(50.0% - 144px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elBody > * { 
+  width: 288px;
+  height: 204px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state1_elBody {
+    overflow: hidden;
+    position: relative;
+    margin-top: 7px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elBody > * { 
+  width: 286px;
+  height: 202px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state1_elBody {
+    overflow: hidden;
+    position: relative;
+    margin-top: 7px;
+    width: 286px;
+    margin-left: calc(50.0% - 143px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elBody > * { 
+  width: 286px;
+  height: 202px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state1_elEmaillabel {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elEmaillabel > * { 
+  width: 226px;
+  height: 26px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state1_elEmaillabel {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elEmaillabel > * { 
+  width: 226px;
+  height: 26px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state1_elEmaillabel {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elEmaillabel > * { 
+  width: 225px;
+  height: 26px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state1_elEmaillabel {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elEmaillabel > * { 
+  width: 225px;
+  height: 26px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state1_elEmailinput {
+    position: relative;
+    margin-top: 0px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elEmailinput > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state1_elEmailinput {
+    position: relative;
+    margin-top: 0px;
+    width: 226px;
+    margin-left: calc(50.0% - 113px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elEmailinput > * { 
+  width: 226px;
+  height: 34px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state1_elEmailinput {
+    position: relative;
+    margin-top: 0px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elEmailinput > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state1_elEmailinput {
+    position: relative;
+    margin-top: 0px;
+    width: 225px;
+    margin-left: calc(50.0% - 112px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elEmailinput > * { 
+  width: 225px;
+  height: 34px;
+  }
+  
+}
+
+.LoginScreen .state1_elVoucherbtn button {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state1_elVoucherbtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 14px;
+    width: 204px;
+    margin-left: calc(50.0% - 102px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elVoucherbtn > * { 
+  width: 204px;
+  height: 35px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state1_elVoucherbtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 14px;
+    width: 204px;
+    margin-left: calc(50.0% - 102px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elVoucherbtn > * { 
+  width: 204px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state1_elVoucherbtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 14px;
+    width: 203px;
+    margin-left: calc(50.0% - 101px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elVoucherbtn > * { 
+  width: 203px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state1_elVoucherbtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 14px;
+    width: 203px;
+    margin-left: calc(50.0% - 101px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elVoucherbtn > * { 
+  width: 203px;
+  height: 35px;
+  }
+  
+}
+
+.LoginScreen .state1_elSteemninjabtn button {
+  border: 0.0px solid transparent;
+}
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state1_elSteemninjabtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 38px;
+    width: 204px;
+    margin-left: calc(50.0% - 102px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elSteemninjabtn > * { 
+  width: 204px;
+  height: 35px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state1_elSteemninjabtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 38px;
+    width: 204px;
+    margin-left: calc(50.0% - 102px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elSteemninjabtn > * { 
+  width: 204px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state1_elSteemninjabtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 38px;
+    width: 203px;
+    margin-left: calc(50.0% - 101px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elSteemninjabtn > * { 
+  width: 203px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state1_elSteemninjabtn {
+    line-height: 35px;
+    position: relative;
+    margin-top: 38px;
+    width: 203px;
+    margin-left: calc(50.0% - 101px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elSteemninjabtn > * { 
+  width: 203px;
+  height: 35px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .LoginScreen > .layoutFlow > .state1_elBackbtn {
+    overflow: hidden;
+    position: relative;
+    margin-top: 29px;
+    width: 52px;
+    margin-left: calc(29.1% - 26px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elBackbtn > * { 
+  width: 52px;
+  height: 26px;
+  }
+  
+@media (min-width: 568px) {
+  .LoginScreen > .layoutFlow > .state1_elBackbtn {
+    overflow: hidden;
+    position: relative;
+    margin-top: 29px;
+    width: 52px;
+    margin-left: calc(38.2% - 26px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elBackbtn > * { 
+  width: 52px;
+  height: 26px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .LoginScreen > .layoutFlow > .state1_elBackbtn {
+    overflow: hidden;
+    position: relative;
+    margin-top: 29px;
+    width: 52px;
+    margin-left: calc(41.4% - 26px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elBackbtn > * { 
+  width: 52px;
+  height: 26px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .LoginScreen > .layoutFlow > .state1_elBackbtn {
+    overflow: hidden;
+    position: relative;
+    margin-top: 29px;
+    width: 52px;
+    margin-left: calc(43.5% - 26px);
+  }
+  .LoginScreen > .layoutFlow > .state1_elBackbtn > * { 
+  width: 52px;
+  height: 26px;
+  }
+  
 }
 

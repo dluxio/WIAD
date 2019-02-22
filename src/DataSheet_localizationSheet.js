@@ -331,7 +331,7 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_text2_795274";
-    item['en'] = "Welcome to World IA Day 2019!";
+    item['en'] = "WELCOME TO\nWORLD IA DAY 2019";
     
     item = {};
     this.items.push(item);
@@ -341,7 +341,7 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_textcopy2_851444";
-    item['en'] = "It requires a Steem account:";
+    item['en'] = "A Steem account is required";
     
     item = {};
     this.items.push(item);
@@ -366,7 +366,7 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_text2_624214";
-    item['en'] = "Redeem Your Steem Ninja voucher";
+    item['en'] = "REDEEM YOUR STEEM NINJA VOUCHER";
     
     item = {};
     this.items.push(item);
@@ -411,7 +411,7 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_button2_182743";
-    item['en'] = "Steem.Ninja";
+    item['en'] = "Redeem at Steem.Ninja";
     
     item = {};
     this.items.push(item);
@@ -472,6 +472,26 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     this.items.push(item);
     item['key'] = "onboarding_text_349469";
     item['en'] = "JOIN THE HUNT";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button3_737351";
+    item['en'] = "New button";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_button3_684463";
+    item['en'] = "New button";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_body_833488";
+    item['en'] = "Steem is a social media blockchain and crypto currency.\n\nAn account voucher is included with your World IA Day ticket, and can be redeemed through Steem.Ninja\n\nIf you don’t know your voucher code, you can look it up here. Then, click STEEM.NINJA to redeem.";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "loginfail_text_649192";
+    item['en'] = "FAILURE";
   }
 
   getStringsByLanguage = () => {
