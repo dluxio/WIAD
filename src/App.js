@@ -28,6 +28,7 @@ export default class App extends Component {
     this.dataSlots['ds_humility'] = "0";
     this.dataSlots['ds_onboarding'] = "0";
     this.dataSlots['ds_appState'] = "0";
+    this.dataSlots['ds_userName'] = "Guest";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);
 
@@ -190,6 +191,7 @@ export default class App extends Component {
         'ds_humility': this.dataSlots['ds_humility'],
         'ds_onboarding': this.dataSlots['ds_onboarding'],
         'ds_appState': this.dataSlots['ds_appState'],
+        'ds_userName': this.dataSlots['ds_userName'],
       };
       switch (screenId) {
         default:

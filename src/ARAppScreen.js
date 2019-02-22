@@ -11,7 +11,7 @@ import Button from 'muicss/lib/react/button';
 export default class ARAppScreen extends Component {
 
   // Properties used by this component:
-  // appActions, deviceInfo
+  // appActions, deviceInfo, empathy, ethics, curiosity, thinking, humility, collaboration
 
   // --- Functions for component state index 0 (1 of 3) --- 
   
@@ -49,7 +49,6 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_users = this.props.dataSheets['users'];
     const style_state0_elBackground569119 = {
         width: '100%',
         height: '100%',
@@ -57,11 +56,11 @@ export default class ARAppScreen extends Component {
     const style_state0_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const style_state0_elEmbed = {
+    const style_state0_elEmbed261354 = {
         pointerEvents: 'auto',
      };
     // Embedded HTML content for element 'embed'
-    const htmlContent_embed = "<iframe id=\"iframeXRCanvas\" scrolling=\"yes\" width=\"100%\" height=\"100%\" align=\"right\" allow=\"gyroscope; accelerometer; microphone; camera;\" allowfullscreen=\"true\" src=\"https://blushing-poet.glitch.me/\"></iframe>";
+    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
     
     
     const style_state0_elArbutton747870 = {
@@ -100,7 +99,7 @@ export default class ARAppScreen extends Component {
           
           </div>
           
-          <div className='embeddedContent containerMinHeight state0_elEmbed' style={style_state0_elEmbed}>
+          <div className='embeddedContent containerMinHeight state0_elEmbed261354' style={style_state0_elEmbed261354}>
             <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
           </div>
         </div>
@@ -164,12 +163,25 @@ export default class ARAppScreen extends Component {
     }
     
     const dataSheet_inventory = this.props.dataSheets['inventory'];
-    const dataSheet_users = this.props.dataSheets['users'];
     const style_state1_elBackground569119 = {
         width: '100%',
         height: '100%',
      };
     const style_state1_elBackground569119_outer = {
+        backgroundColor: '#f6f6f6',
+     };
+    const style_state1_elEmbed261354 = {
+        pointerEvents: 'auto',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
+    
+    
+    const style_state1_elBackgroundCopy415200 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state1_elBackgroundCopy415200_outer = {
         backgroundColor: '#f6f6f6',
      };
     const style_state1_elList2 = {
@@ -213,6 +225,14 @@ export default class ARAppScreen extends Component {
         <div className="background">
           <div className='appBg containerMinHeight state1_elBackground569119' style={style_state1_elBackground569119_outer}>
             <div style={style_state1_elBackground569119} />
+          
+          </div>
+          
+          <div className='embeddedContent containerMinHeight state1_elEmbed261354' style={style_state1_elEmbed261354}>
+            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+          </div>
+          <div className='appBg containerMinHeight state1_elBackgroundCopy415200' style={style_state1_elBackgroundCopy415200_outer}>
+            <div style={style_state1_elBackgroundCopy415200} />
           
           </div>
           
@@ -294,13 +314,27 @@ export default class ARAppScreen extends Component {
       layoutFlowStyle.overflow = 'hidden';
     }
     
-    const dataSheet_inventory = this.props.dataSheets['inventory'];
     const dataSheet_users = this.props.dataSheets['users'];
+    const dataSheet_inventory = this.props.dataSheets['inventory'];
     const style_state2_elBackground569119 = {
         width: '100%',
         height: '100%',
      };
     const style_state2_elBackground569119_outer = {
+        backgroundColor: '#f6f6f6',
+     };
+    const style_state2_elEmbed261354 = {
+        pointerEvents: 'auto',
+     };
+    // Embedded HTML content for element 'embed'
+    const htmlContent_embed = "<iframe scrolling=\"no\" style=\"border:0; width:100vw;height:100vh;display:inline-block;left:0px;position:fixed;top:0px;\" align=\"right\" allow=\"gyroscope; accelerometer; camera;\" allowfullscreen src=\"/ar.html\"></iframe>";
+    
+    
+    const style_state2_elBackgroundCopy415200 = {
+        width: '100%',
+        height: '100%',
+     };
+    const style_state2_elBackgroundCopy415200_outer = {
         backgroundColor: '#f6f6f6',
      };
     const style_state2_elList = {
@@ -310,6 +344,14 @@ export default class ARAppScreen extends Component {
     let items_list = [];
     let listComps_list = {};
     items_list = items_list.concat(this.props.appActions.getDataSheet('users').items);
+    
+    const style_state2_elListCopy = {
+        height: 'auto',  // This element is in scroll flow
+     };
+    // Source items and any special components used for list/grid element 'list copy'.
+    let items_listCopy = [];
+    let listComps_listCopy = {};
+    items_listCopy = items_listCopy.concat(this.props.appActions.getDataSheet('users').items);
     
     const style_state2_elArbutton747870 = {
         display: 'block',
@@ -347,6 +389,14 @@ export default class ARAppScreen extends Component {
           
           </div>
           
+          <div className='embeddedContent containerMinHeight state2_elEmbed261354' style={style_state2_elEmbed261354}>
+            <div dangerouslySetInnerHTML={{__html: htmlContent_embed}}></div>
+          </div>
+          <div className='appBg containerMinHeight state2_elBackgroundCopy415200' style={style_state2_elBackgroundCopy415200_outer}>
+            <div style={style_state2_elBackgroundCopy415200} />
+          
+          </div>
+          
         </div>
         <div className="layoutFlow" style={layoutFlowStyle}>
           <div className='hasNestedComps state2_elList'>
@@ -356,6 +406,17 @@ export default class ARAppScreen extends Component {
                 return (<li key={row.key}>{itemComp}</li>)
               })}
               <div ref={(el)=> this._state2_elList_endMarker = el} />
+            </ul>
+          
+          </div>
+          
+          <div className='hasNestedComps state2_elListCopy'>
+            <ul style={style_state2_elListCopy}>
+              {items_listCopy.map((row, index) => {
+                let itemComp = (row._componentId) ? listComps_listCopy[row._componentId] : <UserItem dataSheetId={'users'} dataSheetRow={row} empathy={row.empathy} username={row.username} collaboration={row.collaboration} ethics={row.ethics} curiosity={row.curiosity} thinking={row.thinking} humility={row.humility} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
+                return (<li key={row.key}>{itemComp}</li>)
+              })}
+              <div ref={(el)=> this._state2_elListCopy_endMarker = el} />
             </ul>
           
           </div>

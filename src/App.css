@@ -925,7 +925,7 @@
 
 
 /* Narrowest size for this element's responsive layout */
-  .ARAppScreen > .background > .state0_elEmbed {
+  .ARAppScreen > .background > .state0_elEmbed261354 {
     position: absolute;
     left: 0px;
     right: 0px;
@@ -934,7 +934,7 @@
     height: 100%;
   }
 @media (min-width: 568px) {
-  .ARAppScreen > .background > .state0_elEmbed {
+  .ARAppScreen > .background > .state0_elEmbed261354 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -943,7 +943,7 @@
   }
 }
 @media (min-width: 768px) {
-  .ARAppScreen > .background > .state0_elEmbed {
+  .ARAppScreen > .background > .state0_elEmbed261354 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -952,7 +952,7 @@
   }
 }
 @media (min-width: 1024px) {
-  .ARAppScreen > .background > .state0_elEmbed {
+  .ARAppScreen > .background > .state0_elEmbed261354 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1223,6 +1223,82 @@
 }
 @media (min-width: 1024px) {
   .ARAppScreen > .background > .state1_elBackground569119 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state1_elEmbed261354 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state1_elEmbed261354 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state1_elEmbed261354 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state1_elEmbed261354 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state1_elBackgroundCopy415200 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state1_elBackgroundCopy415200 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state1_elBackgroundCopy415200 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state1_elBackgroundCopy415200 {
     left: 0px;
     right: 0px;
     top: 0px;
@@ -1662,6 +1738,82 @@
   }
 }
 
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state2_elEmbed261354 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state2_elEmbed261354 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state2_elEmbed261354 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state2_elEmbed261354 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .background > .state2_elBackgroundCopy415200 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+@media (min-width: 568px) {
+  .ARAppScreen > .background > .state2_elBackgroundCopy415200 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .background > .state2_elBackgroundCopy415200 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .background > .state2_elBackgroundCopy415200 {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100.0%;
+    height: 100%;
+  }
+}
+
   .ARAppScreen .state2_elList li {
     margin-bottom: 5px;
   }
@@ -1715,6 +1867,64 @@
     width: calc(100.0% - 9px);
   }
   .ARAppScreen > .layoutFlow > .state2_elList > * { 
+    width: 100%;
+  }
+  
+}
+
+  .ARAppScreen .state2_elListCopy li {
+    margin-bottom: 5px;
+  }
+
+
+
+/* Narrowest size for this element's responsive layout */
+  .ARAppScreen > .layoutFlow > .state2_elListCopy {
+    position: relative;
+    margin-top: 30px;
+    margin-left: calc(50.0% - 151px);
+    margin-right: 9px;
+    width: calc(100.0% - 9px);
+  }
+  .ARAppScreen > .layoutFlow > .state2_elListCopy > * { 
+    width: 100%;
+  }
+  
+@media (min-width: 568px) {
+  .ARAppScreen > .layoutFlow > .state2_elListCopy {
+    position: relative;
+    margin-top: 30px;
+    margin-left: calc(50.0% - 151px);
+    margin-right: 9px;
+    width: calc(100.0% - 9px);
+  }
+  .ARAppScreen > .layoutFlow > .state2_elListCopy > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 768px) {
+  .ARAppScreen > .layoutFlow > .state2_elListCopy {
+    position: relative;
+    margin-top: 30px;
+    margin-left: calc(50.0% - 150px);
+    margin-right: 9px;
+    width: calc(100.0% - 9px);
+  }
+  .ARAppScreen > .layoutFlow > .state2_elListCopy > * { 
+    width: 100%;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .ARAppScreen > .layoutFlow > .state2_elListCopy {
+    position: relative;
+    margin-top: 30px;
+    margin-left: calc(50.0% - 150px);
+    margin-right: 9px;
+    width: calc(100.0% - 9px);
+  }
+  .ARAppScreen > .layoutFlow > .state2_elListCopy > * { 
     width: 100%;
   }
   
