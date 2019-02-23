@@ -4170,7 +4170,7 @@
   .LoginScreen > .layoutFlow > .state1_elBody {
     overflow: hidden;
     position: relative;
-    margin-top: 7px;
+    margin-top: 36px;
     width: 288px;
     margin-left: calc(50.0% - 144px);
   }
@@ -4183,7 +4183,7 @@
   .LoginScreen > .layoutFlow > .state1_elBody {
     overflow: hidden;
     position: relative;
-    margin-top: 7px;
+    margin-top: 36px;
     width: 288px;
     margin-left: calc(50.0% - 144px);
   }
@@ -4197,7 +4197,7 @@
   .LoginScreen > .layoutFlow > .state1_elBody {
     overflow: hidden;
     position: relative;
-    margin-top: 7px;
+    margin-top: 36px;
     width: 286px;
     margin-left: calc(50.0% - 143px);
   }
@@ -4211,185 +4211,13 @@
   .LoginScreen > .layoutFlow > .state1_elBody {
     overflow: hidden;
     position: relative;
-    margin-top: 7px;
+    margin-top: 36px;
     width: 286px;
     margin-left: calc(50.0% - 143px);
   }
   .LoginScreen > .layoutFlow > .state1_elBody > * { 
   width: 286px;
   height: 202px;
-  }
-  
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .layoutFlow > .state1_elEmaillabel {
-    overflow: hidden;
-    position: relative;
-    margin-top: 4px;
-    width: 226px;
-    margin-left: calc(50.0% - 113px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elEmaillabel > * { 
-  width: 226px;
-  height: 26px;
-  }
-  
-@media (min-width: 568px) {
-  .LoginScreen > .layoutFlow > .state1_elEmaillabel {
-    overflow: hidden;
-    position: relative;
-    margin-top: 4px;
-    width: 226px;
-    margin-left: calc(50.0% - 113px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elEmaillabel > * { 
-  width: 226px;
-  height: 26px;
-  }
-  
-}
-@media (min-width: 768px) {
-  .LoginScreen > .layoutFlow > .state1_elEmaillabel {
-    overflow: hidden;
-    position: relative;
-    margin-top: 4px;
-    width: 225px;
-    margin-left: calc(50.0% - 112px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elEmaillabel > * { 
-  width: 225px;
-  height: 26px;
-  }
-  
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .layoutFlow > .state1_elEmaillabel {
-    overflow: hidden;
-    position: relative;
-    margin-top: 4px;
-    width: 225px;
-    margin-left: calc(50.0% - 112px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elEmaillabel > * { 
-  width: 225px;
-  height: 26px;
-  }
-  
-}
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .layoutFlow > .state1_elEmailinput {
-    position: relative;
-    margin-top: 0px;
-    width: 226px;
-    margin-left: calc(50.0% - 113px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elEmailinput > * { 
-  width: 226px;
-  height: 34px;
-  }
-  
-@media (min-width: 568px) {
-  .LoginScreen > .layoutFlow > .state1_elEmailinput {
-    position: relative;
-    margin-top: 0px;
-    width: 226px;
-    margin-left: calc(50.0% - 113px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elEmailinput > * { 
-  width: 226px;
-  height: 34px;
-  }
-  
-}
-@media (min-width: 768px) {
-  .LoginScreen > .layoutFlow > .state1_elEmailinput {
-    position: relative;
-    margin-top: 0px;
-    width: 225px;
-    margin-left: calc(50.0% - 112px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elEmailinput > * { 
-  width: 225px;
-  height: 34px;
-  }
-  
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .layoutFlow > .state1_elEmailinput {
-    position: relative;
-    margin-top: 0px;
-    width: 225px;
-    margin-left: calc(50.0% - 112px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elEmailinput > * { 
-  width: 225px;
-  height: 34px;
-  }
-  
-}
-
-.LoginScreen .state1_elVoucherbtn button {
-  border: 0.0px solid transparent;
-}
-
-
-
-/* Narrowest size for this element's responsive layout */
-  .LoginScreen > .layoutFlow > .state1_elVoucherbtn {
-    line-height: 35px;
-    position: relative;
-    margin-top: 14px;
-    width: 204px;
-    margin-left: calc(50.0% - 102px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elVoucherbtn > * { 
-  width: 204px;
-  height: 35px;
-  }
-  
-@media (min-width: 568px) {
-  .LoginScreen > .layoutFlow > .state1_elVoucherbtn {
-    line-height: 35px;
-    position: relative;
-    margin-top: 14px;
-    width: 204px;
-    margin-left: calc(50.0% - 102px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elVoucherbtn > * { 
-  width: 204px;
-  height: 35px;
-  }
-  
-}
-@media (min-width: 768px) {
-  .LoginScreen > .layoutFlow > .state1_elVoucherbtn {
-    line-height: 35px;
-    position: relative;
-    margin-top: 14px;
-    width: 203px;
-    margin-left: calc(50.0% - 101px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elVoucherbtn > * { 
-  width: 203px;
-  height: 35px;
-  }
-  
-}
-@media (min-width: 1024px) {
-  .LoginScreen > .layoutFlow > .state1_elVoucherbtn {
-    line-height: 35px;
-    position: relative;
-    margin-top: 14px;
-    width: 203px;
-    margin-left: calc(50.0% - 101px);
-  }
-  .LoginScreen > .layoutFlow > .state1_elVoucherbtn > * { 
-  width: 203px;
-  height: 35px;
   }
   
 }
@@ -4461,7 +4289,7 @@
   .LoginScreen > .layoutFlow > .state1_elBackbtn {
     overflow: hidden;
     position: relative;
-    margin-top: 38px;
+    margin-top: 118px;
     width: 52px;
     margin-left: calc(29.1% - 26px);
   }
@@ -4474,7 +4302,7 @@
   .LoginScreen > .layoutFlow > .state1_elBackbtn {
     overflow: hidden;
     position: relative;
-    margin-top: 38px;
+    margin-top: 118px;
     width: 52px;
     margin-left: calc(38.2% - 26px);
   }
@@ -4488,7 +4316,7 @@
   .LoginScreen > .layoutFlow > .state1_elBackbtn {
     overflow: hidden;
     position: relative;
-    margin-top: 38px;
+    margin-top: 118px;
     width: 52px;
     margin-left: calc(41.4% - 26px);
   }
@@ -4502,7 +4330,7 @@
   .LoginScreen > .layoutFlow > .state1_elBackbtn {
     overflow: hidden;
     position: relative;
-    margin-top: 38px;
+    margin-top: 118px;
     width: 52px;
     margin-left: calc(43.5% - 26px);
   }
