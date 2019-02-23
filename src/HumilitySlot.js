@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import img_state1_elImage from './images/CollaborationSlot_state1_elImage_804916.jpg';
+import img_state1_elImage from './images/HumilitySlot_state1_elImage_384717.jpg';
 
 
 export default class HumilitySlot extends Component {

@@ -25,6 +25,9 @@ export default class App extends Component {
     this.dataSlots['ds_appState'] = "0";
     this.dataSlots['ds_loginState'] = "0";
     this.dataSlots['ds_selectedVirtue'] = "0";
+    this.dataSlots['ds_emailVoucher'] = "";
+    this.dataSlots['ds_username'] = "";
+    this.dataSlots['ds_password'] = "";
 
     this.updateLocalizationFromDataSheet(this.dataSheets['localizationSheet']);
 
@@ -239,6 +242,9 @@ export default class App extends Component {
         'ds_appState': this.dataSlots['ds_appState'],
         'ds_loginState': this.dataSlots['ds_loginState'],
         'ds_selectedVirtue': this.dataSlots['ds_selectedVirtue'],
+        'ds_emailVoucher': this.dataSlots['ds_emailVoucher'],
+        'ds_username': this.dataSlots['ds_username'],
+        'ds_password': this.dataSlots['ds_password'],
       };
       switch (screenId) {
         default:

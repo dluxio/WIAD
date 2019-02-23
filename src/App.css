@@ -3216,84 +3216,103 @@
   
 }
 
-
-/* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
-    overflow: hidden;
-    position: absolute;
-    left: calc(50.0% + 0px - 144px);
-    top: 57px;
-    width: 288px;
-    height: 44px;
-  }
-@media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 144px);
-    top: 57px;
-    width: 288px;
-    height: 44px;
-  }
-}
-@media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 143px);
-    top: 56px;
-    width: 286px;
-    height: 44px;
-  }
-}
-@media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
-    overflow: hidden;
-    left: calc(50.0% + 0px - 143px);
-    top: 56px;
-    width: 286px;
-    height: 44px;
-  }
-}
-
-.OnboardingScreen .state3_elStartbutton {
+.OnboardingScreen .state3_elStartbutton button {
   border: 0.0px solid transparent;
 }
 
 
 
 /* Narrowest size for this element's responsive layout */
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
+  .OnboardingScreen > .layoutFlow > .state3_elStartbutton {
     line-height: 35px;
-    position: absolute;
-    left: calc(50.0% + 0px - 124px);
-    top: 464px;
+    position: relative;
+    margin-top: 32px;
     width: 249px;
-    height: 35px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elStartbutton > * { 
+  width: 249px;
+  height: 35px;
+  }
+  
+@media (min-width: 568px) {
+  .OnboardingScreen > .layoutFlow > .state3_elStartbutton {
+    line-height: 35px;
+    position: relative;
+    margin-top: 32px;
+    width: 249px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elStartbutton > * { 
+  width: 249px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .OnboardingScreen > .layoutFlow > .state3_elStartbutton {
+    line-height: 35px;
+    position: relative;
+    margin-top: 32px;
+    width: 248px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elStartbutton > * { 
+  width: 248px;
+  height: 35px;
+  }
+  
+}
+@media (min-width: 1024px) {
+  .OnboardingScreen > .layoutFlow > .state3_elStartbutton {
+    line-height: 35px;
+    position: relative;
+    margin-top: 32px;
+    width: 248px;
+    margin-left: calc(50.0% - 124px);
+  }
+  .OnboardingScreen > .layoutFlow > .state3_elStartbutton > * { 
+  width: 248px;
+  height: 35px;
+  }
+  
+}
+
+
+/* Narrowest size for this element's responsive layout */
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
+    overflow: hidden;
+    position: absolute;
+    left: calc(50.0% + 0px - 144px);
+    top: 57px;
+    width: 288px;
+    height: 44px;
   }
 @media (min-width: 568px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 124px);
-    top: 464px;
-    width: 249px;
-    height: 35px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 144px);
+    top: 57px;
+    width: 288px;
+    height: 44px;
   }
 }
 @media (min-width: 768px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 124px);
-    top: 461px;
-    width: 248px;
-    height: 35px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 143px);
+    top: 56px;
+    width: 286px;
+    height: 44px;
   }
 }
 @media (min-width: 1024px) {
-  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elStartbutton {
-    line-height: 35px;
-    left: calc(50.0% + 0px - 124px);
-    top: 461px;
-    width: 248px;
-    height: 35px;
+  .OnboardingScreen > .screenFgContainer > .foreground > .state3_elText {
+    overflow: hidden;
+    left: calc(50.0% + 0px - 143px);
+    top: 56px;
+    width: 286px;
+    height: 44px;
   }
 }
 

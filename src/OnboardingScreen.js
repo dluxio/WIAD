@@ -337,22 +337,10 @@ export default class OnboardingScreen extends Component {
   }
   
   onClick_state3_elStartbutton = (ev) => {
-    this.sendData_startbutton_to_users_dlux();
   
     // Go to screen 'AR App'
     this.props.appActions.goToScreen('arapp');
   
-  }
-  
-  
-  sendData_startbutton_to_users_dlux = () => {
-    const dataSheet = this.props.appActions.getDataSheet('users_dlux');
-  
-    let row = this.props.dataSheetRow || {
-    };
-    row = { ...row, 
-    };
-    this.props.appActions.addToDataSheet('users_dlux', row);
   }
   
   
@@ -405,18 +393,20 @@ export default class OnboardingScreen extends Component {
     const style_state3_elTextarea_outer = {
         pointerEvents: 'auto',
      };
-    const style_state3_elText = {
-        fontSize: 30.1,
-        color: '#fc33af',
-        textAlign: 'left',
-     };
     const style_state3_elStartbutton = {
         display: 'block',
         color: '#fff',
         textAlign: 'center',
         backgroundColor: '#00a3da',
+     };
+    const style_state3_elStartbutton_outer = {
         cursor: 'pointer',
         pointerEvents: 'auto',
+     };
+    const style_state3_elText = {
+        fontSize: 30.1,
+        color: '#fc33af',
+        textAlign: 'left',
      };
     
     return (
@@ -458,15 +448,19 @@ export default class OnboardingScreen extends Component {
           
           </div>
           
+          <div className='actionFont state3_elStartbutton' style={style_state3_elStartbutton_outer}>
+            <Button style={style_state3_elStartbutton}  onClick={this.onClick_state3_elStartbutton} >
+              {this.props.locStrings.onboarding_button_301283}
+            </Button>
+          
+          </div>
+          
         </div>
         <div className="screenFgContainer">
           <div className="foreground">
             <div className='font-helveticaNeueBold  state3_elText' style={style_state3_elText}>
               <div>{this.props.locStrings.onboarding_text_349469}</div>
             </div>
-            <Button className='actionFont state3_elStartbutton' style={style_state3_elStartbutton}  onClick={this.onClick_state3_elStartbutton} >
-              {this.props.locStrings.onboarding_button_301283}
-            </Button>
           </div>
         </div>
       </div>

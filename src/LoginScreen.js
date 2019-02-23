@@ -14,8 +14,8 @@ export default class LoginScreen extends Component {
     super(props);
     
     this.state = {
-      usernameinput: '',
-      passwordinput: '',
+      usernameinput: null,
+      passwordinput: null,
       emailinput: '',
     };
   }
@@ -121,6 +121,11 @@ export default class LoginScreen extends Component {
         paddingLeft: '1rem',
         boxSizing: 'border-box', // ensures padding won't expand element's outer size
      };
+    if (this.state.usernameinput == null) {
+        this.state.usernameinput = (this.props.appActions.dataSlots ? this.props.appActions.dataSlots['ds_username'] : '');
+    }
+    const value_usernameinput = this.state.usernameinput;
+    
     const style_state0_elUsernameinput_outer = {
         pointerEvents: 'auto',
      };
@@ -135,6 +140,11 @@ export default class LoginScreen extends Component {
         paddingLeft: '1rem',
         boxSizing: 'border-box', // ensures padding won't expand element's outer size
      };
+    if (this.state.passwordinput == null) {
+        this.state.passwordinput = (this.props.appActions.dataSlots ? this.props.appActions.dataSlots['ds_password'] : '');
+    }
+    const value_passwordinput = this.state.passwordinput;
+    
     const style_state0_elPasswordinput_outer = {
         pointerEvents: 'auto',
      };
@@ -199,7 +209,7 @@ export default class LoginScreen extends Component {
           </div>
           
           <div className='baseFont state0_elUsernameinput' style={style_state0_elUsernameinput_outer}>
-            <input style={style_state0_elUsernameinput} type="text" placeholder={this.props.locStrings.login_field_71175} onChange={this.textInputChanged_usernameinput} value={this.state.usernameinput}  />
+            <input style={style_state0_elUsernameinput} type="text" placeholder={this.props.locStrings.login_field_71175} onChange={this.textInputChanged_usernameinput} value={value_usernameinput !== undefined ? value_usernameinput : ''}  />
           
           </div>
           
@@ -211,7 +221,7 @@ export default class LoginScreen extends Component {
           </div>
           
           <div className='baseFont state0_elPasswordinput' style={style_state0_elPasswordinput_outer}>
-            <input style={style_state0_elPasswordinput} type="text" placeholder={this.props.locStrings.login_field_267410} onChange={this.textInputChanged_passwordinput} value={this.state.passwordinput}  />
+            <input style={style_state0_elPasswordinput} type="text" placeholder={this.props.locStrings.login_field_267410} onChange={this.textInputChanged_passwordinput} value={value_passwordinput !== undefined ? value_passwordinput : ''}  />
           
           </div>
           
@@ -231,7 +241,15 @@ export default class LoginScreen extends Component {
   
   textInputChanged_emailinput = (event) => {
     this.setState({emailinput: event.target.value});
+    this.props.appActions.updateDataSlot("ds_emailVoucher", event.target.value);
   }
+  
+  onClick_state1_elVoucherbtn = (ev) => {
+    let newVal = this.state.emailinput;
+    this.props.appActions.updateDataSlot('ds_emailVoucher', newVal);
+  
+  }
+  
   
   onClick_state1_elSteemninjabtn = (ev) => {
     window.open('https://widget.steem.ninja/widget.html?referrer=dlux-io', '_blank');
@@ -303,6 +321,10 @@ export default class LoginScreen extends Component {
         textAlign: 'center',
         backgroundColor: '#00a3da',
      };
+    const style_state1_elVoucherbtn_outer = {
+        cursor: 'pointer',
+        pointerEvents: 'auto',
+     };
     const style_state1_elSteemninjabtn = {
         display: 'block',
         color: '#fff',
@@ -363,8 +385,8 @@ export default class LoginScreen extends Component {
           
           </div>
           
-          <div className='actionFont state1_elVoucherbtn'>
-            <Button style={style_state1_elVoucherbtn}  >
+          <div className='actionFont state1_elVoucherbtn' style={style_state1_elVoucherbtn_outer}>
+            <Button style={style_state1_elVoucherbtn}  onClick={this.onClick_state1_elVoucherbtn} >
               {this.props.locStrings.login_button_451164}
             </Button>
           
