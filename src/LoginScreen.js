@@ -50,6 +50,7 @@ export default class LoginScreen extends Component {
 
     const un = this.state.usernameinput.toLowerCase().trim() || ''
     if (un === 'clear'){localStorage.removeItem('up')}
+    if (un === 'reset'){localStorage.clear()}
     function go() {
         thiso.props.appActions.goToScreen('onboarding');
     }
