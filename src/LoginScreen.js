@@ -16,8 +16,7 @@ export default class LoginScreen extends Component {
     
     this.state = {
       usernameinput: null,
-      passwordinput: null,
-      emailinput: '',
+      passwordinput: null
     };
   }
 
@@ -323,17 +322,6 @@ export default class LoginScreen extends Component {
   
   // --- Functions for component state index 1 (2 of 2) --- 
   
-  textInputChanged_emailinput = (event) => {
-    this.setState({emailinput: event.target.value});
-    this.props.appActions.updateDataSlot("ds_emailVoucher", event.target.value);
-  }
-  
-  onClick_state1_elVoucherbtn = (ev) => {
-    let newVal = this.state.emailinput;
-    this.props.appActions.updateDataSlot('ds_emailVoucher', newVal);
-  
-  }
-  
   
   onClick_state1_elSteemninjabtn = (ev) => {
     window.open('https://widget.steem.ninja/widget.html?referrer=dlux-io', '_blank');
@@ -384,36 +372,11 @@ export default class LoginScreen extends Component {
         color: 'rgba(0, 0, 0, 0.8500)',
         textAlign: 'left',
      };
-    const style_state1_elEmaillabel = {
-        fontSize: 12.9,
-        fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", sans-serif',
-        color: '#00a3da',
-        textAlign: 'left',
-     };
-    const style_state1_elEmailinput = {
-        display: 'block',
-        backgroundColor: 'white',
-        paddingLeft: '1rem',
-        boxSizing: 'border-box', // ensures padding won't expand element's outer size
-     };
-    const style_state1_elEmailinput_outer = {
-        pointerEvents: 'auto',
-     };
-    const style_state1_elVoucherbtn = {
-        display: 'block',
-        color: '#fff',
-        textAlign: 'center',
-        backgroundColor: '#00a3da',
-     };
-    const style_state1_elVoucherbtn_outer = {
-        cursor: 'pointer',
-        pointerEvents: 'auto',
-     };
     const style_state1_elSteemninjabtn = {
         display: 'block',
         color: '#fff',
         textAlign: 'center',
-        backgroundColor: '#fc33af',
+        backgroundColor: '#00a3da',
      };
     const style_state1_elSteemninjabtn_outer = {
         cursor: 'pointer',
@@ -447,13 +410,6 @@ export default class LoginScreen extends Component {
           
           <div className='state1_elLine482093'>
             <div style={style_state1_elLine482093} />
-          
-          </div>
-          
-          <div className='actionFont state1_elVoucherbtn' style={style_state1_elVoucherbtn_outer}>
-            <Button style={style_state1_elVoucherbtn}  onClick={this.onClick_state1_elVoucherbtn} >
-              {this.props.locStrings.login_button_451164}
-            </Button>
           
           </div>
           
