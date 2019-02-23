@@ -2279,36 +2279,36 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
     overflow: hidden;
     position: absolute;
-    left: calc(50.0% + 113px - 30px);
-    top: 502px;
-    width: 60px;
-    height: 25px;
+    left: calc(50.0% + 113px - 29px);
+    top: 16px;
+    width: 59px;
+    height: 26px;
   }
 @media (min-width: 568px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
     overflow: hidden;
-    left: calc(50.0% + 113px - 30px);
-    top: 502px;
-    width: 60px;
-    height: 25px;
+    left: calc(50.0% + 113px - 29px);
+    top: 16px;
+    width: 59px;
+    height: 26px;
   }
 }
 @media (min-width: 768px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
     overflow: hidden;
-    left: calc(50.0% + 112px - 30px);
-    top: 500px;
-    width: 60px;
-    height: 25px;
+    left: calc(50.0% + 112px - 29px);
+    top: 16px;
+    width: 59px;
+    height: 26px;
   }
 }
 @media (min-width: 1024px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state0_elNext {
     overflow: hidden;
-    left: calc(50.0% + 112px - 30px);
-    top: 500px;
-    width: 60px;
-    height: 25px;
+    left: calc(50.0% + 112px - 29px);
+    top: 16px;
+    width: 59px;
+    height: 26px;
   }
 }
 
@@ -2317,35 +2317,35 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip {
     overflow: hidden;
     position: absolute;
-    left: calc(50.0% + -113px - 30px);
-    top: 502px;
-    width: 60px;
+    left: calc(50.0% + -113px - 29px);
+    top: 16px;
+    width: 59px;
     height: 26px;
   }
 @media (min-width: 568px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip {
     overflow: hidden;
-    left: calc(50.0% + -113px - 30px);
-    top: 502px;
-    width: 60px;
+    left: calc(50.0% + -113px - 29px);
+    top: 16px;
+    width: 59px;
     height: 26px;
   }
 }
 @media (min-width: 768px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip {
     overflow: hidden;
-    left: calc(50.0% + -112px - 30px);
-    top: 500px;
-    width: 60px;
+    left: calc(50.0% + -112px - 29px);
+    top: 16px;
+    width: 59px;
     height: 26px;
   }
 }
 @media (min-width: 1024px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state0_elSkip {
     overflow: hidden;
-    left: calc(50.0% + -112px - 30px);
-    top: 500px;
-    width: 60px;
+    left: calc(50.0% + -112px - 29px);
+    top: 16px;
+    width: 59px;
     height: 26px;
   }
 }
@@ -2538,7 +2538,7 @@
     overflow: hidden;
     position: absolute;
     left: calc(50.0% + 113px - 30px);
-    top: 502px;
+    top: 16px;
     width: 60px;
     height: 26px;
   }
@@ -2546,7 +2546,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
     overflow: hidden;
     left: calc(50.0% + 113px - 30px);
-    top: 502px;
+    top: 16px;
     width: 60px;
     height: 26px;
   }
@@ -2555,7 +2555,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
     overflow: hidden;
     left: calc(50.0% + 112px - 30px);
-    top: 500px;
+    top: 16px;
     width: 60px;
     height: 26px;
   }
@@ -2564,7 +2564,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state1_elNext {
     overflow: hidden;
     left: calc(50.0% + 112px - 30px);
-    top: 500px;
+    top: 16px;
     width: 60px;
     height: 26px;
   }
@@ -2576,7 +2576,7 @@
     overflow: hidden;
     position: absolute;
     left: calc(50.0% + -113px - 30px);
-    top: 502px;
+    top: 16px;
     width: 60px;
     height: 26px;
   }
@@ -2584,7 +2584,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip {
     overflow: hidden;
     left: calc(50.0% + -113px - 30px);
-    top: 502px;
+    top: 16px;
     width: 60px;
     height: 26px;
   }
@@ -2593,7 +2593,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip {
     overflow: hidden;
     left: calc(50.0% + -112px - 30px);
-    top: 500px;
+    top: 16px;
     width: 60px;
     height: 26px;
   }
@@ -2602,7 +2602,7 @@
   .OnboardingScreen > .screenFgContainer > .foreground > .state1_elSkip {
     overflow: hidden;
     left: calc(50.0% + -112px - 30px);
-    top: 500px;
+    top: 16px;
     width: 60px;
     height: 26px;
   }
@@ -2772,7 +2772,7 @@
     left: calc(50.0% + 113px - 30px);
     top: 502px;
     width: 60px;
-    height: 26px;
+    height: 19px;
   }
 @media (min-width: 568px) {
   .OnboardingScreen > .screenFgContainer > .foreground > .state2_elNext {
@@ -2780,7 +2780,7 @@
     left: calc(50.0% + 113px - 30px);
     top: 502px;
     width: 60px;
-    height: 26px;
+    height: 19px;
   }
 }
 @media (min-width: 768px) {
@@ -2789,7 +2789,7 @@
     left: calc(50.0% + 112px - 30px);
     top: 500px;
     width: 60px;
-    height: 26px;
+    height: 19px;
   }
 }
 @media (min-width: 1024px) {
@@ -2798,7 +2798,7 @@
     left: calc(50.0% + 112px - 30px);
     top: 500px;
     width: 60px;
-    height: 26px;
+    height: 19px;
   }
 }
 
@@ -4484,4 +4484,3 @@
   height: 26px;
   }
   
-
