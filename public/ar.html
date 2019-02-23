@@ -111,13 +111,12 @@
 	<a-scene embedded arjs="fuse: false; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;" vr-mode-ui>
     <a-assets>
         <!-- Load your assets -->
-        <a-asset-item id="msl-obj" src="https://blushing-poet.glitch.me/msl_clean.obj" crossorigin="anonymous"></a-asset-item>
-        <a-asset-item id="msl-mtl" src="https://blushing-poet.glitch.me/msl_clean.mtl" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="thinking-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2Fthinking.glb" crossorigin="anonymous"></a-asset-item>
         <a-asset-item id="crutch-gltf" src="https://blushing-poet.glitch.me/crutch.gltf" crossorigin="anonymous"></a-asset-item>
         <a-asset-item id="wheelchair-gltf" src="https://blushing-poet.glitch.me/wheelchair.gltf" crossorigin="anonymous"></a-asset-item>
-        <a-asset-item id="universe-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2FUniverseScaleModel.glb"></a-asset-item>
-        <a-asset-item id="curiosity-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2Fcuriosity.glb"></a-asset-item>
-        <a-asset-item id="ethics-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2Fblocks_compress.glb"></a-asset-item>
+        <a-asset-item id="universe-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2Funiverse.glb" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="curiosity-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2Fcuriosity.glb" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="ethics-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2Fblocks_compress.glb" crossorigin="anonymous"></a-asset-item>
         <a-asset-item id="rabbit-obj" src="https://blushing-poet.glitch.me/rabbit.obj" crossorigin="anonymous"></a-asset-item>
         <a-asset-item id="turtle-obj" src="https://blushing-poet.glitch.me/turtle.obj" crossorigin="anonymous"></a-asset-item>
         
@@ -134,15 +133,14 @@
         
         <a-entity id="thinking-title"
                   text="value:Critical Thinking; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
-                  position="0 -0.113 0.194" 
+                  position="0 -0.3 0.3" 
                   rotation="0 0 0"></a-entity>
         
         <!-- Mars Curiosity Rover -->
-        <a-obj-model id="criticalthinking-model" 
-                     src="#msl-obj" 
-                     mtl="#msl-mtl" 
-                     rotation="0 0 0" 
-                     scale="0.3 0.3 0.3">
+        <a-gltf-model id="criticalthinking-model" 
+                      src="#thinking-glb"
+                      position="0 .3 0" 
+                      scale="0.8 0.8 0.8">
               
             <!-- Add A-Frame animation -->
             <a-animation attribute="rotation" 
@@ -151,19 +149,149 @@
                          to="0 360 0" 
                          repeat="indefinite"></a-animation>
           
-        </a-obj-model></a-entity></a-marker>
+        </a-gltf-model></a-entity></a-marker>
+    
+    <a-marker type="barcode" value="11" id="critical-thinking-11" thinking>
+      
+      <a-entity id="thinking-wrap-11"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="thinking-title-11"
+                  text="value:Critical Thinking; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.3 0.3" 
+                  rotation="0 0 0"></a-entity>
+        
+        <!-- Mars Curiosity Rover -->
+        <a-gltf-model id="criticalthinking-model-11" 
+                      src="#thinking-glb"
+                      position="0 .3 0" 
+                      scale="0.8 0.8 0.8">
+              
+            <!-- Add A-Frame animation -->
+            <a-animation attribute="rotation" 
+                         dur="10000" 
+                         fill="forwards" 
+                         to="0 360 0" 
+                         repeat="indefinite"></a-animation>
+          
+        </a-gltf-model></a-entity></a-marker>
+    
+    <a-marker type="barcode" value="21" id="critical-thinking-21" thinking>
+      
+      <a-entity id="thinking-wrap-21"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="thinking-title-21"
+                  text="value:Critical Thinking; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.3 0.3" 
+                  rotation="0 0 0"></a-entity>
+        
+        <!-- Mars Curiosity Rover -->
+        <a-gltf-model id="criticalthinking-model-21" 
+                      src="#thinking-glb"
+                      position="0 .3 0" 
+                      scale="0.8 0.8 0.8">
+              
+            <!-- Add A-Frame animation -->
+            <a-animation attribute="rotation" 
+                         dur="10000" 
+                         fill="forwards" 
+                         to="0 360 0" 
+                         repeat="indefinite"></a-animation>
+          
+        </a-gltf-model></a-entity></a-marker>
+    
+    <a-marker type="barcode" value="31" id="critical-thinking-31" thinking>
+      
+      <a-entity id="thinking-wrap-31"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="thinking-title-31"
+                  text="value:Critical Thinking; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.3 0.3" 
+                  rotation="0 0 0"></a-entity>
+        
+        <!-- Mars Curiosity Rover -->
+        <a-gltf-model id="criticalthinking-model-31" 
+                      src="#thinking-glb"
+                      position="0 .3 0" 
+                      scale="0.8 0.8 0.8">
+              
+            <!-- Add A-Frame animation -->
+            <a-animation attribute="rotation" 
+                         dur="10000" 
+                         fill="forwards" 
+                         to="0 360 0" 
+                         repeat="indefinite"></a-animation>
+          
+        </a-gltf-model></a-entity></a-marker>
+    
+    <a-marker type="barcode" value="41" id="critical-thinking-41" thinking>
+      
+      <a-entity id="thinking-wrap-41"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="thinking-title-41"
+                  text="value:Critical Thinking; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.3 0.3" 
+                  rotation="0 0 0"></a-entity>
+        
+        <!-- Mars Curiosity Rover -->
+        <a-gltf-model id="criticalthinking-model-41" 
+                      src="#thinking-glb"
+                      position="0 .3 0" 
+                      scale="0.8 0.8 0.8">
+              
+            <!-- Add A-Frame animation -->
+            <a-animation attribute="rotation" 
+                         dur="10000" 
+                         fill="forwards" 
+                         to="0 360 0" 
+                         repeat="indefinite"></a-animation>
+          
+        </a-gltf-model></a-entity></a-marker>
+    
+    <a-marker type="barcode" value="51" id="critical-thinking-51" thinking>
+      
+      <a-entity id="thinking-wrap-51"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="thinking-title-51"
+                  text="value:Critical Thinking; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.3 0.3" 
+                  rotation="0 0 0"></a-entity>
+        
+        <!-- Mars Curiosity Rover -->
+        <a-gltf-model id="criticalthinking-model-51" 
+                      src="#thinking-glb"
+                      position="0 .3 0" 
+                      scale="0.8 0.8 0.8">
+              
+            <!-- Add A-Frame animation -->
+            <a-animation attribute="rotation" 
+                         dur="10000" 
+                         fill="forwards" 
+                         to="0 360 0" 
+                         repeat="indefinite"></a-animation>
+          
+        </a-gltf-model></a-entity></a-marker>
     
     
     <!-- Empathy & Accessibility -->
     <a-marker type="barcode" value="2" id="empathy" empathy>
     
       <a-entity id="empathy-wrap"
-                position="0 0 .35" 
+                position="0 1 0" 
                 rotation="-90 0 0">
         
-                    <a-entity id="empathy-title"
+        <a-entity id="empathy-title"
                   text="value:Empathy & Accessibility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
-                  position="0 -0.113 0.194" 
+                  position="0 -0.6 0.3" 
                   rotation="0 0 0"></a-entity>
       
       <!-- Wheelchair & Crutches -->
@@ -185,6 +313,161 @@
         
       </a-entity></a-marker>
     
+    <!-- Empathy & Accessibility -->
+    <a-marker type="barcode" value="12" id="empathy-12" empathy>
+    
+      <a-entity id="empathy-wrap-12"
+                position="0 1 0" 
+                rotation="-90 0 0">
+        
+        <a-entity id="empathy-title-12"
+                  text="value:Empathy & Accessibility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.6 0.3" 
+                  rotation="0 0 0"></a-entity>
+      
+      <!-- Wheelchair & Crutches -->
+        <a-gltf-model id="crutch-left-12"
+                      src="#crutch-gltf" 
+                      position="0.7 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="crutch-right-12"
+                      src="#crutch-gltf" 
+                      position="-0.6 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="wheelchair-12"
+                      src="#wheelchair-gltf" 
+                      position="-3.390 0 0.55"
+                      scale=".03 .03 .03" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        
+      </a-entity></a-marker>
+    
+    <!-- Empathy & Accessibility -->
+    <a-marker type="barcode" value="22" id="empathy-22" empathy>
+    
+      <a-entity id="empathy-wrap-22"
+                position="0 1 0" 
+                rotation="-90 0 0">
+        
+        <a-entity id="empathy-title-22"
+                  text="value:Empathy & Accessibility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.6 0.3" 
+                  rotation="0 0 0"></a-entity>
+      
+      <!-- Wheelchair & Crutches -->
+        <a-gltf-model id="crutch-left-22"
+                      src="#crutch-gltf" 
+                      position="0.7 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="crutch-right-22"
+                      src="#crutch-gltf" 
+                      position="-0.6 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="wheelchair-22"
+                      src="#wheelchair-gltf" 
+                      position="-3.390 0 0.55"
+                      scale=".03 .03 .03" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        
+      </a-entity></a-marker>
+    
+    <!-- Empathy & Accessibility -->
+    <a-marker type="barcode" value="32" id="empathy-32" empathy>
+    
+      <a-entity id="empathy-wrap-32"
+                position="0 1 0" 
+                rotation="-90 0 0">
+        
+        <a-entity id="empathy-title-32"
+                  text="value:Empathy & Accessibility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.6 0.3" 
+                  rotation="0 0 0"></a-entity>
+      
+      <!-- Wheelchair & Crutches -->
+        <a-gltf-model id="crutch-left-32"
+                      src="#crutch-gltf" 
+                      position="0.7 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="crutch-right-32"
+                      src="#crutch-gltf" 
+                      position="-0.6 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="wheelchair-32"
+                      src="#wheelchair-gltf" 
+                      position="-3.390 0 0.55"
+                      scale=".03 .03 .03" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        
+      </a-entity></a-marker>
+    
+    <!-- Empathy & Accessibility -->
+    <a-marker type="barcode" value="42" id="empathy-42" empathy>
+    
+      <a-entity id="empathy-wrap-42"
+                position="0 1 0" 
+                rotation="-90 0 0">
+        
+        <a-entity id="empathy-title-42"
+                  text="value:Empathy & Accessibility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.6 0.3" 
+                  rotation="0 0 0"></a-entity>
+      
+      <!-- Wheelchair & Crutches -->
+        <a-gltf-model id="crutch-left-42"
+                      src="#crutch-gltf" 
+                      position="0.7 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="crutch-right-42"
+                      src="#crutch-gltf" 
+                      position="-0.6 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="wheelchair-42"
+                      src="#wheelchair-gltf" 
+                      position="-3.390 0 0.55"
+                      scale=".03 .03 .03" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        
+      </a-entity></a-marker>
+    
+    <!-- Empathy & Accessibility -->
+    <a-marker type="barcode" value="52" id="empathy-52" empathy>
+    
+      <a-entity id="empathy-wrap-52"
+                position="0 1 0" 
+                rotation="-90 0 0">
+        
+        <a-entity id="empathy-title-52"
+                  text="value:Empathy & Accessibility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.6 0.3" 
+                  rotation="0 0 0"></a-entity>
+      
+      <!-- Wheelchair & Crutches -->
+        <a-gltf-model id="crutch-left-52"
+                      src="#crutch-gltf" 
+                      position="0.7 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="crutch-right-52"
+                      src="#crutch-gltf" 
+                      position="-0.6 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="wheelchair-52"
+                      src="#wheelchair-gltf" 
+                      position="-3.390 0 0.55"
+                      scale=".03 .03 .03" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        
+      </a-entity></a-marker>
+    
     <!-- Ethics -->
 		<a-marker type="barcode" value="3" id="ethics" ethics>     
       <a-entity id="ethics-wrap" 
@@ -193,19 +476,128 @@
         
         <a-entity id="ethics-title" 
                   text="value:Ethics; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
-                  position="0.09963 -0.1394 0.3" 
+                  position="0.09963 -0.3 0.3" 
                   rotation=""></a-entity>
         
         <!-- Ethics model-->
         <a-gltf-model id="ethics-model"
                       src="#ethics-glb" 
-                      position="0 0.22 0.325"
+                      position="0 0.3 0.325"
                       rotation="0 0 0"
+                      scale="3 3 3"
                       animation-mixer></a-gltf-model>
           
             
       </a-entity></a-marker>
     
+    <!-- Ethics -->
+		<a-marker type="barcode" value="13" id="ethics-13" ethics>     
+      <a-entity id="ethics-wrap-13" 
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="ethics-title-13" 
+                  text="value:Ethics; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0.09963 -0.3 0.3" 
+                  rotation=""></a-entity>
+        
+        <!-- Ethics model-->
+        <a-gltf-model id="ethics-model-13"
+                      src="#ethics-glb" 
+                      position="0 0.3 0.325"
+                      rotation="0 0 0"
+                      scale="3 3 3"
+                      animation-mixer></a-gltf-model>
+          
+            
+      </a-entity></a-marker>
+    
+    <!-- Ethics -->
+		<a-marker type="barcode" value="23" id="ethics-23" ethics>     
+      <a-entity id="ethics-wrap-23" 
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="ethics-title-23" 
+                  text="value:Ethics; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0.09963 -0.3 0.3" 
+                  rotation=""></a-entity>
+        
+        <!-- Ethics model-->
+        <a-gltf-model id="ethics-model-23"
+                      src="#ethics-glb" 
+                      position="0 0.3 0.325"
+                      rotation="0 0 0"
+                      scale="3 3 3"
+                      animation-mixer></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    <!-- Ethics -->
+		<a-marker type="barcode" value="33" id="ethics-33" ethics>     
+      <a-entity id="ethics-wrap-33" 
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="ethics-title-33" 
+                  text="value:Ethics; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0.09963 -0.3 0.3" 
+                  rotation=""></a-entity>
+        
+        <!-- Ethics model-->
+        <a-gltf-model id="ethics-model-33"
+                      src="#ethics-glb" 
+                      position="0 0.3 0.325"
+                      rotation="0 0 0"
+                      scale="3 3 3"
+                      animation-mixer></a-gltf-model>
+          
+            
+      </a-entity></a-marker>
+    
+    <!-- Ethics -->
+		<a-marker type="barcode" value="43" id="ethics-43" ethics>     
+      <a-entity id="ethics-wrap-43" 
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="ethics-title-43" 
+                  text="value:Ethics; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0.09963 -0.3 0.3" 
+                  rotation=""></a-entity>
+        
+        <!-- Ethics model-->
+        <a-gltf-model id="ethics-model-43"
+                      src="#ethics-glb" 
+                      position="0 0.3 0.325"
+                      rotation="0 0 0"
+                      scale="3 3 3"
+                      animation-mixer></a-gltf-model>
+          
+            
+      </a-entity></a-marker>
+    
+    <!-- Ethics -->
+		<a-marker type="barcode" value="53" id="ethics-53" ethics>     
+      <a-entity id="ethics-wrap-53" 
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="ethics-title-53" 
+                  text="value:Ethics; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0.09963 -0.3 0.3" 
+                  rotation=""></a-entity>
+        
+        <!-- Ethics model-->
+        <a-gltf-model id="ethics-model-53"
+                      src="#ethics-glb" 
+                      position="0 0.3 0.325"
+                      rotation="0 0 0"
+                      scale="3 3 3"
+                      animation-mixer></a-gltf-model>
+          
+            
+      </a-entity></a-marker>
     
     <!-- Collaboration -->
 		<a-marker type="barcode" value="4" id="collaboration" collaboration>     
@@ -216,11 +608,91 @@
  
                <a-entity id="universe-title"
                   text="value:Collaboration & Emergence; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
-                  position="0 -1.086 .3" 
+                  position="0 -1.46 .3" 
                   rotation="0 0 0" 
                   scale="1 1 1"></a-entity>
  
-               <a-gltf-model id="universe" src="#universe-glb " position="0 .86 .6" scale="10 10 10" rotation="-90 0 -145" animation-mixer=""></a-gltf-model>
+               <a-gltf-model id="universe" src="#universe-glb " position="0 .86 .2" scale="20 20 20" rotation="0 -145 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+		<a-marker type="barcode" value="14" id="collaboration-14" collaboration>     
+      <!-- Build your experience here -->
+      <a-entity id="collaboration-wrap-14"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="universe-title-14"
+                  text="value:Collaboration & Emergence; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.46 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+ 
+               <a-gltf-model id="universe-14" src="#universe-glb " position="0 .86 .2" scale="20 20 20" rotation="0 -145 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+		<a-marker type="barcode" value="24" id="collaboration-24" collaboration>     
+      <!-- Build your experience here -->
+      <a-entity id="collaboration-wrap-24"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="universe-title-24"
+                  text="value:Collaboration & Emergence; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.46 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+ 
+               <a-gltf-model id="universe-24" src="#universe-glb " position="0 .86 .2" scale="20 20 20" rotation="0 -145 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    <a-marker type="barcode" value="34" id="collaboration-34" collaboration>     
+      <!-- Build your experience here -->
+      <a-entity id="collaboration-wrap-34"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="universe-title-34"
+                  text="value:Collaboration & Emergence; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.46 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+ 
+               <a-gltf-model id="universe-34" src="#universe-glb " position="0 .86 .2" scale="20 20 20" rotation="0 -145 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    <a-marker type="barcode" value="44" id="collaboration-44" collaboration>     
+      <!-- Build your experience here -->
+      <a-entity id="collaboration-wrap-44"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="universe-title-44"
+                  text="value:Collaboration & Emergence; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.46 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+ 
+               <a-gltf-model id="universe-44" src="#universe-glb " position="0 .86 .2" scale="20 20 20" rotation="0 -145 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    <a-marker type="barcode" value="54" id="collaboration-54" collaboration>     
+      <!-- Build your experience here -->
+      <a-entity id="collaboration-wrap-54"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="universe-title-54"
+                  text="value:Collaboration & Emergence; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.46 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+ 
+               <a-gltf-model id="universe-54" src="#universe-glb " position="0 .86 .2" scale="20 20 20" rotation="0 -145 0" animation-mixer=""></a-gltf-model>
         
         </a-entity></a-marker>
     
@@ -236,7 +708,82 @@
                   position="0 -1.086 .3" 
                   rotation="0 0 0" 
                   scale="1 1 1"></a-entity>
-        <a-gltf-model id="curiosity-model" src="#curiosity-glb " position="0 .1 .2" scale=".003 .003 .003" rotation="45 0 0" animation-mixer=""></a-gltf-model>
+        <a-gltf-model id="curiosity-model" src="#curiosity-glb " position="0 .1 .2" scale=".005 .005 .005" rotation="45 0 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    		<a-marker type="barcode" value="15" id="curiosity-15" curiosity>    
+      <!-- Build your experience here -->
+      <a-entity id="curiosity-wrap-15"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="curiosity-title-15"
+                  text="value:Curiosity & Grit; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        <a-gltf-model id="curiosity-model-15" src="#curiosity-glb " position="0 .1 .2" scale=".005 .005 .005" rotation="45 0 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    		<a-marker type="barcode" value="25" id="curiosity-25" curiosity>    
+      <!-- Build your experience here -->
+      <a-entity id="curiosity-wrap-25"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="curiosity-title-25"
+                  text="value:Curiosity & Grit; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        <a-gltf-model id="curiosity-model-25" src="#curiosity-glb " position="0 .1 .2" scale=".005 .005 .005" rotation="45 0 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    		<a-marker type="barcode" value="35" id="curiosity-35" curiosity>    
+      <!-- Build your experience here -->
+      <a-entity id="curiosity-wrap-35"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="curiosity-title-35"
+                  text="value:Curiosity & Grit; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        <a-gltf-model id="curiosity-model-35" src="#curiosity-glb " position="0 .1 .2" scale=".005 .005 .005" rotation="45 0 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    		<a-marker type="barcode" value="45" id="curiosity-45" curiosity>    
+      <!-- Build your experience here -->
+      <a-entity id="curiosity-wrap-45"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="curiosity-title-45"
+                  text="value:Curiosity & Grit; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        <a-gltf-model id="curiosity-model-45" src="#curiosity-glb " position="0 .1 .2" scale=".005 .005 .005" rotation="45 0 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    		<a-marker type="barcode" value="55" id="curiosity-55" curiosity>    
+      <!-- Build your experience here -->
+      <a-entity id="curiosity-wrap-55"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="curiosity-title-55"
+                  text="value:Curiosity & Grit; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        <a-gltf-model id="curiosity-model-55" src="#curiosity-glb " position="0 .1 .2" scale=".005 .005 .005" rotation="45 0 0" animation-mixer=""></a-gltf-model>
         
         </a-entity></a-marker>
     
@@ -244,7 +791,7 @@
 		<a-marker type="barcode" value="6" id="humility" humility>    
       <!-- Build your experience here -->
       <a-entity id="humility-wrap"
-                position="0 1 .35" 
+                position="0 .3 -.3" 
                 rotation="-90 0 0">
  
                <a-entity id="humility-title"
@@ -253,7 +800,7 @@
                   rotation="0 0 0" 
                   scale="1 1 1"></a-entity>
         
-        <a-entity id="humility-model" scale=".1 .1 .1">
+        <a-entity id="humility-model" scale=".3 .3 .3">
         <!-- Turtle -->
         <a-obj-model id="turtle-model" src="#turtle-obj" position="25.9648 0 -25.55866" rotation="" scale="0.1 0.1 0.1" material="color:green" obj-model="">
             </a-obj-model>
@@ -264,6 +811,130 @@
       </a-entity>
         
       </a-entity></a-marker>
+    
+    <a-marker type="barcode" value="16" id="humility-16" humility>    
+      <!-- Build your experience here -->
+      <a-entity id="humility-wrap-16"
+                position="0 .3 -.3" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="humility-title-16"
+                  text="value:Humility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        
+        <a-entity id="humility-model-16" scale=".3 .3 .3">
+        <!-- Turtle -->
+        <a-obj-model id="turtle-model-16" src="#turtle-obj" position="25.9648 0 -25.55866" rotation="" scale="0.1 0.1 0.1" material="color:green" obj-model="">
+            </a-obj-model>
+          
+           <!-- Rabbit -->
+        <a-obj-model id="rabbit-model-16" src="#rabbit-obj" position="23.43846 0 -26.89438" rotation="" scale="0.1 0.1 0.1" material="color:brown" obj-model="">        
+        </a-obj-model>
+      </a-entity>
+        
+      </a-entity></a-marker>
+    
+    <a-marker type="barcode" value="26" id="humility-26" humility>    
+      <!-- Build your experience here -->
+      <a-entity id="humility-wrap-26"
+                position="0 .3 -.3" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="humility-title-26"
+                  text="value:Humility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        
+        <a-entity id="humility-model-26" scale=".3 .3 .3">
+        <!-- Turtle -->
+        <a-obj-model id="turtle-model-26" src="#turtle-obj" position="25.9648 0 -25.55866" rotation="" scale="0.1 0.1 0.1" material="color:green" obj-model="">
+            </a-obj-model>
+          
+           <!-- Rabbit -->
+        <a-obj-model id="rabbit-model-26" src="#rabbit-obj" position="23.43846 0 -26.89438" rotation="" scale="0.1 0.1 0.1" material="color:brown" obj-model="">        
+        </a-obj-model>
+      </a-entity>
+        
+      </a-entity></a-marker>
+
+    <a-marker type="barcode" value="36" id="humility-36" humility>    
+      <!-- Build your experience here -->
+      <a-entity id="humility-wrap-36"
+                position="0 .3 -.3" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="humility-title-36"
+                  text="value:Humility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        
+        <a-entity id="humility-model-36" scale=".3 .3 .3">
+        <!-- Turtle -->
+        <a-obj-model id="turtle-model-36" src="#turtle-obj" position="25.9648 0 -25.55866" rotation="" scale="0.1 0.1 0.1" material="color:green" obj-model="">
+            </a-obj-model>
+          
+           <!-- Rabbit -->
+        <a-obj-model id="rabbit-model-36" src="#rabbit-obj" position="23.43846 0 -26.89438" rotation="" scale="0.1 0.1 0.1" material="color:brown" obj-model="">        
+        </a-obj-model>
+      </a-entity>
+        
+      </a-entity></a-marker>
+    
+    <a-marker type="barcode" value="46" id="humility-46" humility>    
+      <!-- Build your experience here -->
+      <a-entity id="humility-wrap-46"
+                position="0 .3 -.3" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="humility-title-46"
+                  text="value:Humility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        
+        <a-entity id="humility-model-46" scale=".3 .3 .3">
+        <!-- Turtle -->
+        <a-obj-model id="turtle-model-46" src="#turtle-obj" position="25.9648 0 -25.55866" rotation="" scale="0.1 0.1 0.1" material="color:green" obj-model="">
+            </a-obj-model>
+          
+           <!-- Rabbit -->
+        <a-obj-model id="rabbit-model-46" src="#rabbit-obj" position="23.43846 0 -26.89438" rotation="" scale="0.1 0.1 0.1" material="color:brown" obj-model="">        
+        </a-obj-model>
+      </a-entity>
+        
+      </a-entity></a-marker>
+    
+    <a-marker type="barcode" value="56" id="humility-56" humility>    
+      <!-- Build your experience here -->
+      <a-entity id="humility-wrap-56"
+                position="0 .3 -.3" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="humility-title-56"
+                  text="value:Humility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        
+        <a-entity id="humility-model-56" scale=".3 .3 .3">
+        <!-- Turtle -->
+        <a-obj-model id="turtle-model-56" src="#turtle-obj" position="25.9648 0 -25.55866" rotation="" scale="0.1 0.1 0.1" material="color:green" obj-model="">
+            </a-obj-model>
+          
+           <!-- Rabbit -->
+        <a-obj-model id="rabbit-model-56" src="#rabbit-obj" position="23.43846 0 -26.89438" rotation="" scale="0.1 0.1 0.1" material="color:brown" obj-model="">        
+        </a-obj-model>
+      </a-entity>
+        
+      </a-entity></a-marker>
+
+
+
+
 
 </a-scene>
 
