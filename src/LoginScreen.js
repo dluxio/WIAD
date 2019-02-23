@@ -129,11 +129,6 @@ export default class LoginScreen extends Component {
                         }
                     } else {
                         alert('No Password or Key found')
-                        const err = 'Incorrect password.';
-                        this.props.appActions.goToScreen('login', {
-                            errorText: '' + err
-                        });
-
                     }
                 }
             });
