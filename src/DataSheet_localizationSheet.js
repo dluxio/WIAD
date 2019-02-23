@@ -486,7 +486,7 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_body_833488";
-    item['en'] = "Steem is a social media blockchain and crypto currency.\n\nAn account voucher is included with your World IA Day ticket, and can be redeemed through Steem.Ninja\n\nIf you don’t know your voucher code, you can look it up here.";
+    item['en'] = "Steem is a social media blockchain and crypto currency.\n\nAn account voucher is included with your World IA Day ticket, and can be redeemed through Steem.Ninja\n\nIf you don’t know your voucher code, talk to one of the dlux team members.";
     
     item = {};
     this.items.push(item);
