@@ -69,9 +69,11 @@ export default class LoginScreen extends Component {
                 if (err) {
                     console.log(err)
                 } else {
+                  try{
                     var pubWifP = result[0].posting.key_auths[0][0];
                     var pubWifA = result[0].active.key_auths[0][0];
                     var pubWifO = result[0].owner.key_auths[0][0];
+                  } catch(e) {alert('This is not a steem account')}
                     var pk
                     localStorage.setItem('un', un)
                     if (pass !== '') {
