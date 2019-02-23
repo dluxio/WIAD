@@ -361,7 +361,13 @@ export default class OnboardingScreen extends Component {
     const thiso = this
     function go(){thiso.props.appActions.goToScreen('arapp');}
     const choice = localStorage.getItem('choice')
-    const done = localStorage.getItem(choice)
+    var done = 0
+    if (localStorage.getItem('humility'))done++
+    if (localStorage.getItem('ethics'))done++
+    if (localStorage.getItem('collaboration'))done++
+    if (localStorage.getItem('empathy'))done++
+    if (localStorage.getItem('thinking'))done++
+    if (localStorage.getItem('curiosity'))done++
     if(done){go()}
     else{
       localStorage.setItem(choice, true)
@@ -370,7 +376,7 @@ export default class OnboardingScreen extends Component {
       steem.broadcast.customJson(wif,[],[un],`wiad2019_${choice}`, "{}",   function(err, result) {
         console.log(err, result);
         if (err){alert(err);go()}
-        else {go()}
+        else {localStorage.setItem(choice, true);go()}
       });
     go()
     }
