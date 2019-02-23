@@ -450,25 +450,6 @@ export default class LoginScreen extends Component {
           
           </div>
           
-          <div className='font-helveticaNeue  state1_elBody'>
-            <div style={style_state1_elBody}>
-              <div><div dangerouslySetInnerHTML={{__html: this.props.locStrings.login_body_833488.replace(/\n/g, '<br>')}}></div></div>
-            </div>
-          
-          </div>
-          
-          <div className='state1_elEmaillabel'>
-            <div style={style_state1_elEmaillabel}>
-              <div>{this.props.locStrings.login_textcopy3_463005}</div>
-            </div>
-          
-          </div>
-          
-          <div className='baseFont state1_elEmailinput' style={style_state1_elEmailinput_outer}>
-            <input style={style_state1_elEmailinput} type="text" placeholder={this.props.locStrings.login_field_686719} onChange={this.textInputChanged_emailinput} value={this.state.emailinput}  />
-          
-          </div>
-          
           <div className='actionFont state1_elVoucherbtn' style={style_state1_elVoucherbtn_outer}>
             <Button style={style_state1_elVoucherbtn}  onClick={this.onClick_state1_elVoucherbtn} >
               {this.props.locStrings.login_button_451164}
