@@ -413,6 +413,13 @@ export default class LoginScreen extends Component {
           
           </div>
           
+          <div className='font-helveticaNeue  state1_elBody'>
+            <div style={style_state1_elBody}>
+              <div><div dangerouslySetInnerHTML={{__html: this.props.locStrings.login_body_833488.replace(/\n/g, '<br>')}}></div></div>
+            </div>
+          
+          </div>
+          
           <div className='actionFont state1_elSteemninjabtn' style={style_state1_elSteemninjabtn_outer}>
             <Button style={style_state1_elSteemninjabtn}  onClick={this.onClick_state1_elSteemninjabtn} >
               {this.props.locStrings.login_button2_182743}
@@ -428,7 +435,7 @@ export default class LoginScreen extends Component {
           </div>
           
         </div>
-      </div>
+</div>
     )
   }
   
