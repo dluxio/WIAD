@@ -3,7 +3,7 @@ import './App.css';
 import img_state0_elOnboard1 from './images/OnboardingScreen_state0_elOnboard1_617664.png';
 import img_state1_elOnboard2 from './images/OnboardingScreen_state1_elOnboard2_407434.png';
 import img_state2_elOnboard3 from './images/OnboardingScreen_state2_elOnboard3_511290.png';
-
+import steem from'steem';
 // UI framework component imports
 import Select from 'muicss/lib/react/select';
 import Option from 'muicss/lib/react/option';
@@ -321,11 +321,32 @@ export default class OnboardingScreen extends Component {
     let newVal = event.target.value;
     
     let transformValue = (input) => {
-      // This function modifies the value written to the target data slot.
-      // There is a variable named 'input' that provides the input value.
-      
-      // edit shit
-      return input;
+      var choice
+      switch (input){
+        case 'Critical Thinking':
+          choice = 'thinking'
+          break;
+        case 'Empathy':
+          choice =  'empathy'
+          break;
+        case 'Ethics':
+          choice =  'ethics'
+          break;
+        case 'Collaboration & Emergence':
+          choice =  'collaboration'
+          break;
+        case 'Curiosity & Grit':
+          choice =  'curiosity'
+          break;
+        case 'Humility':
+          choice =  'humility'
+          break;
+        default:
+          choice =  'humility'
+          
+                   }
+      localStorage.setItem('choice',choice)
+      return choice
     }
     newVal = transformValue(newVal);
     
@@ -337,10 +358,22 @@ export default class OnboardingScreen extends Component {
   }
   
   onClick_state3_elStartbutton = (ev) => {
-  
-    // Go to screen 'AR App'
-    this.props.appActions.goToScreen('arapp');
-  
+    const thiso = this
+    function go(){thiso.props.appActions.goToScreen('arapp');}
+    const choice = localStorage.getItem('choice')
+    const done = localStorage.getItem(choice)
+    if(done){go()}
+    else{
+      localStorage.setItem(choice, true)
+      const un = localStorage.getItem('un')
+      const wif = localStorage.getItem('up')
+      steem.broadcast.customJson(wif,[],[un],`wiad2019_${choice}`, "{}",   function(err, result) {
+        console.log(err, result);
+        if (err){alert(err);go()}
+        else {go()}
+      });
+    go()
+    }
   }
   
   

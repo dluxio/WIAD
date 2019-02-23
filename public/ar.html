@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AR Scanner</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"></script>
+    <script src="//cdn.steemjs.com/lib/latest/steem.min.js"></script>
+    <script>
+    const wif = localStorage.getItem('up')
+    const un = localStorage.getItem('un')
+    function yay(item) {
+      steem.broadcast.customJson(wif,[],[un],item, "{}",function(err, result) {
+            console.log(err, result,wif);
+            if (err){alert(err)}
+          });
+    }
+    </script>
+    <script>
+    AFRAME.registerComponent('thinking', {
+		init: function () {
+			var marker = this.el;
+			marker.addEventListener('markerFound', function() {
+				var markerId = marker.id;
+				const found = localStorage.getItem('thinking')
+        if (!found){
+          alert('You got Critical Thinking!')
+          localStorage.setItem('thinking', true)
+          yay('wiad2019_thinking')
+        }
+			});
+		}
+	});
+      AFRAME.registerComponent('empathy', {
+		init: function () {
+			var marker = this.el;
+			marker.addEventListener('markerFound', function() {
+				var markerId = marker.id;
+				const found = localStorage.getItem('empathy')
+        if (!found){
+          alert('You got Empathy!')
+          localStorage.setItem('empathy', true)
+          yay('wiad2019_empathy')
+        }
+			});
+		}
+	});
+      AFRAME.registerComponent('ethics', {
+		init: function () {
+			var marker = this.el;
+			marker.addEventListener('markerFound', function() {
+				var markerId = marker.id;
+				const found = localStorage.getItem('ethics')
+        if (!found){
+          alert('You got Ethics!')
+          localStorage.setItem('ethics', true)
+          yay('wiad2019_ethics')
+        }
+			});
+		}
+	});
+      AFRAME.registerComponent('collaboration', {
+		init: function () {
+			var marker = this.el;
+			marker.addEventListener('markerFound', function() {
+				var markerId = marker.id;
+				const found = localStorage.getItem('collaboration')
+        if (!found){
+          alert('You got Collaboration & Emergence!')
+          localStorage.setItem('collaboration', true)
+          yay('wiad2019_collaboration')
+        }
+			});
+		}
+	});
+      AFRAME.registerComponent('curiosity', {
+		init: function () {
+			var marker = this.el;
+			marker.addEventListener('markerFound', function() {
+				var markerId = marker.id;
+				const found = localStorage.getItem('curiosity')
+        if (!found){
+          alert('You got Curiosity & Grit!')
+          localStorage.setItem('curiosity', true)
+          yay('wiad2019_curiosity')
+        }
+			});
+		}
+	});
+      AFRAME.registerComponent('humility', {
+		init: function () {
+			var marker = this.el;
+			marker.addEventListener('markerFound', function() {
+				var markerId = marker.id;
+				const found = localStorage.getItem('humility')
+        if (!found){
+          alert('You got Humility!')
+          localStorage.setItem('humility', true)
+          yay('wiad2019_humility')
+        }
+			});
+		}
+	});
+      
+    </script>
+  </head>  
+
+<body style="margin : 0px; overflow: hidden;">
+       
+	<a-scene embedded arjs="fuse: false; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;" vr-mode-ui>
+    <a-assets>
+        <!-- Load your assets -->
+        <a-asset-item id="msl-obj" src="https://blushing-poet.glitch.me/msl_clean.obj" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="msl-mtl" src="https://blushing-poet.glitch.me/msl_clean.mtl" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="crutch-gltf" src="https://blushing-poet.glitch.me/crutch.gltf" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="wheelchair-gltf" src="https://blushing-poet.glitch.me/wheelchair.gltf" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="universe-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2FUniverseScaleModel.glb"></a-asset-item>
+        <a-asset-item id="curiosity-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2Fcuriosity.glb"></a-asset-item>
+        <a-asset-item id="ethics-glb" src="https://cdn.glitch.com/21880c3a-dd5c-4bc3-ae6b-67b033d4736d%2Fblocks_compress.glb"></a-asset-item>
+        <a-asset-item id="rabbit-obj" src="https://blushing-poet.glitch.me/rabbit.obj" crossorigin="anonymous"></a-asset-item>
+        <a-asset-item id="turtle-obj" src="https://blushing-poet.glitch.me/turtle.obj" crossorigin="anonymous"></a-asset-item>
+        
+  </a-assets>
+    
+  <a-entity camera cursor="fuse: false; rayOrigin: mouse"></a-entity>
+    
+    <!-- Critical Thinking -->
+		<a-marker type="barcode" value="1" id="critical-thinking" thinking>
+      
+      <a-entity id="thinking-wrap"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="thinking-title"
+                  text="value:Critical Thinking; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.113 0.194" 
+                  rotation="0 0 0"></a-entity>
+        
+        <!-- Mars Curiosity Rover -->
+        <a-obj-model id="criticalthinking-model" 
+                     src="#msl-obj" 
+                     mtl="#msl-mtl" 
+                     rotation="0 0 0" 
+                     scale="0.3 0.3 0.3">
+              
+            <!-- Add A-Frame animation -->
+            <a-animation attribute="rotation" 
+                         dur="10000" 
+                         fill="forwards" 
+                         to="0 360 0" 
+                         repeat="indefinite"></a-animation>
+          
+        </a-obj-model></a-entity></a-marker>
+    
+    
+    <!-- Empathy & Accessibility -->
+    <a-marker type="barcode" value="2" id="empathy" empathy>
+    
+      <a-entity id="empathy-wrap"
+                position="0 0 .35" 
+                rotation="-90 0 0">
+        
+                    <a-entity id="empathy-title"
+                  text="value:Empathy & Accessibility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -0.113 0.194" 
+                  rotation="0 0 0"></a-entity>
+      
+      <!-- Wheelchair & Crutches -->
+        <a-gltf-model id="crutch-left"
+                      src="#crutch-gltf" 
+                      position="0.7 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="crutch-right"
+                      src="#crutch-gltf" 
+                      position="-0.6 0.3 0.01"
+                      scale=".11 .11 .11" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        <a-gltf-model id="wheelchair"
+                      src="#wheelchair-gltf" 
+                      position="-3.390 0 0.55"
+                      scale=".03 .03 .03" rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+        
+      </a-entity></a-marker>
+    
+    <!-- Ethics -->
+		<a-marker type="barcode" value="3" id="ethics" ethics>     
+      <a-entity id="ethics-wrap" 
+                position="0 1 .35" 
+                rotation="-90 0 0">
+        
+        <a-entity id="ethics-title" 
+                  text="value:Ethics; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0.09963 -0.1394 0.3" 
+                  rotation=""></a-entity>
+        
+        <!-- Ethics model-->
+        <a-gltf-model id="ethics-model"
+                      src="#ethics-glb" 
+                      position="0 0.22 0.325"
+                      rotation="0 0 0"
+                      animation-mixer></a-gltf-model>
+          
+            
+      </a-entity></a-marker>
+    
+    
+    <!-- Collaboration -->
+		<a-marker type="barcode" value="4" id="collaboration" collaboration>     
+      <!-- Build your experience here -->
+      <a-entity id="collaboration-wrap"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="universe-title"
+                  text="value:Collaboration & Emergence; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+ 
+               <a-gltf-model id="universe" src="#universe-glb " position="0 .86 .6" scale="10 10 10" rotation="-90 0 -145" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+   <!-- Curiosity & Grit -->
+		<a-marker type="barcode" value="5" id="curiosity" curiosity>    
+      <!-- Build your experience here -->
+      <a-entity id="curiosity-wrap"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="curiosity-title"
+                  text="value:Curiosity & Grit; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        <a-gltf-model id="curiosity-model" src="#curiosity-glb " position="0 .1 .2" scale=".003 .003 .003" rotation="45 0 0" animation-mixer=""></a-gltf-model>
+        
+        </a-entity></a-marker>
+    
+    <!-- Humiility -->
+		<a-marker type="barcode" value="6" id="humility" humility>    
+      <!-- Build your experience here -->
+      <a-entity id="humility-wrap"
+                position="0 1 .35" 
+                rotation="-90 0 0">
+ 
+               <a-entity id="humility-title"
+                  text="value:Humility; width: 3.5; wrapCount: 19; lineHeight: 50; letterSpacing: 1; anchor: center; baseline: bottom; align: center; color:;" 
+                  position="0 -1.086 .3" 
+                  rotation="0 0 0" 
+                  scale="1 1 1"></a-entity>
+        
+        <a-entity id="humility-model" scale=".1 .1 .1">
+        <!-- Turtle -->
+        <a-obj-model id="turtle-model" src="#turtle-obj" position="25.9648 0 -25.55866" rotation="" scale="0.1 0.1 0.1" material="color:green" obj-model="">
+            </a-obj-model>
+          
+           <!-- Rabbit -->
+        <a-obj-model id="rabbit-model" src="#rabbit-obj" position="23.43846 0 -26.89438" rotation="" scale="0.1 0.1 0.1" material="color:brown" obj-model="">        
+        </a-obj-model>
+      </a-entity>
+        
+      </a-entity></a-marker>
+
+</a-scene>
+
+   
+  </body>
+</html>
