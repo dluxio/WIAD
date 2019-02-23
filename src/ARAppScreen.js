@@ -331,7 +331,7 @@ export default class ARAppScreen extends Component {
           <div className='hasNestedComps state2_elList'>
             <ul style={style_state2_elList}>
               {items_list.map((row, index) => {
-                let itemComp = (row._componentId) ? listComps_list[row._componentId] : <UserItem dataSheetId={'users_dlux'} dataSheetRow={row} empathy={row.empathy} username={row.username} collaboration={row.collaboration} ethics={row.ethics} curiosity={row.curiosity} thinking={row.thinking} humility={row.humility} rank={row.rank} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
+                let itemComp = (row._componentId) ? listComps_list[row._componentId] : <UserItem dataSheetId={'users_dlux'} dataSheetRow={row} empathy={row.empathy} username={row.username} ethics={row.ethics} curiosity={row.curiosity} thinking={row.thinking} humility={row.humility} rank={row.rank} collaboration={row.collaboration} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />;
                 return (<li key={row.key}>{itemComp}</li>)
               })}
               <div ref={(el)=> this._state2_elList_endMarker = el} />

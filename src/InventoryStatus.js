@@ -11,7 +11,7 @@ import Empathy from './Empathy';
 export default class InventoryStatus extends Component {
 
   // Properties used by this component:
-  // ethics, curiosity, thinking, humility, collaboration, empathy, found, rank
+  // ethics, curiosity, thinking, humility, empathy, found, rank, collaboration
 
   render() {
     // eslint-disable-next-line no-unused-vars
@@ -98,7 +98,7 @@ export default class InventoryStatus extends Component {
       
       return parseInt(input, 10);
     }
-    let transformStateValue_elEthics = (input) => {
+    let transformStateValue_elCollaboration = (input) => {
       // This function modifies the value for property 'componentStateId'.
       // There is a variable named 'input' that provides the property value.
       //
@@ -122,7 +122,7 @@ export default class InventoryStatus extends Component {
       
       return parseInt(input, 10);
     }
-    let transformStateValue_elCollaboration = (input) => {
+    let transformStateValue_elEthics = (input) => {
       // This function modifies the value for property 'componentStateId'.
       // There is a variable named 'input' that provides the property value.
       //
@@ -230,11 +230,11 @@ export default class InventoryStatus extends Component {
           <div className='hasNestedComps elCuriosity'>
             <Curiosity visualStateIndex={transformStateValue_elCuriosity(this.props.curiosity)} ref={(el)=> this._elCuriosity = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
           </div>
-          <div className='hasNestedComps elEthics'>
-            <Collaboration visualStateIndex={transformStateValue_elEthics(this.props.ethics)} ref={(el)=> this._elEthics = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
-          </div>
           <div className='hasNestedComps elCollaboration'>
-            <Ethics visualStateIndex={transformStateValue_elCollaboration(this.props.collaboration)} ref={(el)=> this._elCollaboration = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
+            <Collaboration visualStateIndex={transformStateValue_elCollaboration(this.props.collaboration)} ref={(el)=> this._elCollaboration = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
+          </div>
+          <div className='hasNestedComps elEthics'>
+            <Ethics visualStateIndex={transformStateValue_elEthics(this.props.ethics)} ref={(el)=> this._elEthics = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
           </div>
           <div className='hasNestedComps elEmpathy'>
             <Empathy visualStateIndex={transformStateValue_elEmpathy(this.props.empathy)} ref={(el)=> this._elEmpathy = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
