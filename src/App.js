@@ -8,7 +8,7 @@ import LoginScreen from './LoginScreen.js';
 import DataSheet_localizationSheet from './DataSheet_localizationSheet.js';
 import DataSheet_users_dlux from './DataSheet_users_dlux.js';
 import DataSheet_qualities from './DataSheet_qualities.js';
-
+import HttpsRedirect from 'react-https-redirect'
 
 export default class App extends Component {
   constructor(props) {
@@ -268,10 +268,12 @@ export default class App extends Component {
     }
 
     return (
+      <HttpsRedirect>
       <div className="App">
         {prevScreenEl}
         {screenEl}
       </div>
+      </HttpsRedirect>
     );
   }
 }
