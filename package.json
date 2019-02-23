@@ -9,7 +9,8 @@
     "react-scripts": "1.1.5",
     "react-localization": "^1.0.11",
     "ajv": "^6.0.0",
-    "steem": "^0.7.4"
+    "steem": "^0.7.4",
+    "react-https-redirect": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
