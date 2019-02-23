@@ -25,7 +25,7 @@ export default class Humility extends Component {
     return (
       <div className="Humility" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state0_elHumilityicon' style={style_state0_elHumilityicon} />
+          <div className='state0_elHumilityicon' style={style_state0_elHumilityicon} />
         </div>
       </div>
     )
@@ -47,7 +47,7 @@ export default class Humility extends Component {
     return (
       <div className="Humility" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state1_elHumilityicon' style={style_state1_elHumilityicon} />
+          <div className='state1_elHumilityicon' style={style_state1_elHumilityicon} />
         </div>
       </div>
     )

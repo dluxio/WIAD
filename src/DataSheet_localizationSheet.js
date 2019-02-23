@@ -61,17 +61,17 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "arscanner_button_747870";
-    item['en'] = "AR\nSCANNER";
+    item['en'] = "AR SCANNER";
     
     item = {};
     this.items.push(item);
     item['key'] = "arscanner_buttoncopy_205650";
-    item['en'] = "COLLECTED\nVIRTUES";
+    item['en'] = "COLLECTED";
     
     item = {};
     this.items.push(item);
     item['key'] = "arscanner_inventorybuttoncopy_675644";
-    item['en'] = "LEADER\nBOARD";
+    item['en'] = "LEADERBOARD";
     
     item = {};
     this.items.push(item);
@@ -411,7 +411,7 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_button2_182743";
-    item['en'] = "Redeem at Steem.Ninja";
+    item['en'] = "Redeem (Steem.Ninja)";
     
     item = {};
     this.items.push(item);
@@ -486,12 +486,47 @@ export default class DataSheet_localizationSheet extends DataSheetBase {
     item = {};
     this.items.push(item);
     item['key'] = "login_body_833488";
-    item['en'] = "Steem is a social media blockchain and crypto currency.\n\nAn account voucher is included with your World IA Day ticket, and can be redeemed through Steem.Ninja\n\nIf you don’t know your voucher code, you can look it up here. Then, click STEEM.NINJA to redeem.";
+    item['en'] = "Steem is a social media blockchain and crypto currency.\n\nAn account voucher is included with your World IA Day ticket, and can be redeemed through Steem.Ninja\n\nIf you don’t know your voucher code, you can look it up here.";
     
     item = {};
     this.items.push(item);
     item['key'] = "loginfail_text_649192";
     item['en'] = "FAILURE";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "useritem_text2_375956";
+    item['en'] = "001";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "comp1_text2_33707";
+    item['en'] = "001";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "rank_text2_41278";
+    item['en'] = "001";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "useritem_text2_535380";
+    item['en'] = "999";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "useritem_text2_686756";
+    item['en'] = "999";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "useritem_text_923834";
+    item['en'] = "username1234";
+    
+    item = {};
+    this.items.push(item);
+    item['key'] = "login_text_507620";
+    item['en'] = "New text. Double-click to edit";
   }
 
   getStringsByLanguage = () => {

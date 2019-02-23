@@ -25,7 +25,7 @@ export default class Thinking extends Component {
     return (
       <div className="Thinking" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state0_elThinkingicon' style={style_state0_elThinkingicon} />
+          <div className='state0_elThinkingicon' style={style_state0_elThinkingicon} />
         </div>
       </div>
     )
@@ -47,7 +47,7 @@ export default class Thinking extends Component {
     return (
       <div className="Thinking" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state1_elThinkingicon' style={style_state1_elThinkingicon} />
+          <div className='state1_elThinkingicon' style={style_state1_elThinkingicon} />
         </div>
       </div>
     )

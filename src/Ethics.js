@@ -25,7 +25,7 @@ export default class Ethics extends Component {
     return (
       <div className="Ethics" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state0_elCollaborationicon' style={style_state0_elCollaborationicon} />
+          <div className='state0_elCollaborationicon' style={style_state0_elCollaborationicon} />
         </div>
       </div>
     )
@@ -47,7 +47,7 @@ export default class Ethics extends Component {
     return (
       <div className="Ethics" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state1_elCollaborationicon' style={style_state1_elCollaborationicon} />
+          <div className='state1_elCollaborationicon' style={style_state1_elCollaborationicon} />
         </div>
       </div>
     )

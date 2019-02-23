@@ -25,7 +25,7 @@ export default class Empathy extends Component {
     return (
       <div className="Empathy" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state0_elEmpathyicon' style={style_state0_elEmpathyicon} />
+          <div className='state0_elEmpathyicon' style={style_state0_elEmpathyicon} />
         </div>
       </div>
     )
@@ -47,7 +47,7 @@ export default class Empathy extends Component {
     return (
       <div className="Empathy" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state1_elEmpathyicon' style={style_state1_elEmpathyicon} />
+          <div className='state1_elEmpathyicon' style={style_state1_elEmpathyicon} />
         </div>
       </div>
     )

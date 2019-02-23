@@ -337,9 +337,22 @@ export default class OnboardingScreen extends Component {
   }
   
   onClick_state3_elStartbutton = (ev) => {
+    this.sendData_startbutton_to_users_dlux();
+  
     // Go to screen 'AR App'
     this.props.appActions.goToScreen('arapp');
   
+  }
+  
+  
+  sendData_startbutton_to_users_dlux = () => {
+    const dataSheet = this.props.appActions.getDataSheet('users_dlux');
+  
+    let row = this.props.dataSheetRow || {
+    };
+    row = { ...row, 
+    };
+    this.props.appActions.addToDataSheet('users_dlux', row);
   }
   
   

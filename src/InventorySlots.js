@@ -91,8 +91,7 @@ export default class InventorySlots extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     let transformStateValue_elThinkingSlot = (input) => {
       // This function modifies the value for property 'componentStateId'.
@@ -116,8 +115,7 @@ export default class InventorySlots extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     let transformStateValue_elEthicsSlot = (input) => {
       // This function modifies the value for property 'componentStateId'.
@@ -141,8 +139,7 @@ export default class InventorySlots extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     let transformStateValue_elHumilitySlot = (input) => {
       // This function modifies the value for property 'componentStateId'.
@@ -166,8 +163,7 @@ export default class InventorySlots extends Component {
       // var exampleValue="foo";
       // this.props.appActions.updateDataSlot('ds_Example', exampleValue);
       
-      return parseInt(input);
-    
+      return parseInt(input, 10);
     }
     
     return (

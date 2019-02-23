@@ -11,7 +11,7 @@ import Empathy from './Empathy';
 export default class UserItem extends Component {
 
   // Properties used by this component:
-  // empathy, username, collaboration, ethics, curiosity, thinking, humility
+  // empathy, username, collaboration, ethics, curiosity, thinking, humility, rank
 
   render() {
     // eslint-disable-next-line no-unused-vars
@@ -170,7 +170,18 @@ export default class UserItem extends Component {
       
       return parseInt(input, 10);
     }
+    const style_elLine = {
+        borderTop: '1px solid black',
+     };
+    const style_elText2 = {
+        fontSize: 15.1,
+        color: 'rgba(0, 0, 0, 0.8500)',
+        textAlign: 'center',
+     };
+    const value_text2 = this.props.rank;
+    
     const style_elText = {
+        fontSize: 15.1,
         color: 'rgba(0, 0, 0, 0.8500)',
         textAlign: 'left',
      };
@@ -205,8 +216,12 @@ export default class UserItem extends Component {
           <div className='hasNestedComps elEmpathy'>
             <Empathy visualStateIndex={transformStateValue_elEmpathy(this.props.empathy)} ref={(el)=> this._elEmpathy = el} appActions={this.props.appActions} deviceInfo={this.props.deviceInfo} locStrings={this.props.locStrings} />
           </div>
-          <div className='baseFont elText' style={style_elText}>
-            <div>{value_text !== undefined ? value_text : (<span className="propValueMissing">{this.props.locStrings.useritem_text_292967}</span>)}</div>
+          <div className='elLine' style={style_elLine} />
+          <div className='font-helveticaNeue  elText2' style={style_elText2}>
+            <div>{value_text2 !== undefined ? value_text2 : (<span className="propValueMissing">{this.props.locStrings.useritem_text2_686756}</span>)}</div>
+          </div>
+          <div className='font-helveticaNeueBold  elText' style={style_elText}>
+            <div>{value_text !== undefined ? value_text : (<span className="propValueMissing">{this.props.locStrings.useritem_text_923834}</span>)}</div>
           </div>
         </div>
       </div>

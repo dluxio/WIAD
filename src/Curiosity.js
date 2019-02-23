@@ -25,7 +25,7 @@ export default class Curiosity extends Component {
     return (
       <div className="Curiosity" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state0_elCuriosityicon' style={style_state0_elCuriosityicon} />
+          <div className='state0_elCuriosityicon' style={style_state0_elCuriosityicon} />
         </div>
       </div>
     )
@@ -47,7 +47,7 @@ export default class Curiosity extends Component {
     return (
       <div className="Curiosity" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state1_elCuriosityicon' style={style_state1_elCuriosityicon} />
+          <div className='state1_elCuriosityicon' style={style_state1_elCuriosityicon} />
         </div>
       </div>
     )

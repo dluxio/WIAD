@@ -25,7 +25,7 @@ export default class Collaboration extends Component {
     return (
       <div className="Collaboration" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state0_elEthicsicon' style={style_state0_elEthicsicon} />
+          <div className='state0_elEthicsicon' style={style_state0_elEthicsicon} />
         </div>
       </div>
     )
@@ -47,7 +47,7 @@ export default class Collaboration extends Component {
     return (
       <div className="Collaboration" style={baseStyle}>
         <div className="foreground">
-          <div className='containerMinHeight state1_elEthicsicon' style={style_state1_elEthicsicon} />
+          <div className='state1_elEthicsicon' style={style_state1_elEthicsicon} />
         </div>
       </div>
     )

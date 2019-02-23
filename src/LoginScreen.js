@@ -39,10 +39,28 @@ export default class LoginScreen extends Component {
   
   onClick_state0_elLoginbtn = (ev) => {
     // 'Unlock gate' action.
+    this.sendLogin();
   
   }
   
   
+  sendLogin = () => {
+    // This implements the 'simple password' unlock from React Studio.
+    // For prototyping only -- you don't want to use this in production code because the password is readable here!
+    // To implement a real login, use a web service plugin instead of the 'simple password' setting.
+    const pass = this.state.passwordinput || '';
+    if (pass === "1234") {
+       this.finishLogin();
+    } else {
+      const err = 'Incorrect password.';
+      this.props.appActions.goToScreen('loginfail', { errorText: ''+err });
+  
+    }
+  }
+  
+  finishLogin = () => {
+      this.props.appActions.goToScreen('onboarding');
+  }
   
   renderState0() {
     // eslint-disable-next-line no-unused-vars
@@ -63,14 +81,6 @@ export default class LoginScreen extends Component {
      };
     const style_state0_elBackground639403_outer = {
         backgroundColor: 'white',
-     };
-    const style_state0_elCard = {
-        width: '100%',
-        height: '100%',
-     };
-    const style_state0_elCard_outer = {
-        backgroundColor: '#f6f6f6',
-        boxShadow: '0.0px 2.3px 18px rgba(0, 0, 0, 0.1600)',
      };
     const style_state0_elHeader = {
         fontSize: 23.7,
@@ -143,11 +153,6 @@ export default class LoginScreen extends Component {
         <div className="background">
           <div className='cardBg containerMinHeight state0_elBackground639403' style={style_state0_elBackground639403_outer}>
             <div style={style_state0_elBackground639403} />
-          
-          </div>
-          
-          <div className='appBg state0_elCard' style={style_state0_elCard_outer}>
-            <div style={style_state0_elCard} />
           
           </div>
           
@@ -264,14 +269,6 @@ export default class LoginScreen extends Component {
     const style_state1_elBackground639403_outer = {
         backgroundColor: 'white',
      };
-    const style_state1_elCard = {
-        width: '100%',
-        height: '100%',
-     };
-    const style_state1_elCard_outer = {
-        backgroundColor: '#f6f6f6',
-        boxShadow: '0.0px 2.3px 18px rgba(0, 0, 0, 0.1600)',
-     };
     const style_state1_elHeader = {
         fontSize: 23.7,
         color: '#fc33af',
@@ -330,11 +327,6 @@ export default class LoginScreen extends Component {
         <div className="background">
           <div className='cardBg containerMinHeight state1_elBackground639403' style={style_state1_elBackground639403_outer}>
             <div style={style_state1_elBackground639403} />
-          
-          </div>
-          
-          <div className='appBg state1_elCard' style={style_state1_elCard_outer}>
-            <div style={style_state1_elCard} />
           
           </div>
           
