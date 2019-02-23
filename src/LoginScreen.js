@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import steem from 'steem';
 
 // UI framework component imports
 import Button from 'muicss/lib/react/button';
@@ -45,16 +46,99 @@ export default class LoginScreen extends Component {
   
   
   sendLogin = () => {
-    // This implements the 'simple password' unlock from React Studio.
-    // For prototyping only -- you don't want to use this in production code because the password is readable here!
-    // To implement a real login, use a web service plugin instead of the 'simple password' setting.
-    const pass = this.state.passwordinput || '';
-    if (pass === "1234") {
-       this.finishLogin();
+    
+    var thiso = this
+
+    function go() {
+        thiso.props.appActions.goToScreen('onboarding');
+    }
+    if(localStorage.getItem('up')){go()}
+    else {
+    const pass = this.state.passwordinput.trim() || '';
+    const un = this.state.usernameinput.toLowerCase().trim() || ''
+    var isValidUsername = steem.utils.validateAccountName(un);
+    if (isValidUsername) {
+        this.props.appActions.goToScreen('login', {
+            errorText: 'Username invalid'
+        });
+        alert('This is not a valid username')
     } else {
-      const err = 'Incorrect password.';
-      this.props.appActions.goToScreen('loginfail', { errorText: ''+err });
-  
+        try {
+            steem.api.getAccounts([un], function(err, result) {
+                if (err) {
+                    console.log(err)
+                } else {
+                    var pubWifP = result[0].posting.key_auths[0][0];
+                    var pubWifA = result[0].active.key_auths[0][0];
+                    var pubWifO = result[0].owner.key_auths[0][0];
+                    var pk
+                    localStorage.setItem('un', un)
+                    localStorage.setItem('up', pass)
+                    if (pass !== '') {
+                        try {
+                            var verified = steem.auth.wifIsValid(pass, pubWifP);
+                        } catch (e) {
+                            verified = false
+                        }
+                        console.log('p', verified)
+                        if (verified) {
+                            localStorage.setItem('up', pass);
+                            go();
+                        } else {
+                            try {
+                                verified = steem.auth.wifIsValid(pass, pubWifA);
+                            } catch (e) {
+                                verified = false
+                            }
+                            console.log('a', verified)
+                            if (verified) {
+                                localStorage.setItem('up', pass);
+                                go();
+                            } else {
+                                try {
+                                    verified = steem.auth.wifIsValid(pass, pubWifO);
+                                } catch (e) {
+                                    verified = false
+                                }
+                                console.log('o', verified)
+                                if (verified) {
+                                    localStorage.setItem('up', pass);
+                                    go();
+                                } else {
+                                    try {
+                                        pk = steem.auth.getPrivateKeys(un, pass, ['posting']);
+                                        console.log(pk)
+                                        verified = steem.auth.wifIsValid(pk.posting, pubWifP);
+                                        console.log('m', verified)
+                                        if (verified) {
+                                            localStorage.setItem('up', pk.posting);
+                                            go();
+                                        } else {
+                                            this.props.appActions.goToScreen('login', {
+                                                errorText: 'Password/Key Incorrect'
+                                            });
+                                            alert('Password/Key Incorrect')
+                                        }
+                                    } catch (e) {
+                                        console.log(e, 'insanity')
+                                    }
+                                }
+                            }
+                        }
+                    } else {
+                        alert('No Password or Key found')
+                        const err = 'Incorrect password.';
+                        this.props.appActions.goToScreen('login', {
+                            errorText: '' + err
+                        });
+
+                    }
+                }
+            });
+        } catch (e) {
+            alert('username/key incorrect')
+        }
+    }
     }
   }
   

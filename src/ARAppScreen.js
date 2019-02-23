@@ -3,6 +3,7 @@ import './App.css';
 import InventoryStatus from './InventoryStatus';
 import InventorySlots from './InventorySlots';
 import UserItem from './UserItem';
+import steem from 'steem';
 
 // UI framework component imports
 import Button from 'muicss/lib/react/button';
@@ -91,7 +92,12 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state0_elInventoryStatus722499 = dataSheet_users_dlux.items[0];
+    var un = localStorage.getItem('un')
+    var ind = 0
+    for (var i = 0;i < dataSheet_users_dlux.items.length;i++){
+      if (dataSheet_users_dlux.items[i].username === un){ind = i;break;}
+    }
+    const data_state0_elInventoryStatus722499 = dataSheet_users_dlux.items[ind];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -169,7 +175,12 @@ export default class ARAppScreen extends Component {
     const style_state1_elBackground569119_outer = {
         backgroundColor: '#f6f6f6',
      };
-    const data_state1_elInventorySlots = dataSheet_users_dlux.items[0];
+    var un = localStorage.getItem('un')
+    var ind = 0
+    for (var i = 0;i < dataSheet_users_dlux.items.length;i++){
+      if (dataSheet_users_dlux.items[i].username === un){ind = i;break;}
+    }
+    const data_state1_elInventorySlots = dataSheet_users_dlux.items[ind];
     const style_state1_elArbutton747870 = {
         display: 'block',
         fontSize: 12.0,
@@ -197,7 +208,7 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state1_elInventoryStatus722499 = dataSheet_users_dlux.items[0];
+    const data_state1_elInventoryStatus722499 = dataSheet_users_dlux.items[ind];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
@@ -316,7 +327,12 @@ export default class ARAppScreen extends Component {
         cursor: 'pointer',
         pointerEvents: 'auto',
      };
-    const data_state2_elInventoryStatus722499 = dataSheet_users_dlux.items[0];
+    var un = localStorage.getItem('un')
+    var ind = 0
+    for (var i = 0;i < dataSheet_users_dlux.items.length;i++){
+      if (dataSheet_users_dlux.items[i].username === un){ind = i;break;}
+    }
+    const data_state2_elInventoryStatus722499 = dataSheet_users_dlux.items[ind];
     
     return (
       <div className="AppScreen ARAppScreen" style={baseStyle}>
