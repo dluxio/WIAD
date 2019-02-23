@@ -48,13 +48,14 @@ export default class LoginScreen extends Component {
     
     var thiso = this
 
+    const un = this.state.usernameinput.toLowerCase().trim() || ''
+    if (un === 'clear'){localStorage.removeItem('up')}
     function go() {
         thiso.props.appActions.goToScreen('onboarding');
     }
     if(localStorage.getItem('up')){go()}
     else {
     const pass = this.state.passwordinput.trim() || '';
-    const un = this.state.usernameinput.toLowerCase().trim() || ''
     var isValidUsername = steem.utils.validateAccountName(un);
     if (isValidUsername) {
         this.props.appActions.goToScreen('login', {
@@ -72,7 +73,6 @@ export default class LoginScreen extends Component {
                     var pubWifO = result[0].owner.key_auths[0][0];
                     var pk
                     localStorage.setItem('un', un)
-                    localStorage.setItem('up', pass)
                     if (pass !== '') {
                         try {
                             var verified = steem.auth.wifIsValid(pass, pubWifP);
