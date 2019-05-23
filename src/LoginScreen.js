@@ -54,7 +54,7 @@ export default class LoginScreen extends Component {
     function go() {
         thiso.props.appActions.goToScreen('onboarding');
     }
-    if(1){go()}
+    if(un){go()}
     else {
     const pass = this.state.passwordinput.trim() || '';
     var isValidUsername = steem.utils.validateAccountName(un);
