@@ -54,11 +54,15 @@ export default class LoginScreen extends Component {
     function go() {
         thiso.props.appActions.goToScreen('onboarding');
     }
-    if(un){go()}
+    if(un){
+      alert('huh')
+      go()
+    }
     else {
-    const pass = this.state.passwordinput.trim() || '';
-    var isValidUsername = steem.utils.validateAccountName(un);
-    if (isValidUsername) {
+      
+      const pass = this.state.passwordinput.trim() || '';
+      var isValidUsername = steem.utils.validateAccountName(un);
+      if (isValidUsername) {
         this.props.appActions.goToScreen('login', {
             errorText: 'Username invalid'
         });
