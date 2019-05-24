@@ -55,7 +55,6 @@ export default class LoginScreen extends Component {
         thiso.props.appActions.goToScreen('onboarding');
     }
     if(un){
-      alert('huh')
       go()
     }
     else {
